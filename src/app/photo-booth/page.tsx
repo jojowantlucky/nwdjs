@@ -234,9 +234,18 @@ export default async function PhotoBoothPage() {
                     </ul>
                   )}
                   {pkg.features && pkg.features.length > 2 && (
-                    <ul style={{ margin: '0 0 1em', paddingLeft: '1.25em', lineHeight: 1.9 }}>
+                    <ul style={{ margin: '0 0 1em', paddingLeft: 0, lineHeight: 1.9, listStyle: 'none' }}>
                       {pkg.features.slice(2).map(f => (
-                        <li key={f} style={{ fontSize: '0.9em' }}>{f}</li>
+                        <li key={f} style={{ fontSize: '0.9em', display: 'flex', alignItems: 'flex-start' }}>
+                    <span style={{ display: 'inline-flex', alignItems: 'center', marginRight: '0.5em', marginTop: '0.25em', flexShrink: 0 }}>
+                      <svg width="12" height="12" viewBox="0 0 24 24">
+                        <circle cx="12" cy="12" r="10" fill="none" stroke="#e86c6c" strokeWidth="2.5"/>
+                        <circle cx="12" cy="12" r="4.5" fill="none" stroke="#e86c6c" strokeWidth="2"/>
+                        <circle cx="12" cy="12" r="1.5" fill="#e86c6c"/>
+                      </svg>
+                    </span>
+                    {f}
+                  </li>
                       ))}
                     </ul>
                   )}

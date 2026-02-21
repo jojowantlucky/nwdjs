@@ -26,7 +26,7 @@ function ModalImagePanel({ member }: { member: TeamMember }) {
   return (
     <div className="modal-image-panel">
       {/* Main image */}
-      <div style={{ flex: 1, minHeight: 0, overflow: 'hidden' }}>
+      <div style={{ flex: 1, minHeight: '200px', overflow: 'hidden' }}>
         <img
           key={images[idx]}
           src={images[idx]}
