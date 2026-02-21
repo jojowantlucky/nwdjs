@@ -196,34 +196,37 @@ export default function MeetTheTeam() {
             onTouchEnd={onTouchEnd}
             className="modal-inner"
           >
-            {/* Prev / Next / Close nav */}
-            <div style={{ position: 'absolute', top: '1rem', right: '1rem', display: 'flex', gap: '0.5rem', zIndex: 10 }}>
-              <button
-                onClick={prev}
-                disabled={selectedIndex === 0}
-                className="modal-nav-btn"
-                style={{ color: selectedIndex === 0 ? '#ccc' : '#9b9b9b' }}
-                aria-label="Previous member"
-              >‹</button>
-              <button
-                onClick={next}
-                disabled={selectedIndex === activeMembers.length - 1}
-                className="modal-nav-btn"
-                style={{ color: selectedIndex === activeMembers.length - 1 ? '#ccc' : '#9b9b9b' }}
-                aria-label="Next member"
-              >›</button>
-              <button
-                onClick={close}
-                className="modal-close-btn"
-                aria-label="Close"
-              >&times;</button>
-            </div>
-
             {/* Left: photo + carousel */}
             <ModalImagePanel member={selected} />
 
             {/* Right: structured summary */}
-            <div style={{ padding: '2.5rem 2rem 2rem', textAlign: 'left', overflowY: 'auto', flex: 1 }}>
+            <div style={{ padding: '1.25rem 1.5rem 2rem', textAlign: 'left', overflowY: 'auto', flex: 1 }}>
+
+              {/* Nav row: prev / next / close — sits above name */}
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.75rem' }}>
+                <div style={{ display: 'flex', gap: '0.25rem' }}>
+                  <button
+                    onClick={prev}
+                    disabled={selectedIndex === 0}
+                    className="modal-nav-btn"
+                    style={{ color: selectedIndex === 0 ? '#ccc' : '#9b9b9b' }}
+                    aria-label="Previous member"
+                  >‹</button>
+                  <button
+                    onClick={next}
+                    disabled={selectedIndex === activeMembers.length - 1}
+                    className="modal-nav-btn"
+                    style={{ color: selectedIndex === activeMembers.length - 1 ? '#ccc' : '#9b9b9b' }}
+                    aria-label="Next member"
+                  >›</button>
+                </div>
+                <button
+                  onClick={close}
+                  className="modal-close-btn"
+                  aria-label="Close"
+                >&times;</button>
+              </div>
+
               <h3 style={{ marginTop: 0, marginBottom: '0.25rem', fontSize: '1.5rem' }}>{selected.name}</h3>
               <p style={{ color: '#e86c6c', fontSize: '0.75rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '2px', margin: '0 0 0.75rem' }}>{selected.title}</p>
               {selected.tagline && (
