@@ -249,7 +249,7 @@ export default function MeetTheTeam() {
             />
 
             {/* Right: structured summary */}
-            <div style={{ padding: '1.25rem 1.5rem 2rem', textAlign: 'left', overflowY: 'auto', flex: 1 }}>
+            <div className="modal-bio-panel" style={{ padding: '1.25rem 1.5rem 2rem', textAlign: 'left', overflowY: 'auto', flex: 1 }}>
               <h3 style={{ marginTop: 0, marginBottom: '0.25rem', fontSize: '1.5rem' }}>{selected.name}</h3>
               <p style={{ color: '#e86c6c', fontSize: '0.75rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '2px', margin: '0 0 0.75rem' }}>{selected.title}</p>
               {selected.tagline && (
