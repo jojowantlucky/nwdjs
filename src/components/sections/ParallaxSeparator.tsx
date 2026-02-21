@@ -1,5 +1,5 @@
-import { assetPath } from '@/lib/constants'
 'use client'
+import { assetPath } from '@/lib/constants'
 
 import { useEffect, useRef } from 'react'
 

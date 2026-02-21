@@ -17,7 +17,7 @@ export default function Footer() {
         style={{
           position: 'absolute',
           inset: 0,
-          backgroundImage: "`url('${assetPath('/img/homepage/footer/homepage-footer-1200x800.webp')}')`",
+          backgroundImage: `url('${assetPath('/img/homepage/footer/homepage-footer-1200x800.webp')}')`,
           backgroundPosition: 'center center',
           backgroundSize: 'cover',
           filter: 'contrast(60%)',
