@@ -5,7 +5,7 @@ export default function ContactSection() {
   return (
     <section id="contact" className="py-16 px-6 bg-gray-50">
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-3xl font-light mb-4">Contact Us</h2>
+        <h2 className="text-3xl font-light mb-4">Tell Us About Your Event</h2>
         <p className="text-gray-600 mb-8">
           We'd love to hear from you about your event! You can also call us directly at{' '}
           <a href={`tel:${SITE.phone}`} className="underline">{SITE.phone}</a>{' '}

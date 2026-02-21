@@ -45,7 +45,7 @@ export const NAV_ITEMS = [
   { label: 'Services', href: '/#services' },
   { label: 'How it Works', href: '/#how-it-works' },
   { label: 'Reviews', href: '/#reviews' },
-  { label: 'Contact Us', href: '/#contact' },
+  { label: 'Contact', href: '/#contact' },
   { label: 'Meet the Team', href: '/#team' },
   { label: 'Gallery', href: '/#gallery' },
   { label: 'Login', href: SITE.checkCherry.login, external: true },
