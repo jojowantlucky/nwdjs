@@ -30,99 +30,63 @@ function ModalImagePanel({ member, selectedIndex, total, onPrev, onNext, onClose
   const images = [getGridImagePath(member.slug), ...(member.additionalImages ?? []).map(assetPath)]
   const [idx, setIdx] = useState(0)
 
-  // Reset to first image when member changes
   React.useEffect(() => { setIdx(0) }, [member.slug])
 
-  return (
+  const navStrip = (
     <div style={{
       display: 'flex',
-      flexDirection: 'column',
-      ...(isMobile ? {
-        width: '100%',
-        height: '62vw',
-        minHeight: '62vw',
-        flexShrink: 0,
-      } : {
-        width: '40%',
-        flexShrink: 0,
-      }),
+      justifyContent: 'space-between',
+      alignItems: 'center',
+      padding: '0.25rem 0.5rem',
+      backgroundColor: '#f5f5f5',
+      borderTop: '1px solid rgba(155,155,155,0.2)',
     }}>
-      {/* Main image */}
+      <div style={{ display: 'flex', gap: '0.25rem' }}>
+        <button onClick={onPrev} disabled={selectedIndex === 0} className="modal-nav-btn" style={{ color: selectedIndex === 0 ? '#ccc' : '#9b9b9b' }} aria-label="Previous member">‹</button>
+        <button onClick={onNext} disabled={selectedIndex === total - 1} className="modal-nav-btn" style={{ color: selectedIndex === total - 1 ? '#ccc' : '#9b9b9b' }} aria-label="Next member">›</button>
+      </div>
+      <button onClick={onClose} className="modal-close-btn" aria-label="Close">&times;</button>
+    </div>
+  )
+
+  const thumbStrip = images.length > 1 ? (
+    <div style={{ display: 'flex', gap: '4px', padding: '4px', backgroundColor: '#f5f5f5' }}>
+      {images.map((src, i) => (
+        <button key={src} onClick={() => setIdx(i)} style={{ flex: 1, aspectRatio: '1', overflow: 'hidden', border: 'none', padding: 0, cursor: 'pointer', outline: i === idx ? '2px solid #e86c6c' : 'none', outlineOffset: '-2px', opacity: i === idx ? 1 : 0.55, transition: 'opacity 0.2s' }}>
+          <img src={src} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+        </button>
+      ))}
+    </div>
+  ) : null
+
+  if (isMobile) {
+    // On mobile: plain block, no flex, fixed pixel-like height via vw
+    return (
+      <div style={{ display: 'block', width: '100%' }}>
+        <div style={{ width: '100%', height: '65vw', overflow: 'hidden', display: 'block' }}>
+          <img key={images[idx]} src={images[idx]} alt={member.name} style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block', filter: 'contrast(85%)' }} />
+        </div>
+        {thumbStrip}
+        {navStrip}
+      </div>
+    )
+  }
+
+  // Desktop: flex column
+  return (
+    <div style={{ width: '40%', flexShrink: 0, display: 'flex', flexDirection: 'column' }}>
       <div style={{ flex: 1, minHeight: '200px', overflow: 'hidden' }}>
-        <img
-          key={images[idx]}
-          src={images[idx]}
-          alt={member.name}
-          className="modal-main-image"
-          style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block', filter: 'contrast(85%)' }}
-        />
+        <img key={images[idx]} src={images[idx]} alt={member.name} style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block', filter: 'contrast(85%)' }} />
       </div>
-
-      {/* Thumbnail strip — only shown if there are extra images */}
-      {images.length > 1 && (
-        <div style={{ display: 'flex', gap: '4px', padding: '4px', backgroundColor: '#f5f5f5', flexShrink: 0 }}>
-          {images.map((src, i) => (
-            <button
-              key={src}
-              onClick={() => setIdx(i)}
-              style={{
-                flex: 1,
-                aspectRatio: '1',
-                overflow: 'hidden',
-                border: 'none',
-                padding: 0,
-                cursor: 'pointer',
-                outline: i === idx ? '2px solid #e86c6c' : 'none',
-                outlineOffset: '-2px',
-                opacity: i === idx ? 1 : 0.55,
-                transition: 'opacity 0.2s',
-              }}
-            >
-              <img src={src} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
-            </button>
-          ))}
-        </div>
-      )}
-
-      {/* Nav strip — prev / next / close sit below image+thumbnails */}
-      <div style={{
-        display: 'flex',
-        justifyContent: 'space-between',
-        alignItems: 'center',
-        padding: '0.25rem 0.5rem',
-        backgroundColor: '#f5f5f5',
-        borderTop: '1px solid rgba(155,155,155,0.2)',
-        flexShrink: 0,
-      }}>
-        <div style={{ display: 'flex', gap: '0.25rem' }}>
-          <button
-            onClick={onPrev}
-            disabled={selectedIndex === 0}
-            className="modal-nav-btn"
-            style={{ color: selectedIndex === 0 ? '#ccc' : '#9b9b9b' }}
-            aria-label="Previous member"
-          >‹</button>
-          <button
-            onClick={onNext}
-            disabled={selectedIndex === total - 1}
-            className="modal-nav-btn"
-            style={{ color: selectedIndex === total - 1 ? '#ccc' : '#9b9b9b' }}
-            aria-label="Next member"
-          >›</button>
-        </div>
-        <button
-          onClick={onClose}
-          className="modal-close-btn"
-          aria-label="Close"
-        >&times;</button>
-      </div>
+      {thumbStrip}
+      {navStrip}
     </div>
   )
 }
 
 export default function MeetTheTeam() {
   const [selected, setSelected] = useState<TeamMember | null>(null)
-  const [isMobile, setIsMobile] = useState(false)
+  const [isMobile, setIsMobile] = useState(true)
   const selectedIndex = selected ? activeMembers.findIndex(m => m.slug === selected.slug) : -1
 
   useEffect(() => {
