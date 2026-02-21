@@ -320,20 +320,21 @@
     object-fit: cover;
   }
 
-  /* 6. Modal: stack image panel on top, bio below — whole modal scrolls as one */
+  /* 6. Modal: block layout on mobile — image panel sits as a block,
+        bio flows naturally below it. No flex tricks, no overlap possible. */
   .modal-inner {
-    flex-direction: column !important;
+    display: block !important;
     width: 96vw !important;
     max-height: 92vh !important;
     overflow-y: auto !important;
   }
-  /* Image panel: fixed height, never shrinks, stays pinned at top */
+  /* Image panel: block, fixed height, full width */
   .modal-image-panel {
-    width: 100% !important;
-    height: 55vw !important;
-    min-height: 55vw !important;
-    flex-shrink: 0 !important;
+    display: flex !important;
     flex-direction: column !important;
+    width: 100% !important;
+    height: 60vw !important;
+    min-height: 60vw !important;
   }
   /* Main image fills panel */
   .modal-image-panel .modal-main-image {
@@ -341,11 +342,10 @@
     height: 100%;
     object-fit: cover;
   }
-  /* Bio panel: natural height, no independent scroll — modal-inner scrolls */
+  /* Bio panel: normal block, sits below image, no overflow tricks */
   .modal-bio-panel {
+    display: block !important;
     overflow-y: visible !important;
-    flex-shrink: 0 !important;
-    flex: none !important;
   }
 
   /* 7. Nav/close buttons: bigger tap targets */
