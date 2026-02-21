@@ -170,7 +170,7 @@ export default function Footer() {
         </nav>
 
         <p style={{ fontSize: '0.7em', color: 'rgba(255,255,255,0.7)', margin: 0 }}>
-          &copy; {new Date().getFullYear()} Noteworthy Productions, LLC. All rights reserved.{' '}
+          &copy; <span suppressHydrationWarning>{new Date().getFullYear()}</span> Noteworthy Productions, LLC. All rights reserved.{' '}
           <Link href="/privacy-policy" style={{ color: '#e86c6c' }}>Privacy Policy</Link>
           {' · '}
           <Link href="/terms-and-conditions" style={{ color: '#e86c6c' }}>Terms &amp; Conditions</Link>
