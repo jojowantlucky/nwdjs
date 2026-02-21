@@ -11,7 +11,7 @@ export const faqs: FAQ[] = [
     id: 'budget',
     question: 'How Much Should I Budget For My DJ?',
     answer:
-      "Your DJ entertainment will bear most of the responsibility — over 80%, in most cases — of making your event a success. Professional rates for DJ Entertainment typically range from $700 to $4,000, with the average around $2,200. Skill, experience, and top-notch equipment make all the difference in the world.",
+      "Your DJ entertainment will bear most of the responsibility — over 80%, in most cases — of making your event a success. Professional rates for DJ Entertainment typically range from $1,500 to $4,000, with the average around $2,200. Skill, experience, and top-notch equipment make all the difference in the world.",
   },
   {
     id: 'hold-date',
