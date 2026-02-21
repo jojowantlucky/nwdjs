@@ -367,3 +367,31 @@
     margin-top: -20vh;
   }
 }
+
+/* Team grid */
+.team-grid-tile {
+  width: 25%;
+  padding: 1rem;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.team-grid-name {
+  margin: 0.5rem 0 0;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #9b9b9b;
+}
+
+@media (max-width: 767px) {
+  /* 2-col grid on mobile so names have room to breathe */
+  .team-grid-tile {
+    width: 50%;
+    padding: 0.5rem;
+  }
+  .team-grid-name {
+    font-size: 0.65rem;
+    letter-spacing: 1px;
+  }
+}

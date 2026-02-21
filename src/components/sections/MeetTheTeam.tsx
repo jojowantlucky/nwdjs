@@ -167,7 +167,7 @@ export default function MeetTheTeam() {
       {/* 4-column grid */}
       <div style={{ display: 'flex', flexWrap: 'wrap', margin: '0 1rem' }}>
         {activeMembers.map((member) => (
-          <div key={member.slug} style={{ width: '25%', padding: '1rem', overflow: 'hidden', boxSizing: 'border-box' }}>
+          <div key={member.slug} className="team-grid-tile">
             <button
               onClick={() => setSelected(member)}
               style={{ background: 'none', border: 'none', padding: 0, cursor: 'pointer', width: '100%' }}
@@ -180,7 +180,7 @@ export default function MeetTheTeam() {
                 onMouseEnter={e => { e.currentTarget.style.filter = 'contrast(100%)'; e.currentTarget.style.transform = 'scale(1.03)' }}
                 onMouseLeave={e => { e.currentTarget.style.filter = 'contrast(60%)'; e.currentTarget.style.transform = 'scale(1)' }}
               />
-              <p style={{ margin: '0.5rem 0 0', fontSize: '0.75rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '2px', color: '#9b9b9b' }}>
+              <p className="team-grid-name">
                 {member.name}
               </p>
             </button>
@@ -188,7 +188,7 @@ export default function MeetTheTeam() {
         ))}
 
         {/* Join the team tile */}
-        <div style={{ width: '25%', padding: '1rem', overflow: 'hidden', boxSizing: 'border-box' }}>
+        <div className="team-grid-tile">
           <Link href="/join-the-team">
             <img
               src={assetPath("/img/team/nwdj/nwdj-logo-800x800.webp")}
