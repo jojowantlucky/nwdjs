@@ -5,19 +5,19 @@ import Link from 'next/link'
 import { teamMembers } from '@/data/team'
 import type { TeamMember } from '@/types'
 import SectionHeader from '@/components/ui/SectionHeader'
-import { SITE } from '@/lib/constants'
+import { SITE, assetPath } from '@/lib/constants'
 
 const imageFolderMap: Record<string, string> = {}
 
 function getGridImagePath(slug: string): string {
   const folder = imageFolderMap[slug] ?? slug
-  return `/img/team/${folder}/${slug}-800x800.webp`
+  return assetPath(`/img/team/${folder}/${slug}-800x800.webp`)
 }
 
 const activeMembers = teamMembers.filter(m => m.active)
 
 function ModalImagePanel({ member }: { member: TeamMember }) {
-  const images = [getGridImagePath(member.slug), ...(member.additionalImages ?? [])]
+  const images = [getGridImagePath(member.slug), ...(member.additionalImages ?? []).map(assetPath)]
   const [idx, setIdx] = useState(0)
 
   // Reset to first image when member changes
@@ -151,7 +151,7 @@ export default function MeetTheTeam() {
         <div style={{ width: '25%', padding: '1rem', overflow: 'hidden', boxSizing: 'border-box' }}>
           <Link href="/join-the-team">
             <img
-              src="/img/team/nwdj/nwdj-logo-800x800.webp"
+              src={assetPath("/img/team/nwdj/nwdj-logo-800x800.webp")}
               alt="Join the Noteworthy DJs team"
               loading="lazy"
               style={{ width: '100%', height: 'auto', display: 'block', filter: 'contrast(60%)', transition: 'filter 0.3s ease, transform 0.3s ease' }}

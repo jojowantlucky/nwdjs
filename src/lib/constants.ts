@@ -107,3 +107,9 @@ export const BADGES = [
     alt: 'Lux Award',
   },
 ]
+
+// Prepends basePath for static export compatibility
+export function assetPath(path: string): string {
+  const base = process.env.NEXT_PUBLIC_BASE_PATH ?? ''
+  return `${base}${path}`
+}

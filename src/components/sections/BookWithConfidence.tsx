@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { BADGES } from '@/lib/constants'
+import { BADGES, assetPath } from '@/lib/constants'
 import SectionHeader from '@/components/ui/SectionHeader'
 
 export default function BookWithConfidence() {
@@ -18,7 +18,7 @@ export default function BookWithConfidence() {
               className="hover:opacity-80 transition-opacity"
             >
               <Image
-                src={badge.src}
+                src={assetPath(badge.src)}
                 alt={badge.alt}
                 width={150}
                 height={150}

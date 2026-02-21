@@ -1,4 +1,5 @@
 'use client'
+import { assetPath } from '@/lib/constants'
 
 import BookWithConfidence from '@/components/sections/BookWithConfidence'
 import ContactSection from '@/components/sections/ContactSection'
@@ -170,7 +171,7 @@ export default function HomePage() {
           <div className="flex-1 text-center">
             <a href="/services/dj-mc" className="block mb-4 relative overflow-hidden">
               <img
-                src="/img/homepage/services/dj-mc-800x800.webp"
+                src={assetPath("/img/homepage/services/dj-mc-800x800.webp")}
                 alt="DJ and MC services for weddings, parties, and company events"
                 className="w-full h-auto transition-all duration-300 hover:scale-105"
                 style={{ filter: 'contrast(60%)' }}
@@ -194,7 +195,7 @@ export default function HomePage() {
           <div className="flex-1 text-center">
             <a href="/photo-booth" className="block mb-4 relative overflow-hidden">
               <img
-                src="/img/homepage/services/photo-booth-800x800.webp"
+                src={assetPath("/img/homepage/services/photo-booth-800x800.webp")}
                 alt="Photo booth at a wedding"
                 className="w-full h-auto transition-all duration-300 hover:scale-105"
                 style={{ filter: 'contrast(60%)' }}
@@ -218,7 +219,7 @@ export default function HomePage() {
           <div className="flex-1 text-center">
             <a href="/services/lighting" className="block mb-4 relative overflow-hidden">
               <img
-                src="/img/homepage/services/lighting-800x800.webp"
+                src={assetPath("/img/homepage/services/lighting-800x800.webp")}
                 alt="Dance lighting at a wedding"
                 className="w-full h-auto transition-all duration-300 hover:scale-105"
                 style={{ filter: 'contrast(60%)' }}

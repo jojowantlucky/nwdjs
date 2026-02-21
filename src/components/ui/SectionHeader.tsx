@@ -1,3 +1,4 @@
+import { assetPath } from '@/lib/constants'
 import React from 'react'
 
 interface Props {
@@ -11,7 +12,7 @@ export default function SectionHeader({ children }: Props) {
         {children}
       </h2>
       <div style={{
-        backgroundImage: 'url("/img/logo/nwdj-horizontal-line.webp")',
+        backgroundImage: '`url('${assetPath("/img/logo/nwdj-horizontal-line.webp")}')`',
         backgroundPosition: 'center',
         backgroundSize: 'contain',
         backgroundRepeat: 'no-repeat',

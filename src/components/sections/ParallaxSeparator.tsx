@@ -1,3 +1,4 @@
+import { assetPath } from '@/lib/constants'
 'use client'
 
 import { useEffect, useRef } from 'react'
@@ -40,7 +41,7 @@ export default function ParallaxSeparator({ image }: Props) {
         style={{
           position: 'absolute',
           inset: '-20%',
-          backgroundImage: `url('${image}')`,
+          backgroundImage: `url('${assetPath(image)}')`,
           backgroundPosition: 'center center',
           backgroundSize: 'cover',
           filter: 'contrast(60%)',
@@ -63,7 +64,7 @@ export default function ParallaxSeparator({ image }: Props) {
           top: '-1.44rem',
           width: '38.9vmin',
           height: '38.9vmin',
-          backgroundImage: "url('/img/homepage/dj-record.svg')",
+          backgroundImage: `url('${assetPath('/img/homepage/dj-record.svg')}')`,
           backgroundPosition: 'center',
           backgroundSize: 'cover',
           opacity: 0.4,
@@ -75,7 +76,7 @@ export default function ParallaxSeparator({ image }: Props) {
           bottom: '-1.44rem',
           width: '38.9vmin',
           height: '38.9vmin',
-          backgroundImage: "url('/img/homepage/dj-record.svg')",
+          backgroundImage: `url('${assetPath('/img/homepage/dj-record.svg')}')`,
           backgroundPosition: 'center',
           backgroundSize: 'cover',
           opacity: 0.4,

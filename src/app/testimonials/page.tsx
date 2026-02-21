@@ -23,7 +23,7 @@ export default function TestimonialsPage() {
           rel="noopener noreferrer"
         >
           <img
-            src="/img/homepage/book-with-confidence/the-knot-bow-2021-150x150.webp"
+            src={assetPath("/img/homepage/book-with-confidence/the-knot-bow-2021-150x150.webp")}
             alt="The Knot Best of Weddings 2021"
             width={120}
             height={120}
@@ -35,7 +35,7 @@ export default function TestimonialsPage() {
           rel="noopener noreferrer"
         >
           <img
-            src="/img/homepage/book-with-confidence/ww-couples-choice-2020-150x150.webp"
+            src={assetPath("/img/homepage/book-with-confidence/ww-couples-choice-2020-150x150.webp")}
             alt="WeddingWire Couples' Choice 2020"
             width={120}
             height={120}
@@ -47,7 +47,7 @@ export default function TestimonialsPage() {
           rel="noopener noreferrer"
         >
           <img
-            src="/img/homepage/book-with-confidence/google-5-star.svg"
+            src={assetPath("/img/homepage/book-with-confidence/google-5-star.svg")}
             alt="Google 5-Star Rating"
             width={120}
             height={120}
@@ -59,7 +59,7 @@ export default function TestimonialsPage() {
           rel="noopener noreferrer"
         >
           <img
-            src="/img/homepage/book-with-confidence/yelp-150x150.webp"
+            src={assetPath("/img/homepage/book-with-confidence/yelp-150x150.webp")}
             alt="Yelp"
             width={120}
             height={120}

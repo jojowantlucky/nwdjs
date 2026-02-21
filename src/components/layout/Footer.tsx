@@ -1,3 +1,4 @@
+import { assetPath } from '@/lib/constants'
 import Link from 'next/link'
 
 export default function Footer() {
@@ -16,7 +17,7 @@ export default function Footer() {
         style={{
           position: 'absolute',
           inset: 0,
-          backgroundImage: "url('/img/homepage/footer/homepage-footer-1200x800.webp')",
+          backgroundImage: "`url('${assetPath('/img/homepage/footer/homepage-footer-1200x800.webp')}')`",
           backgroundPosition: 'center center',
           backgroundSize: 'cover',
           filter: 'contrast(60%)',
@@ -54,7 +55,7 @@ export default function Footer() {
         }}
       >
         <img
-          src="/img/logo/nwdj-circle-logo-60x60.webp"
+          src={assetPath("/img/logo/nwdj-circle-logo-60x60.webp")}
           alt="Noteworthy DJs"
           width={60}
           height={60}

@@ -35,7 +35,7 @@ export default function JoinTheTeamPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
               <img
-                src="/img/join-the-team/set-your-availability-400x200.webp"
+                src={assetPath("/img/join-the-team/set-your-availability-400x200.webp")}
                 alt="Set Your Availability"
                 className="w-full rounded mb-4"
               />
@@ -46,7 +46,7 @@ export default function JoinTheTeamPage() {
             </div>
             <div className="text-center">
               <img
-                src="/img/join-the-team/we-book-the-event-400x200.webp"
+                src={assetPath("/img/join-the-team/we-book-the-event-400x200.webp")}
                 alt="We Book the Event"
                 className="w-full rounded mb-4"
               />
@@ -57,7 +57,7 @@ export default function JoinTheTeamPage() {
             </div>
             <div className="text-center">
               <img
-                src="/img/join-the-team/connect-with-client-400x200.webp"
+                src={assetPath("/img/join-the-team/connect-with-client-400x200.webp")}
                 alt="Connect with Client"
                 className="w-full rounded mb-4"
               />
@@ -68,7 +68,7 @@ export default function JoinTheTeamPage() {
             </div>
             <div className="text-center">
               <img
-                src="/img/join-the-team/5-star-performance-400x200.webp"
+                src={assetPath("/img/join-the-team/5-star-performance-400x200.webp")}
                 alt="5-Star Performance"
                 className="w-full rounded mb-4"
               />
