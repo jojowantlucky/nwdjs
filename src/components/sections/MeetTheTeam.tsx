@@ -23,9 +23,10 @@ interface ModalImagePanelProps {
   onPrev: () => void
   onNext: () => void
   onClose: () => void
+  isMobile: boolean
 }
 
-function ModalImagePanel({ member, selectedIndex, total, onPrev, onNext, onClose }: ModalImagePanelProps) {
+function ModalImagePanel({ member, selectedIndex, total, onPrev, onNext, onClose, isMobile }: ModalImagePanelProps) {
   const images = [getGridImagePath(member.slug), ...(member.additionalImages ?? []).map(assetPath)]
   const [idx, setIdx] = useState(0)
 
@@ -33,7 +34,19 @@ function ModalImagePanel({ member, selectedIndex, total, onPrev, onNext, onClose
   React.useEffect(() => { setIdx(0) }, [member.slug])
 
   return (
-    <div className="modal-image-panel">
+    <div style={{
+      display: 'flex',
+      flexDirection: 'column',
+      ...(isMobile ? {
+        width: '100%',
+        height: '62vw',
+        minHeight: '62vw',
+        flexShrink: 0,
+      } : {
+        width: '40%',
+        flexShrink: 0,
+      }),
+    }}>
       {/* Main image */}
       <div style={{ flex: 1, minHeight: '200px', overflow: 'hidden' }}>
         <img
@@ -109,7 +122,15 @@ function ModalImagePanel({ member, selectedIndex, total, onPrev, onNext, onClose
 
 export default function MeetTheTeam() {
   const [selected, setSelected] = useState<TeamMember | null>(null)
+  const [isMobile, setIsMobile] = useState(false)
   const selectedIndex = selected ? activeMembers.findIndex(m => m.slug === selected.slug) : -1
+
+  useEffect(() => {
+    const check = () => setIsMobile(window.innerWidth <= 767)
+    check()
+    window.addEventListener('resize', check)
+    return () => window.removeEventListener('resize', check)
+  }, [])
 
   const prev = useCallback(() => {
     if (selectedIndex > 0) setSelected(activeMembers[selectedIndex - 1])
@@ -236,7 +257,24 @@ export default function MeetTheTeam() {
             onClick={e => e.stopPropagation()}
             onTouchStart={onTouchStart}
             onTouchEnd={onTouchEnd}
-            className="modal-inner"
+            style={{
+              background: '#fff',
+              boxShadow: '0 8px 48px rgba(0,0,0,0.12)',
+              position: 'relative',
+              ...(isMobile ? {
+                display: 'block',
+                width: '96vw',
+                maxHeight: '92vh',
+                overflowY: 'auto',
+              } : {
+                display: 'flex',
+                flexDirection: 'row',
+                maxWidth: '860px',
+                width: '90vw',
+                maxHeight: '85vh',
+                overflowY: 'auto',
+              }),
+            }}
           >
             {/* Left: photo + carousel + nav strip */}
             <ModalImagePanel
@@ -246,10 +284,21 @@ export default function MeetTheTeam() {
               onPrev={prev}
               onNext={next}
               onClose={close}
+              isMobile={isMobile}
             />
 
-            {/* Right: structured summary */}
-            <div className="modal-bio-panel" style={{ padding: '1.25rem 1.5rem 2rem', textAlign: 'left', overflowY: 'auto', flex: 1 }}>
+            {/* Right: structured summary — block element, sits below image on mobile */}
+            <div style={{
+              padding: '1.25rem 1.5rem 2rem',
+              textAlign: 'left',
+              ...(isMobile ? {
+                display: 'block',
+                overflowY: 'visible',
+              } : {
+                flex: 1,
+                overflowY: 'auto',
+              }),
+            }}>
               <h3 style={{ marginTop: 0, marginBottom: '0.25rem', fontSize: '1.5rem' }}>{selected.name}</h3>
               <p style={{ color: '#e86c6c', fontSize: '0.75rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '2px', margin: '0 0 0.75rem' }}>{selected.title}</p>
               {selected.tagline && (
