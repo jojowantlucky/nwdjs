@@ -248,8 +248,10 @@ export default function MeetTheTeam() {
             backgroundColor: 'rgba(220,215,210,0.92)',
             zIndex: 200,
             display: 'flex',
-            alignItems: 'center',
+            alignItems: isMobile ? 'flex-start' : 'center',
             justifyContent: 'center',
+            overflowY: isMobile ? 'auto' : 'hidden',
+            padding: isMobile ? '1rem 0 2rem' : '0',
             animation: 'fadeIn 0.2s ease',
           }}
         >
@@ -264,8 +266,7 @@ export default function MeetTheTeam() {
               ...(isMobile ? {
                 display: 'block',
                 width: '96vw',
-                maxHeight: '92vh',
-                overflowY: 'auto',
+                overflowY: 'visible',
               } : {
                 display: 'flex',
                 flexDirection: 'row',
@@ -313,7 +314,7 @@ export default function MeetTheTeam() {
 
               {/* Bio header */}
               <p style={{ fontSize: '0.7rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '1.5px', color: '#e86c6c', margin: '0 0 0.75rem' }}>
-                {selected.name.split(' ')[0]}&apos;s Bio
+                {selected.name.split(' ')[0]}&apos;s Bio {isMobile ? '📱' : '🖥️'}
               </p>
 
               {/* Structured summary fields */}
