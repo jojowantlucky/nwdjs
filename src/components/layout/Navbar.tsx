@@ -100,6 +100,7 @@ export default function Navbar() {
                 <li key={link.href} className="w-full text-center">
                   <Link
                     href={link.href}
+                    onClick={() => setOpen(false)}
                     className={`block py-3 text-[0.7rem] font-bold uppercase tracking-widest no-underline transition-colors duration-200 ${
                       active ? 'text-[#e86c6c]' : 'text-[#4a4a4a] hover:text-[#e86c6c]'
                     }`}
