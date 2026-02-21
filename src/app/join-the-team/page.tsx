@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import { assetPath } from '@/lib/constants'
 
 export const metadata: Metadata = {
   title: 'Join the Team | Noteworthy DJs & Photo Booths',
