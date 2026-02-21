@@ -34,6 +34,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Dancing+Script:wght@400;700&family=Shadows+Into+Light&display=swap"
           rel="stylesheet"
         />
+        {/* Calendly popup widget */}
+        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
+        <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async />
       </head>
       <body className="font-sans antialiased" style={{ color: '#4a4a4a' }}>
         {/* GTM noscript */}

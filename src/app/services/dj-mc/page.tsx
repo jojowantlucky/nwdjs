@@ -1,4 +1,5 @@
 import SectionHeader from '@/components/ui/SectionHeader'
+import CalendlyButton from '@/components/ui/CalendlyButton'
 import ParallaxSeparator from '@/components/sections/ParallaxSeparator'
 import BookWithConfidence from '@/components/sections/BookWithConfidence'
 import ContactSection from '@/components/sections/ContactSection'
@@ -71,7 +72,7 @@ export default function DjMcPage() {
                 customize your package
               </a>{' '}
               for that perfect event, too. We're always here to help and if you have any questions, we'd love to{' '}
-              <a href="https://calendly.com/kimberly-noteworthydjs">setup a time to chat</a>.
+              <CalendlyButton style={{ color: '#e86c6c' }}>setup a time to chat</CalendlyButton>.
               Otherwise, feel free to{' '}
               <a href="https://noteworthy-djs.checkcherry.com/contact/1814">tell us about your event</a>{' '}
               and we can get back with you.

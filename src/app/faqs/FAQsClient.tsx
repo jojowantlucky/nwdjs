@@ -3,6 +3,27 @@
 import { useState } from 'react'
 import { faqs } from '@/data/faqs'
 import SectionHeader from '@/components/ui/SectionHeader'
+import CalendlyButton from '@/components/ui/CalendlyButton'
+
+// Replaces "contact us" with a link to #contact, and Calendly phrases with popup
+function FaqAnswer({ text }: { text: string }) {
+  // Split on key phrases we want to linkify
+  const parts = text.split(/(contact us|set up a quick call)/gi)
+  return (
+    <>
+      {parts.map((part, i) => {
+        const lower = part.toLowerCase()
+        if (lower === 'contact us') {
+          return <a key={i} href="/#contact" style={{ color: '#e86c6c' }}>contact us</a>
+        }
+        if (lower === 'set up a quick call') {
+          return <CalendlyButton key={i} style={{ color: '#e86c6c', textDecoration: 'underline' }}>set up a quick call</CalendlyButton>
+        }
+        return part
+      })}
+    </>
+  )
+}
 
 export default function FAQsClient() {
   const [openId, setOpenId] = useState<string | null>(null)
@@ -73,7 +94,7 @@ export default function FAQsClient() {
                     padding: '0 0 1.5rem',
                     margin: 0,
                   }}>
-                    {faq.answer}
+                    <FaqAnswer text={faq.answer} />
                   </p>
                 </div>
               </div>
