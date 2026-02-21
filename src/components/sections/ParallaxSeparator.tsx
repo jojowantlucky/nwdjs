@@ -15,7 +15,7 @@ export default function ParallaxSeparator({ image }: Props) {
       if (!bgRef.current) return
       const el = bgRef.current.parentElement!
       const rect = el.getBoundingClientRect()
-      const offset = rect.top * 0.2
+      const offset = rect.top * 0.15
       bgRef.current.style.transform = `translateY(${offset}px)`
     }
     window.addEventListener('scroll', onScroll, { passive: true })
@@ -40,7 +40,7 @@ export default function ParallaxSeparator({ image }: Props) {
         ref={bgRef}
         style={{
           position: 'absolute',
-          inset: '-20%',
+          inset: '-40%',
           backgroundImage: `url('${assetPath(image)}')`,
           backgroundPosition: 'center center',
           backgroundSize: 'cover',
