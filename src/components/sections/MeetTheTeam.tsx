@@ -16,7 +16,16 @@ function getGridImagePath(slug: string): string {
 
 const activeMembers = teamMembers.filter(m => m.active)
 
-function ModalImagePanel({ member }: { member: TeamMember }) {
+interface ModalImagePanelProps {
+  member: TeamMember
+  selectedIndex: number
+  total: number
+  onPrev: () => void
+  onNext: () => void
+  onClose: () => void
+}
+
+function ModalImagePanel({ member, selectedIndex, total, onPrev, onNext, onClose }: ModalImagePanelProps) {
   const images = [getGridImagePath(member.slug), ...(member.additionalImages ?? []).map(assetPath)]
   const [idx, setIdx] = useState(0)
 
@@ -61,6 +70,39 @@ function ModalImagePanel({ member }: { member: TeamMember }) {
           ))}
         </div>
       )}
+
+      {/* Nav strip — prev / next / close sit below image+thumbnails */}
+      <div style={{
+        display: 'flex',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        padding: '0.25rem 0.5rem',
+        backgroundColor: '#f5f5f5',
+        borderTop: '1px solid rgba(155,155,155,0.2)',
+        flexShrink: 0,
+      }}>
+        <div style={{ display: 'flex', gap: '0.25rem' }}>
+          <button
+            onClick={onPrev}
+            disabled={selectedIndex === 0}
+            className="modal-nav-btn"
+            style={{ color: selectedIndex === 0 ? '#ccc' : '#9b9b9b' }}
+            aria-label="Previous member"
+          >‹</button>
+          <button
+            onClick={onNext}
+            disabled={selectedIndex === total - 1}
+            className="modal-nav-btn"
+            style={{ color: selectedIndex === total - 1 ? '#ccc' : '#9b9b9b' }}
+            aria-label="Next member"
+          >›</button>
+        </div>
+        <button
+          onClick={onClose}
+          className="modal-close-btn"
+          aria-label="Close"
+        >&times;</button>
+      </div>
     </div>
   )
 }
@@ -196,37 +238,18 @@ export default function MeetTheTeam() {
             onTouchEnd={onTouchEnd}
             className="modal-inner"
           >
-            {/* Left: photo + carousel */}
-            <ModalImagePanel member={selected} />
+            {/* Left: photo + carousel + nav strip */}
+            <ModalImagePanel
+              member={selected}
+              selectedIndex={selectedIndex}
+              total={activeMembers.length}
+              onPrev={prev}
+              onNext={next}
+              onClose={close}
+            />
 
             {/* Right: structured summary */}
             <div style={{ padding: '1.25rem 1.5rem 2rem', textAlign: 'left', overflowY: 'auto', flex: 1 }}>
-
-              {/* Nav row: prev / next / close — sits above name */}
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.75rem' }}>
-                <div style={{ display: 'flex', gap: '0.25rem' }}>
-                  <button
-                    onClick={prev}
-                    disabled={selectedIndex === 0}
-                    className="modal-nav-btn"
-                    style={{ color: selectedIndex === 0 ? '#ccc' : '#9b9b9b' }}
-                    aria-label="Previous member"
-                  >‹</button>
-                  <button
-                    onClick={next}
-                    disabled={selectedIndex === activeMembers.length - 1}
-                    className="modal-nav-btn"
-                    style={{ color: selectedIndex === activeMembers.length - 1 ? '#ccc' : '#9b9b9b' }}
-                    aria-label="Next member"
-                  >›</button>
-                </div>
-                <button
-                  onClick={close}
-                  className="modal-close-btn"
-                  aria-label="Close"
-                >&times;</button>
-              </div>
-
               <h3 style={{ marginTop: 0, marginBottom: '0.25rem', fontSize: '1.5rem' }}>{selected.name}</h3>
               <p style={{ color: '#e86c6c', fontSize: '0.75rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '2px', margin: '0 0 0.75rem' }}>{selected.title}</p>
               {selected.tagline && (

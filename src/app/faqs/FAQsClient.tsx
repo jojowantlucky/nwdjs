@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Link from 'next/link'
 import { faqs } from '@/data/faqs'
 import SectionHeader from '@/components/ui/SectionHeader'
 import CalendlyButton from '@/components/ui/CalendlyButton'
@@ -14,7 +15,7 @@ function FaqAnswer({ text }: { text: string }) {
       {parts.map((part, i) => {
         const lower = part.toLowerCase()
         if (lower === 'contact us') {
-          return <a key={i} href="/#contact" style={{ color: '#e86c6c' }}>contact us</a>
+          return <Link key={i} href="/#contact" style={{ color: '#e86c6c' }}>contact us</Link>
         }
         if (lower === 'set up a quick call') {
           return <CalendlyButton key={i} style={{ color: '#e86c6c', textDecoration: 'underline' }}>set up a quick call</CalendlyButton>
