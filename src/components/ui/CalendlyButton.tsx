@@ -1,6 +1,6 @@
 'use client'
 
-const CALENDLY_URL = 'https://calendly.com/nwrs-info/30min'
+const CALENDLY_URL = 'https://calendly.com/noteworthydjs/noteworthy-djs-photo-booths-meeting?hide_event_type_details=1'
 
 interface CalendlyButtonProps {
   children?: React.ReactNode
