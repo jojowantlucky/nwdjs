@@ -25,7 +25,7 @@ function useCheckCherryScript(widgetClass: string) {
     const initWidget = () => {
       // Some CC builds expose a global init function; try it, otherwise do nothing —
       // the script will scan the DOM itself on load.
-      const win = window as Record<string, unknown>
+      const win = window as unknown as Record<string, unknown>
       if (typeof win.CheckCherryWidgets === 'object' && win.CheckCherryWidgets !== null) {
         const cw = win.CheckCherryWidgets as { init?: () => void; scan?: () => void }
         if (typeof cw.scan === 'function') cw.scan()
