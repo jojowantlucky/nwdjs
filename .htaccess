@@ -1,12 +1,2 @@
 Options -MultiViews
 RewriteEngine On
-RewriteBase /nwdjs_updates
-
-# Handle Next.js static export trailing slashes
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^([^/]+)/?$ $1/index.html [L]
-
-# Fallback to index.html
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule . /nwdjs_updates/index.html [L]
