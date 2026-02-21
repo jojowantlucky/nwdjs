@@ -9,7 +9,7 @@ import CalendlyButton from '@/components/ui/CalendlyButton'
 // Replaces "contact us" with a link to #contact, and Calendly phrases with popup
 function FaqAnswer({ text }: { text: string }) {
   // Split on key phrases we want to linkify
-  const parts = text.split(/(contact us|set up a quick call)/gi)
+  const parts = text.split(/(contact us|set up a quick call|Song Ideas page)/gi)
   return (
     <>
       {parts.map((part, i) => {
@@ -19,6 +19,9 @@ function FaqAnswer({ text }: { text: string }) {
         }
         if (lower === 'set up a quick call') {
           return <CalendlyButton key={i} style={{ color: '#e86c6c', textDecoration: 'underline' }}>set up a quick call</CalendlyButton>
+        }
+        if (lower === 'song ideas page') {
+          return <Link key={i} href="/song-ideas" style={{ color: '#e86c6c' }}>Song Ideas page</Link>
         }
         return part
       })}

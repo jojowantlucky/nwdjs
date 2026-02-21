@@ -35,7 +35,7 @@ export const faqs: FAQ[] = [
     id: 'music-library',
     question: 'What Kind of Music Do You Have? Do You Have a Music List?',
     answer:
-      "Our song library contains more than 100,000 selections and is constantly growing — guaranteeing we'll have all your favorite songs and requests. We have party classics and tunes from every era including Big Band, Motown, Disco, New Wave 80's, Classic Rock, Alternative Rock, Top 40, R&B, Urban, Hip-Hop, Dance, Club Music, Techno, Old School, Funk, and more. Keep in mind there is only time to hear around 15–20 songs per party hour (60–80 songs for a four-hour event).",
+      "Our song library contains more than 100,000 selections and is constantly growing — guaranteeing we'll have all your favorite songs and requests. We have party classics and tunes from every era including Big Band, Motown, Disco, New Wave 80's, Classic Rock, Alternative Rock, Top 40, R&B, Urban, Hip-Hop, Dance, Club Music, Techno, Old School, Funk, and more. Need some inspiration? Check out our Song Ideas page for curated lists by genre and occasion. Keep in mind there is only time to hear around 15–20 songs per party hour (60–80 songs for a four-hour event).",
   },
   {
     id: 'playlist',
