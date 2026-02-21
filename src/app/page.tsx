@@ -19,16 +19,30 @@ export default function HomePage() {
         id="hero"
         className="relative h-screen flex items-center justify-center text-white bg-black overflow-hidden"
       >
-        {/* Background video */}
+        {/* Background video — hidden on mobile, shown on desktop */}
         <video
-          className="absolute inset-0 w-full h-full object-cover opacity-60"
+          className="absolute inset-0 w-full h-full object-cover opacity-60 hidden md:block"
           autoPlay
           muted
           loop
           playsInline
         >
-          <source src="/videos/nwdj-homepage-video-1.webm" type="video/webm" />
+          <source src={assetPath("/videos/nwdj-homepage-video-1.webm")} type="video/webm" />
         </video>
+
+        {/* Mobile fallback background image (≤768px) */}
+        <picture className="absolute inset-0 md:hidden w-full h-full">
+          <source
+            media="(max-width: 599px)"
+            srcSet={assetPath('/img/homepage/hero/mobile-homepage-hero-image-599x798.webp')}
+          />
+          <img
+            src={assetPath('/img/homepage/hero/mobile-homepage-hero-image-768x1024.webp')}
+            alt=""
+            className="w-full h-full object-cover opacity-60"
+            aria-hidden="true"
+          />
+        </picture>
 
         {/* Dark overlay */}
         <div className="absolute inset-0 bg-black/40" />
