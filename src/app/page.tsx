@@ -48,7 +48,7 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-black/40" />
 
         {/* Title card */}
-        <div className="text-center z-10 px-6">
+        <div className="text-center z-10 px-6 hero-title-card">
           <h2
             style={{
               fontFamily: "'Shadows Into Light', cursive",

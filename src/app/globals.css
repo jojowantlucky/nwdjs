@@ -353,3 +353,10 @@
     right: 1.25em !important;
   }
 }
+
+/* Hero title card — shift up on mobile to account for browser chrome */
+@media (max-width: 767px) {
+  .hero-title-card {
+    margin-top: -12vh;
+  }
+}
