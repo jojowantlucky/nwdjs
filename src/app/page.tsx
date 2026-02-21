@@ -132,6 +132,7 @@ export default function HomePage() {
         <a
           href="#services"
           aria-label="Scroll down"
+          className="hero-scroll-indicator"
           style={{
             position: 'absolute',
             bottom: '2em',

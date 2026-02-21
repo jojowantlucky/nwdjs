@@ -345,3 +345,11 @@
   .modal-nav-btn { font-size: 2rem; padding: 0.5rem 1rem; }
   .modal-close-btn { font-size: 2rem; padding: 0.5rem 1rem; }
 }
+
+/* Hero scroll indicator — move up on small screens where it falls below fold */
+@media (max-width: 767px) {
+  .hero-scroll-indicator {
+    bottom: 5em !important;
+    right: 1.25em !important;
+  }
+}
