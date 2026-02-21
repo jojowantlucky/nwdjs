@@ -349,7 +349,7 @@
 /* Hero scroll indicator — move up on small screens where it falls below fold */
 @media (max-width: 767px) {
   .hero-scroll-indicator {
-    bottom: 5em !important;
+    bottom: 8em !important;
     right: 1.25em !important;
   }
 }
@@ -357,6 +357,6 @@
 /* Hero title card — shift up on mobile to account for browser chrome */
 @media (max-width: 767px) {
   .hero-title-card {
-    margin-top: -12vh;
+    margin-top: -20vh;
   }
 }
