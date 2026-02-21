@@ -24,13 +24,14 @@ function ModalImagePanel({ member }: { member: TeamMember }) {
   React.useEffect(() => { setIdx(0) }, [member.slug])
 
   return (
-    <div style={{ width: '40%', flexShrink: 0, display: 'flex', flexDirection: 'column' }}>
+    <div className="modal-image-panel">
       {/* Main image */}
       <div style={{ flex: 1, minHeight: 0, overflow: 'hidden' }}>
         <img
           key={images[idx]}
           src={images[idx]}
           alt={member.name}
+          className="modal-main-image"
           style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block', filter: 'contrast(85%)' }}
         />
       </div>
@@ -77,6 +78,18 @@ export default function MeetTheTeam() {
   }, [selectedIndex])
 
   const close = useCallback(() => setSelected(null), [])
+
+  // 9. Touch swipe support
+  const touchStartX = React.useRef<number | null>(null)
+  const onTouchStart = (e: React.TouchEvent) => { touchStartX.current = e.touches[0].clientX }
+  const onTouchEnd = (e: React.TouchEvent) => {
+    if (touchStartX.current === null) return
+    const dx = e.changedTouches[0].clientX - touchStartX.current
+    if (dx > 50) prev()
+    else if (dx < -50) next()
+    touchStartX.current = null
+  }
+
 
   useEffect(() => {
     if (!selected) return
@@ -179,35 +192,29 @@ export default function MeetTheTeam() {
         >
           <div
             onClick={e => e.stopPropagation()}
-            style={{
-              background: '#fff',
-              maxWidth: '860px',
-              width: '90vw',
-              maxHeight: '85vh',
-              overflowY: 'auto',
-              boxShadow: '0 8px 48px rgba(0,0,0,0.12)',
-              display: 'flex',
-              flexDirection: 'row',
-              position: 'relative',
-            }}
+            onTouchStart={onTouchStart}
+            onTouchEnd={onTouchEnd}
+            className="modal-inner"
           >
             {/* Prev / Next / Close nav */}
             <div style={{ position: 'absolute', top: '1rem', right: '1rem', display: 'flex', gap: '0.5rem', zIndex: 10 }}>
               <button
                 onClick={prev}
                 disabled={selectedIndex === 0}
-                style={{ background: 'none', border: 'none', cursor: selectedIndex === 0 ? 'default' : 'pointer', fontSize: '1.2rem', color: selectedIndex === 0 ? '#ccc' : '#9b9b9b', padding: '0.25rem 0.5rem' }}
+                className="modal-nav-btn"
+                style={{ color: selectedIndex === 0 ? '#ccc' : '#9b9b9b' }}
                 aria-label="Previous member"
               >‹</button>
               <button
                 onClick={next}
                 disabled={selectedIndex === activeMembers.length - 1}
-                style={{ background: 'none', border: 'none', cursor: selectedIndex === activeMembers.length - 1 ? 'default' : 'pointer', fontSize: '1.2rem', color: selectedIndex === activeMembers.length - 1 ? '#ccc' : '#9b9b9b', padding: '0.25rem 0.5rem' }}
+                className="modal-nav-btn"
+                style={{ color: selectedIndex === activeMembers.length - 1 ? '#ccc' : '#9b9b9b' }}
                 aria-label="Next member"
               >›</button>
               <button
                 onClick={close}
-                style={{ background: 'none', border: 'none', cursor: 'pointer', fontSize: '1.4rem', color: '#9b9b9b', padding: '0.25rem 0.5rem', lineHeight: 1 }}
+                className="modal-close-btn"
                 aria-label="Close"
               >&times;</button>
             </div>

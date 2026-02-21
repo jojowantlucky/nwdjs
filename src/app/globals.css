@@ -229,3 +229,109 @@
 .gallery-item-animate {
   animation: zoomIn 0.5s ease both;
 }
+
+/* ─── MOBILE RESPONSIVE FIXES ──────────────────────────────── */
+
+/* 1. Preferred vendor icons: 3-col → 2-col on mobile */
+.vendor-grid { display: flex; flex-wrap: wrap; width: 75%; margin: 0 auto; }
+.vendor-grid-item { width: 33.33%; padding: 0.5rem; box-sizing: border-box; }
+
+/* 2. Footer: reduce side padding on mobile */
+.footer-inner { padding: 4rem 8rem; }
+
+/* 3/4/5. Service pages: stack image above text on mobile */
+.service-pkg-item {
+  display: flex;
+  align-items: stretch;
+}
+.service-pkg-image {
+  width: 13em;
+  flex-shrink: 0;
+  margin-right: 3em;
+}
+
+/* 6/7/8. Modal: row on desktop */
+.modal-inner {
+  background: #fff;
+  max-width: 860px;
+  width: 90vw;
+  max-height: 85vh;
+  overflow-y: auto;
+  box-shadow: 0 8px 48px rgba(0,0,0,0.12);
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.modal-image-panel {
+  width: 40%;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+}
+.modal-nav-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #9b9b9b;
+  padding: 0.25rem 0.5rem;
+}
+.modal-nav-btn:disabled { color: #ccc; cursor: default; }
+.modal-close-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.4rem;
+  color: #9b9b9b;
+  padding: 0.25rem 0.5rem;
+  line-height: 1;
+}
+
+@media (max-width: 767px) {
+  /* 1. Vendors: 2-col */
+  .vendor-grid { width: 100%; }
+  .vendor-grid-item { width: 50%; }
+
+  /* 2. Footer: less horizontal padding */
+  .footer-inner { padding: 3rem 1.5rem !important; }
+
+  /* 3/4/5. Service pages: stack vertically */
+  .service-pkg-item { flex-direction: column; }
+  .service-pkg-image {
+    width: 100% !important;
+    margin-right: 0 !important;
+    margin-bottom: 1.5em;
+    max-height: 220px;
+    overflow: hidden;
+  }
+  .service-pkg-image img,
+  .service-pkg-image video {
+    height: 220px;
+    object-fit: cover;
+  }
+
+  /* 6. Modal: stack vertically */
+  .modal-inner {
+    flex-direction: column;
+    width: 96vw;
+    max-height: 92vh;
+  }
+  .modal-image-panel {
+    width: 100% !important;
+    max-height: 45vw;
+    flex-direction: row;
+  }
+  .modal-image-panel > div:first-child {
+    flex: 1;
+  }
+
+  /* 7. Modal nav buttons: bigger tap targets */
+  .modal-nav-btn { font-size: 2rem; padding: 0.5rem 1rem; }
+  .modal-close-btn { font-size: 2rem; padding: 0.5rem 1rem; }
+
+  /* 8. Modal image: taller on mobile */
+  .modal-image-panel .modal-main-image {
+    height: 45vw;
+    object-fit: cover;
+  }
+}

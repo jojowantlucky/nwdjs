@@ -4,6 +4,7 @@ import Link from 'next/link'
 export default function Footer() {
   return (
     <footer
+      className="footer-inner"
       style={{
         position: 'relative',
         padding: '4rem 8rem',

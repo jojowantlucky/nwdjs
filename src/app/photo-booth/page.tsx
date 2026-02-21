@@ -205,15 +205,14 @@ export default async function PhotoBoothPage() {
             {packages.map((pkg, i) => (
               <li
                 key={pkg.id}
-                style={{
-                  display: 'flex',
+                className="service-pkg-item" style={{
                   alignItems: 'stretch',
                   marginTop: i > 0 ? '3em' : 0,
                   paddingTop: i > 0 ? '3em' : 0,
                   boxShadow: i > 0 ? '0 -1px 0 rgba(155,155,155,0.3)' : 'none',
                 }}
               >
-                <div style={{ width: '13em', flexShrink: 0, marginRight: '3em' }}>
+                <div className="service-pkg-image" style={{ width: '13em', flexShrink: 0, marginRight: '3em' }}>
                   <img
                     src={pkg.image}
                     alt={pkg.alt}

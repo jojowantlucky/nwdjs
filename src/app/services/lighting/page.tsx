@@ -174,7 +174,7 @@ export default function LightingPage() {
               }}
             >
               {/* Image / Video */}
-              <div style={{ width: '13em', flexShrink: 0, marginRight: '3em' }}>
+              <div className="service-pkg-image" style={{ width: '13em', flexShrink: 0, marginRight: '3em' }}>
                 {type.imageType === 'video' ? (
                   <video
                     autoPlay

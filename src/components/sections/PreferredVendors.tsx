@@ -39,9 +39,9 @@ export default function PreferredVendors() {
         </p>
       </div>
 
-      <div style={{ display: 'flex', flexWrap: 'wrap', width: '75%', margin: '0 auto' }}>
+      <div className="vendor-grid">
         {vendors.map((v) => (
-          <div key={v.src} style={{ width: '33.33%', padding: '0.5rem', boxSizing: 'border-box' }}>
+          <div key={v.src} className="vendor-grid-item">
             <a
               href={v.href}
               target="_blank"
