@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect } from 'react'
+import { useEffect, useState, useRef } from 'react'
 import { CC_CONFIG } from '@/lib/constants'
 
 interface CheckCherryContactFormProps {
@@ -41,6 +41,25 @@ export function CheckCherryContactForm({
 }: CheckCherryContactFormProps) {
   useCheckCherryScript('checkcherry__widget__contact-form')
 
+  const [loaded, setLoaded] = useState(false)
+  const widgetRef = useRef<HTMLDivElement>(null)
+
+  // Watch for CC to inject content into the widget div
+  useEffect(() => {
+    const el = widgetRef.current
+    if (!el) return
+
+    const observer = new MutationObserver(() => {
+      if (el.children.length > 0) {
+        setLoaded(true)
+        observer.disconnect()
+      }
+    })
+
+    observer.observe(el, { childList: true, subtree: true })
+    return () => observer.disconnect()
+  }, [])
+
   const props = JSON.stringify({
     apiKey: CC_CONFIG.apiKey,
     contactFormId,
@@ -50,9 +69,31 @@ export function CheckCherryContactForm({
 
   return (
     <div className={className}>
+      {!loaded && (
+        <div style={{
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          padding: '3rem 1rem',
+          color: '#9b9b9b',
+          gap: '1rem',
+        }}>
+          <div style={{
+            width: '36px',
+            height: '36px',
+            border: '3px solid rgba(232,108,108,0.2)',
+            borderTopColor: '#e86c6c',
+            borderRadius: '50%',
+            animation: 'spin 0.8s linear infinite',
+          }} />
+          <p style={{ margin: 0, fontSize: '0.85rem' }}>Loading contact form…</p>
+        </div>
+      )}
       <div
+        ref={widgetRef}
         className="checkcherry__widget__contact-form"
         data-props={props}
+        style={{ display: loaded ? 'block' : 'none' }}
       />
     </div>
   )
