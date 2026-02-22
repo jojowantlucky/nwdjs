@@ -1,0 +1,7714 @@
+{
+  "label": "Party Charts",
+  "charts": [
+    {
+      "title": "Top 200 Most Requested Songs",
+      "description": "Compiled from millions of song requests made through the DJ Intelligence event planning system in 2025.",
+      "songs": [
+        {
+          "rank": 1,
+          "text": "ABBA Dancing Queen"
+        },
+        {
+          "rank": 2,
+          "text": "Whitney Houston I Wanna Dance With Somebody (Who Loves Me)"
+        },
+        {
+          "rank": 3,
+          "text": "Chappell Roan Pink Pony Club"
+        },
+        {
+          "rank": 4,
+          "text": "Earth, Wind & Fire September"
+        },
+        {
+          "rank": 5,
+          "text": "Killers Mr. Brightside"
+        },
+        {
+          "rank": 6,
+          "text": "Shaboozey A Bar Song (Tipsy)"
+        },
+        {
+          "rank": 7,
+          "text": "Usher Feat. Ludacris & Lil' Jon Yeah"
+        },
+        {
+          "rank": 8,
+          "text": "Cupid Cupid Shuffle"
+        },
+        {
+          "rank": 9,
+          "text": "Journey Don't Stop Believin'"
+        },
+        {
+          "rank": 10,
+          "text": "Walk The Moon Shut Up and Dance"
+        },
+        {
+          "rank": 11,
+          "text": "Black Eyed Peas I Gotta Feeling"
+        },
+        {
+          "rank": 12,
+          "text": "Pitbull Hotel Room Service"
+        },
+        {
+          "rank": 13,
+          "text": "Miley Cyrus Party In The U.S.A."
+        },
+        {
+          "rank": 14,
+          "text": "Shania Twain Man! I Feel Like A Woman!"
+        },
+        {
+          "rank": 15,
+          "text": "Neil Diamond Sweet Caroline (Good Times Never Seemed So Good)"
+        },
+        {
+          "rank": 16,
+          "text": "Chris Brown Forever"
+        },
+        {
+          "rank": 17,
+          "text": "Taylor Swift Love Story"
+        },
+        {
+          "rank": 18,
+          "text": "Outkast Hey Ya!"
+        },
+        {
+          "rank": 19,
+          "text": "Natasha Bedingfield Unwritten"
+        },
+        {
+          "rank": 20,
+          "text": "Cascada Everytime We Touch"
+        },
+        {
+          "rank": 21,
+          "text": "V.I.C.Wobble"
+        },
+        {
+          "rank": 22,
+          "text": "Flo Rida Feat. T-Pain Low"
+        },
+        {
+          "rank": 23,
+          "text": "Chappell Roan Hot To Go!"
+        },
+        {
+          "rank": 24,
+          "text": "Waka Flocka Flame Feat. Roscoe Dash & Wale No Hands"
+        },
+        {
+          "rank": 25,
+          "text": "Blink-182 All The Small Things"
+        },
+        {
+          "rank": 26,
+          "text": "Chris Stapleton Tennessee Whiskey"
+        },
+        {
+          "rank": 27,
+          "text": "Bruno Mars Marry You"
+        },
+        {
+          "rank": 28,
+          "text": "Bon Jovi Livin' On A Prayer"
+        },
+        {
+          "rank": 29,
+          "text": "Sean Paul Temperature"
+        },
+        {
+          "rank": 30,
+          "text": "Pitbull Feat. John Ryan Fireball"
+        },
+        {
+          "rank": 31,
+          "text": "DJ Casper Cha Cha Slide"
+        },
+        {
+          "rank": 32,
+          "text": "Daddy Yankee Gasolina"
+        },
+        {
+          "rank": 33,
+          "text": "ABBA Gimme! Gimme! Gimme! (A Man After Midnight)"
+        },
+        {
+          "rank": 34,
+          "text": "Lil' Jon & The East Side Boyz Feat. Ying Yang Twins Get Low"
+        },
+        {
+          "rank": 35,
+          "text": "Nelly Hot In Herre"
+        },
+        {
+          "rank": 36,
+          "text": "Spice Girls Wannabe"
+        },
+        {
+          "rank": 37,
+          "text": "Mark Ronson Feat. Bruno Mars Uptown Funk"
+        },
+        {
+          "rank": 38,
+          "text": "Garth Brooks Friends In Low Places"
+        },
+        {
+          "rank": 39,
+          "text": "AC/DC You Shook Me All Night Long"
+        },
+        {
+          "rank": 40,
+          "text": "Pitbull Feat. Ne-Yo Time Of Our Lives"
+        },
+        {
+          "rank": 41,
+          "text": "Sabrina Carpenter Espresso"
+        },
+        {
+          "rank": 42,
+          "text": "Kenny Loggins Footloose"
+        },
+        {
+          "rank": 43,
+          "text": "Rihanna Don't Stop The Music"
+        },
+        {
+          "rank": 44,
+          "text": "Cyndi Lauper Girls Just Want To Have Fun"
+        },
+        {
+          "rank": 45,
+          "text": "Big & Rich Save A Horse (Ride A Cowboy)"
+        },
+        {
+          "rank": 46,
+          "text": "Sean Kingston Fire Burning"
+        },
+        {
+          "rank": 47,
+          "text": "Nicki Minaj Starships"
+        },
+        {
+          "rank": 48,
+          "text": "Elvis Presley Can't Help Falling In Love"
+        },
+        {
+          "rank": 49,
+          "text": "Bruno Mars 24 k Magic"
+        },
+        {
+          "rank": 50,
+          "text": "Van Morrison Brown Eyed Girl"
+        },
+        {
+          "rank": 51,
+          "text": "Lou Bega Mambo No. 5 (A Little Bit Of...)"
+        },
+        {
+          "rank": 52,
+          "text": "Earth, Wind & Fire Let's Groove"
+        },
+        {
+          "rank": 53,
+          "text": "Rihanna Feat. Calvin Harris We Found Love"
+        },
+        {
+          "rank": 54,
+          "text": "Village People Y.M.C.A."
+        },
+        {
+          "rank": 55,
+          "text": "Wild Cherry Play That Funky Music"
+        },
+        {
+          "rank": 56,
+          "text": "Rednex Cotton Eye Joe"
+        },
+        {
+          "rank": 57,
+          "text": "Backstreet Boys I Want It That Way"
+        },
+        {
+          "rank": 58,
+          "text": "50 Cent In Da Club"
+        },
+        {
+          "rank": 59,
+          "text": "Pitbull Feat. Ne-Yo, Afrojack & Nayer Give Me Everything"
+        },
+        {
+          "rank": 60,
+          "text": "Usher Feat. Pitbull DJ Got Us Fallin' In Love"
+        },
+        {
+          "rank": 61,
+          "text": "Backstreet Boys Everybody (Backstreet's Back)"
+        },
+        {
+          "rank": 62,
+          "text": "Taio Cruz Dynamite"
+        },
+        {
+          "rank": 63,
+          "text": "Nicki Minaj Super Bass"
+        },
+        {
+          "rank": 64,
+          "text": "Dexy's Midnight Runners Come On Eileen"
+        },
+        {
+          "rank": 65,
+          "text": "Def Leppard Pour Some Sugar On Me"
+        },
+        {
+          "rank": 66,
+          "text": "B-52's Love Shack"
+        },
+        {
+          "rank": 67,
+          "text": "Smash Mouth All Star"
+        },
+        {
+          "rank": 68,
+          "text": "Fall Out Boy Sugar, We're Goin Down"
+        },
+        {
+          "rank": 69,
+          "text": "Natalie Cole This Will Be (An Everlasting Love)"
+        },
+        {
+          "rank": 70,
+          "text": "Brooks & Dunn Boot Scootin' Boogie"
+        },
+        {
+          "rank": 71,
+          "text": "Post Malone & Morgan Wallen I Had Some Help"
+        },
+        {
+          "rank": 72,
+          "text": "Gwen Stefani Hollaback Girl"
+        },
+        {
+          "rank": 73,
+          "text": "Luke Combs Beautiful Crazy"
+        },
+        {
+          "rank": 74,
+          "text": "Taylor Swift You Belong With Me"
+        },
+        {
+          "rank": 75,
+          "text": "John Denver Take Me Home, Country Roads"
+        },
+        {
+          "rank": 76,
+          "text": "King Harvest Dancing In The Moonlight"
+        },
+        {
+          "rank": 77,
+          "text": "Fergie Feat. Will.I.Am Fergalicious"
+        },
+        {
+          "rank": 78,
+          "text": "Ed Sheeran Perfect"
+        },
+        {
+          "rank": 79,
+          "text": "Kool & The Gang Celebration"
+        },
+        {
+          "rank": 80,
+          "text": "Darius Rucker Wagon Wheel"
+        },
+        {
+          "rank": 81,
+          "text": "Kesha Tik Tok"
+        },
+        {
+          "rank": 82,
+          "text": "LMFAO Feat. Lauren Bennett and Goon Rock Party Rock Anthem"
+        },
+        {
+          "rank": 83,
+          "text": "Taylor Swift Shake It Off"
+        },
+        {
+          "rank": 84,
+          "text": "Daft Punk One More Time"
+        },
+        {
+          "rank": 85,
+          "text": "Luke Bryan Country Girl (Shake It For Me)"
+        },
+        {
+          "rank": 86,
+          "text": "Benson Boone Beautiful Things"
+        },
+        {
+          "rank": 87,
+          "text": "Metro Station Shake It"
+        },
+        {
+          "rank": 88,
+          "text": "Marvin Gaye & Tammi Terrell Ain't No Mountain High Enough"
+        },
+        {
+          "rank": 89,
+          "text": "AC/DC Thunderstruck"
+        },
+        {
+          "rank": 90,
+          "text": "Cherub Doses & Mimosas"
+        },
+        {
+          "rank": 91,
+          "text": "Soulja Boy Tell'em Crank That (Soulja Boy)"
+        },
+        {
+          "rank": 92,
+          "text": "House Of Pain Jump Around"
+        },
+        {
+          "rank": 93,
+          "text": "Bryan Adams Summer Of '69"
+        },
+        {
+          "rank": 94,
+          "text": "Dua Lipa Dance The Night"
+        },
+        {
+          "rank": 95,
+          "text": "Sophie Ellis-Bextor Murder On The Dancefloor"
+        },
+        {
+          "rank": 96,
+          "text": "Frankie Valli Can't Take My Eyes Off You"
+        },
+        {
+          "rank": 97,
+          "text": "Kendrick Lamar Not Like Us"
+        },
+        {
+          "rank": 98,
+          "text": "Fountains Of Wayne Stacy's Mom"
+        },
+        {
+          "rank": 99,
+          "text": "One Direction What Makes You Beautiful"
+        },
+        {
+          "rank": 100,
+          "text": "Sir Mix-A-Lot Baby Got Back"
+        },
+        {
+          "rank": 101,
+          "text": "Farruko Pepas"
+        },
+        {
+          "rank": 102,
+          "text": "LMFAO Feat. Lil Jon Shots"
+        },
+        {
+          "rank": 103,
+          "text": "Bee Gees Stayin' Alive"
+        },
+        {
+          "rank": 104,
+          "text": "Billy Joel Uptown Girl"
+        },
+        {
+          "rank": 105,
+          "text": "Sister Sledge We Are Family"
+        },
+        {
+          "rank": 106,
+          "text": "Jonas Brothers Burnin' Up"
+        },
+        {
+          "rank": 107,
+          "text": "Pitbull Feat. Kesha Timber"
+        },
+        {
+          "rank": 108,
+          "text": "ABBA Mamma Mia"
+        },
+        {
+          "rank": 109,
+          "text": "'N Sync Bye Bye Bye"
+        },
+        {
+          "rank": 110,
+          "text": "Rick Springfield Jessie's Girl"
+        },
+        {
+          "rank": 111,
+          "text": "Beyonce Feat. Jay-ZCrazy In Love"
+        },
+        {
+          "rank": 112,
+          "text": "T-Pain Feat. Yung Joc Buy U A Drank (Shawty Snappin')"
+        },
+        {
+          "rank": 113,
+          "text": "Elvis Crespo Suavemente"
+        },
+        {
+          "rank": 114,
+          "text": "Alex Warren Ordinary"
+        },
+        {
+          "rank": 115,
+          "text": "Nelly Furtado Feat. Timbaland Promiscuous"
+        },
+        {
+          "rank": 116,
+          "text": "Temptations My Girl"
+        },
+        {
+          "rank": 117,
+          "text": "Billy Joel Piano Man"
+        },
+        {
+          "rank": 118,
+          "text": "Lynyrd Skynyrd Sweet Home Alabama"
+        },
+        {
+          "rank": 119,
+          "text": "Michael Jackson Billie Jean"
+        },
+        {
+          "rank": 120,
+          "text": "Don Omar Feat. Lucenzo Danza Kuduro"
+        },
+        {
+          "rank": 121,
+          "text": "Etta James At Last"
+        },
+        {
+          "rank": 122,
+          "text": "Zac Brown Band Chicken Fried"
+        },
+        {
+          "rank": 123,
+          "text": "Flo Rida Feat. David Guetta Club Can't Handle Me"
+        },
+        {
+          "rank": 124,
+          "text": "Lady Gaga Feat. Colby O'donis Just Dance"
+        },
+        {
+          "rank": 125,
+          "text": "Paramore Still Into You"
+        },
+        {
+          "rank": 126,
+          "text": "Frank Sinatra The Way You Look Tonight"
+        },
+        {
+          "rank": 127,
+          "text": "Stevie Wonder Signed, Sealed, Delivered I'm Yours"
+        },
+        {
+          "rank": 128,
+          "text": "Cher Believe"
+        },
+        {
+          "rank": 129,
+          "text": "Shania Twain Any Man Of Mine"
+        },
+        {
+          "rank": 130,
+          "text": "Vanilla Ice Ice Ice Baby"
+        },
+        {
+          "rank": 131,
+          "text": "A-Ha Take On Me"
+        },
+        {
+          "rank": 132,
+          "text": "Fetty Wap Trap Queen"
+        },
+        {
+          "rank": 133,
+          "text": "Michael Jackson Don't Stop 'Til You Get Enough"
+        },
+        {
+          "rank": 134,
+          "text": "Justin Timberlake Sexyback"
+        },
+        {
+          "rank": 135,
+          "text": "Katy Perry Last Friday Night (T.G.I.F.)"
+        },
+        {
+          "rank": 136,
+          "text": "Queen Bohemian Rhapsody"
+        },
+        {
+          "rank": 137,
+          "text": "Wheatus Teenage Dirtbag"
+        },
+        {
+          "rank": 138,
+          "text": "Dan + Shay Speechless"
+        },
+        {
+          "rank": 139,
+          "text": "DJ Snake Feat. Lil Jon Turn Down For What"
+        },
+        {
+          "rank": 140,
+          "text": "Paul Russell Lil Boo Thang"
+        },
+        {
+          "rank": 141,
+          "text": "Los Del Rio Macarena"
+        },
+        {
+          "rank": 142,
+          "text": "Justin Timberlake Can't Stop The Feeling!"
+        },
+        {
+          "rank": 143,
+          "text": "Toto Africa"
+        },
+        {
+          "rank": 144,
+          "text": "John Legend All Of Me"
+        },
+        {
+          "rank": 145,
+          "text": "Montell Jordan This Is How We Do It"
+        },
+        {
+          "rank": 146,
+          "text": "Ed Sheeran Thinking Out Loud"
+        },
+        {
+          "rank": 147,
+          "text": "Michael Jackson P.Y.T. (Pretty Young Thing)"
+        },
+        {
+          "rank": 148,
+          "text": "Pink Raise Your Glass"
+        },
+        {
+          "rank": 149,
+          "text": "Panic! At The Disco I Write Sins Not Tragedies"
+        },
+        {
+          "rank": 150,
+          "text": "Ben E. King Stand By Me"
+        },
+        {
+          "rank": 151,
+          "text": "Guns N' Roses Sweet Child O' Mine"
+        },
+        {
+          "rank": 152,
+          "text": "Luis Fonsi & Daddy Yankee Feat. Justin Bieber Despacito"
+        },
+        {
+          "rank": 153,
+          "text": "Shakira Hips Don't Lie"
+        },
+        {
+          "rank": 154,
+          "text": "Tyler Childers All Your'n"
+        },
+        {
+          "rank": 155,
+          "text": "Avril Lavigne Sk 8 er Boi"
+        },
+        {
+          "rank": 156,
+          "text": "Icona Pop Feat. Charli XCXI Love It"
+        },
+        {
+          "rank": 157,
+          "text": "Justin Timberlake Rock Your Body"
+        },
+        {
+          "rank": 158,
+          "text": "TLC No Scrubs"
+        },
+        {
+          "rank": 159,
+          "text": "Avicii Levels"
+        },
+        {
+          "rank": 160,
+          "text": "Black Eyed Peas Let's Get It Started"
+        },
+        {
+          "rank": 161,
+          "text": "Maroon 5 Sugar"
+        },
+        {
+          "rank": 162,
+          "text": "Daryl Hall & John Oates You Make My Dreams Come True"
+        },
+        {
+          "rank": 163,
+          "text": "Randy Travis Forever and Ever, Amen"
+        },
+        {
+          "rank": 164,
+          "text": "Isley Brothers Shout"
+        },
+        {
+          "rank": 165,
+          "text": "Rick Astley Never Gonna Give You Up"
+        },
+        {
+          "rank": 166,
+          "text": "Shania Twain You're Still The One"
+        },
+        {
+          "rank": 167,
+          "text": "Mark Morrison Return Of The Mack"
+        },
+        {
+          "rank": 168,
+          "text": "Calvin Harris Feel So Close"
+        },
+        {
+          "rank": 169,
+          "text": "Taylor Swift Cruel Summer"
+        },
+        {
+          "rank": 170,
+          "text": "David Guetta & Bebe Rexha I'm Good (Blue)"
+        },
+        {
+          "rank": 171,
+          "text": "Kygo & Whitney Houston Higher Love"
+        },
+        {
+          "rank": 172,
+          "text": "Beatles Twist and Shout"
+        },
+        {
+          "rank": 173,
+          "text": "The Weeknd Blinding Lights"
+        },
+        {
+          "rank": 174,
+          "text": "DNCE Cake By The Ocean"
+        },
+        {
+          "rank": 175,
+          "text": "Carly Rae Jepsen Call Me Maybe"
+        },
+        {
+          "rank": 176,
+          "text": "Britney Spears Toxic"
+        },
+        {
+          "rank": 177,
+          "text": "Dua Lipa Feat. Dababy Levitating"
+        },
+        {
+          "rank": 178,
+          "text": "Bob Seger & The Silver Bullet Band Old Time Rock & Roll"
+        },
+        {
+          "rank": 179,
+          "text": "Jimmy Eat World The Middle"
+        },
+        {
+          "rank": 180,
+          "text": "Queen Fat Bottomed Girls"
+        },
+        {
+          "rank": 181,
+          "text": "Grouplove Tongue Tied"
+        },
+        {
+          "rank": 182,
+          "text": "T.I.Whatever You Like"
+        },
+        {
+          "rank": 183,
+          "text": "Myles Smith Stargazing"
+        },
+        {
+          "rank": 184,
+          "text": "Sean Paul Get Busy"
+        },
+        {
+          "rank": 185,
+          "text": "Run-D.M.C.It's Tricky"
+        },
+        {
+          "rank": 186,
+          "text": "Trey Songz Feat. Nicki Minaj Bottoms Up"
+        },
+        {
+          "rank": 187,
+          "text": "Morgan Wallen Last Night"
+        },
+        {
+          "rank": 188,
+          "text": "Chainsmokers Feat. Halsey Closer"
+        },
+        {
+          "rank": 189,
+          "text": "Outkast Ms. Jackson"
+        },
+        {
+          "rank": 190,
+          "text": "Queen Crazy Little Thing Called Love"
+        },
+        {
+          "rank": 191,
+          "text": "Bill Medley & Jennifer Warnes(I've Had) The Time Of My Life"
+        },
+        {
+          "rank": 192,
+          "text": "Lizzo About Damn Time"
+        },
+        {
+          "rank": 193,
+          "text": "Beyonce Single Ladies (Put A Ring On It)"
+        },
+        {
+          "rank": 194,
+          "text": "Beyonce Love On Top"
+        },
+        {
+          "rank": 195,
+          "text": "Bruno Mars Just The Way You Are"
+        },
+        {
+          "rank": 196,
+          "text": "James Taylor How Sweet It Is (To Be Loved By You)"
+        },
+        {
+          "rank": 197,
+          "text": "Morgan Wallen Spin You Around (1/24)"
+        },
+        {
+          "rank": 198,
+          "text": "Eric Clapton Wonderful Tonight"
+        },
+        {
+          "rank": 199,
+          "text": "Christina Perri A Thousand Years"
+        },
+        {
+          "rank": 200,
+          "text": "Commodores Brick House"
+        }
+      ]
+    },
+    {
+      "title": "Top 100 Most Requested Trending Songs",
+      "description": "Compiled from millions of song requests made through the DJ Intelligence event planning system in 2025.",
+      "songs": [
+        {
+          "rank": 1,
+          "text": "Brooks & Dunn Neon Moon"
+        },
+        {
+          "rank": 2,
+          "text": "Trey Songz Feat. Nicki Minaj Bottoms Up"
+        },
+        {
+          "rank": 3,
+          "text": "Marc Anthony Vivir Mi Vida"
+        },
+        {
+          "rank": 4,
+          "text": "T-Pain Feat. Chris Brown Best Love Song"
+        },
+        {
+          "rank": 5,
+          "text": "Randy Travis Forever and Ever, Amen"
+        },
+        {
+          "rank": 6,
+          "text": "Elvis Crespo Suavemente"
+        },
+        {
+          "rank": 7,
+          "text": "Alex Warren Ordinary"
+        },
+        {
+          "rank": 8,
+          "text": "Sheck Wes Mo Bamba"
+        },
+        {
+          "rank": 9,
+          "text": "Drake Nokia"
+        },
+        {
+          "rank": 10,
+          "text": "Chris Stapleton Joy Of My Life"
+        },
+        {
+          "rank": 11,
+          "text": "T.I.Whatever You Like"
+        },
+        {
+          "rank": 12,
+          "text": "Paramore Still Into You"
+        },
+        {
+          "rank": 13,
+          "text": "Jennifer Lopez Feat. Pitbull On The Floor"
+        },
+        {
+          "rank": 14,
+          "text": "Katy Perry Last Friday Night (T.G.I.F.)"
+        },
+        {
+          "rank": 15,
+          "text": "Michael Jackson Don't Stop 'Til You Get Enough"
+        },
+        {
+          "rank": 16,
+          "text": "Justin Timberlake Rock Your Body"
+        },
+        {
+          "rank": 17,
+          "text": "Creed Higher"
+        },
+        {
+          "rank": 18,
+          "text": "Carly Rae Jepsen Call Me Maybe"
+        },
+        {
+          "rank": 19,
+          "text": "Etta James At Last"
+        },
+        {
+          "rank": 20,
+          "text": "Farruko Pepas"
+        },
+        {
+          "rank": 21,
+          "text": "Nelly Furtado Feat. Timbaland Promiscuous"
+        },
+        {
+          "rank": 22,
+          "text": "Ella Langley & Riley Green You Look Like You Love Me"
+        },
+        {
+          "rank": 23,
+          "text": "Baby Bash Feat. T-Pain Cyclone"
+        },
+        {
+          "rank": 24,
+          "text": "Rihanna Only Girl (In The World)"
+        },
+        {
+          "rank": 25,
+          "text": "Jay Sean Feat. Lil Wayne Down"
+        },
+        {
+          "rank": 26,
+          "text": "Jonas Brothers Burnin' Up"
+        },
+        {
+          "rank": 27,
+          "text": "Lady Gaga Feat. Colby O'donis Just Dance"
+        },
+        {
+          "rank": 28,
+          "text": "All Time Low Dear Maria, Count Me In"
+        },
+        {
+          "rank": 29,
+          "text": "Jimmy Eat World The Middle"
+        },
+        {
+          "rank": 30,
+          "text": "Icona Pop Feat. Charli XCXI Love It"
+        },
+        {
+          "rank": 31,
+          "text": "Justin Timberlake Sexyback"
+        },
+        {
+          "rank": 32,
+          "text": "Michael Jackson Billie Jean"
+        },
+        {
+          "rank": 33,
+          "text": "Akon Feat. Eminem Smack That"
+        },
+        {
+          "rank": 34,
+          "text": "Bee Gees Stayin' Alive"
+        },
+        {
+          "rank": 35,
+          "text": "Beyonce Feat. Jay-ZCrazy In Love"
+        },
+        {
+          "rank": 36,
+          "text": "'N Sync Bye Bye Bye"
+        },
+        {
+          "rank": 37,
+          "text": "Waka Flocka Flame Feat. Kebo Gotti Grove St. Party"
+        },
+        {
+          "rank": 38,
+          "text": "Backstreet Boys I Want It That Way"
+        },
+        {
+          "rank": 39,
+          "text": "Luke Combs Beautiful Crazy"
+        },
+        {
+          "rank": 40,
+          "text": "Sir Mix-A-Lot Baby Got Back"
+        },
+        {
+          "rank": 41,
+          "text": "Daft Punk One More Time"
+        },
+        {
+          "rank": 42,
+          "text": "Vanilla Ice Ice Ice Baby"
+        },
+        {
+          "rank": 43,
+          "text": "TLC No Scrubs"
+        },
+        {
+          "rank": 44,
+          "text": "Montell Jordan This Is How We Do It"
+        },
+        {
+          "rank": 45,
+          "text": "Taylor Swift You Belong With Me"
+        },
+        {
+          "rank": 46,
+          "text": "Daddy Yankee Gasolina"
+        },
+        {
+          "rank": 47,
+          "text": "Coldplay A Sky Full Of Stars"
+        },
+        {
+          "rank": 48,
+          "text": "Isley Brothers Shout"
+        },
+        {
+          "rank": 49,
+          "text": "Dua Lipa Feat. Dababy Levitating"
+        },
+        {
+          "rank": 50,
+          "text": "Christina Perri A Thousand Years"
+        },
+        {
+          "rank": 51,
+          "text": "Alabama Dixieland Delight"
+        },
+        {
+          "rank": 52,
+          "text": "Brooks & Dunn Boot Scootin' Boogie"
+        },
+        {
+          "rank": 53,
+          "text": "50 Cent In Da Club"
+        },
+        {
+          "rank": 54,
+          "text": "Pitbull Feat. Ne-Yo, Afrojack & Nayer Give Me Everything"
+        },
+        {
+          "rank": 55,
+          "text": "Nelly Hot In Herre"
+        },
+        {
+          "rank": 56,
+          "text": "Fetty Wap Trap Queen"
+        },
+        {
+          "rank": 57,
+          "text": "Kesha Tik Tok"
+        },
+        {
+          "rank": 58,
+          "text": "Frankie Valli Can't Take My Eyes Off You"
+        },
+        {
+          "rank": 59,
+          "text": "Don Omar Feat. Lucenzo Danza Kuduro"
+        },
+        {
+          "rank": 60,
+          "text": "Steve Earle Copperhead Road"
+        },
+        {
+          "rank": 61,
+          "text": "Los Del Rio Macarena"
+        },
+        {
+          "rank": 62,
+          "text": "Avicii Levels"
+        },
+        {
+          "rank": 63,
+          "text": "Michael Jackson P.Y.T. (Pretty Young Thing)"
+        },
+        {
+          "rank": 64,
+          "text": "ABBA Gimme! Gimme! Gimme! (A Man After Midnight)"
+        },
+        {
+          "rank": 65,
+          "text": "Kenny Loggins Footloose"
+        },
+        {
+          "rank": 66,
+          "text": "Earth, Wind & Fire Let's Groove"
+        },
+        {
+          "rank": 67,
+          "text": "Fergie Feat. Will.I.Am Fergalicious"
+        },
+        {
+          "rank": 68,
+          "text": "Outkast Ms. Jackson"
+        },
+        {
+          "rank": 69,
+          "text": "Morgan Wallen Spin You Around (1/24)"
+        },
+        {
+          "rank": 70,
+          "text": "Mark Morrison Return Of The Mack"
+        },
+        {
+          "rank": 71,
+          "text": "Kool & The Gang Celebration"
+        },
+        {
+          "rank": 72,
+          "text": "Rihanna Don't Stop The Music"
+        },
+        {
+          "rank": 73,
+          "text": "V.I.C.Wobble"
+        },
+        {
+          "rank": 74,
+          "text": "Waka Flocka Flame Feat. Roscoe Dash & Wale No Hands"
+        },
+        {
+          "rank": 75,
+          "text": "Pitbull Hotel Room Service"
+        },
+        {
+          "rank": 76,
+          "text": "Chris Brown Forever"
+        },
+        {
+          "rank": 77,
+          "text": "LMFAO Feat. Lauren Bennett and Goon Rock Party Rock Anthem"
+        },
+        {
+          "rank": 78,
+          "text": "House Of Pain Jump Around"
+        },
+        {
+          "rank": 79,
+          "text": "Panic! At The Disco I Write Sins Not Tragedies"
+        },
+        {
+          "rank": 80,
+          "text": "Taylor Swift Love Story"
+        },
+        {
+          "rank": 81,
+          "text": "Bon Jovi Livin' On A Prayer"
+        },
+        {
+          "rank": 82,
+          "text": "Nicki Minaj Starships"
+        },
+        {
+          "rank": 83,
+          "text": "Elvis Presley Can't Help Falling In Love"
+        },
+        {
+          "rank": 84,
+          "text": "Usher Feat. Pitbull DJ Got Us Fallin' In Love"
+        },
+        {
+          "rank": 85,
+          "text": "Black Eyed Peas I Gotta Feeling"
+        },
+        {
+          "rank": 86,
+          "text": "Britney Spears Toxic"
+        },
+        {
+          "rank": 87,
+          "text": "Ricky Martin Livin' La Vida Loca"
+        },
+        {
+          "rank": 88,
+          "text": "Fall Out Boy Sugar, We're Goin Down"
+        },
+        {
+          "rank": 89,
+          "text": "Pitbull Feat. John Ryan Fireball"
+        },
+        {
+          "rank": 90,
+          "text": "Chris Stapleton Tennessee Whiskey"
+        },
+        {
+          "rank": 91,
+          "text": "Lil' Jon & The East Side Boyz Feat. Ying Yang Twins Get Low"
+        },
+        {
+          "rank": 92,
+          "text": "Mark Ronson Feat. Bruno Mars Uptown Funk"
+        },
+        {
+          "rank": 93,
+          "text": "Natasha Bedingfield Unwritten"
+        },
+        {
+          "rank": 94,
+          "text": "Neil Diamond Sweet Caroline (Good Times Never Seemed So Good)"
+        },
+        {
+          "rank": 95,
+          "text": "Killers Mr. Brightside"
+        },
+        {
+          "rank": 96,
+          "text": "Usher Feat. Ludacris & Lil' Jon Yeah"
+        },
+        {
+          "rank": 97,
+          "text": "Cupid Cupid Shuffle"
+        },
+        {
+          "rank": 98,
+          "text": "Maroon 5 Sugar"
+        },
+        {
+          "rank": 99,
+          "text": "Metro Station Shake It"
+        },
+        {
+          "rank": 100,
+          "text": "Taylor Swift Shake It Off"
+        }
+      ]
+    },
+    {
+      "title": "Top 100 Most Requested Pop Songs",
+      "description": "Compiled from millions of song requests made through the DJ Intelligence event planning system in 2025.",
+      "songs": [
+        {
+          "rank": 1,
+          "text": "Alex Warren Ordinary"
+        },
+        {
+          "rank": 2,
+          "text": "Drake Nokia"
+        },
+        {
+          "rank": 3,
+          "text": "Lady Gaga Abracadabra"
+        },
+        {
+          "rank": 4,
+          "text": "Bad Bunny Nuevayol"
+        },
+        {
+          "rank": 5,
+          "text": "Cupid Flex"
+        },
+        {
+          "rank": 6,
+          "text": "Bad Bunny Baile Inolvidable"
+        },
+        {
+          "rank": 7,
+          "text": "Jessie Murph Blue Strips"
+        },
+        {
+          "rank": 8,
+          "text": "Huntr/X, Ejae, Audrey Nuna, Rei Ami Feat. Kpop Demon Hunters Cast Golden"
+        },
+        {
+          "rank": 9,
+          "text": "Disco Lines & Tinashe No Broke Boys"
+        },
+        {
+          "rank": 10,
+          "text": "803 fresh Boots On The Ground"
+        },
+        {
+          "rank": 11,
+          "text": "Justin Bieber Daisies"
+        },
+        {
+          "rank": 12,
+          "text": "Benson Boone Mystical Magical"
+        },
+        {
+          "rank": 13,
+          "text": "Olivia Dean Man I Need"
+        },
+        {
+          "rank": 14,
+          "text": "Taylor Swift Opalite"
+        },
+        {
+          "rank": 15,
+          "text": "Taylor Swift The Fate Of Ophelia"
+        },
+        {
+          "rank": 16,
+          "text": "Bad Bunny Eoo"
+        },
+        {
+          "rank": 17,
+          "text": "Sabrina Carpenter Manchild"
+        },
+        {
+          "rank": 18,
+          "text": "Role Model"
+        },
+        {
+          "rank": 19,
+          "text": "Russell Dickerson Happen To Me"
+        },
+        {
+          "rank": 20,
+          "text": "Charli XCX Party 4 U"
+        },
+        {
+          "rank": 21,
+          "text": "Raye Where Is My Husband!"
+        },
+        {
+          "rank": 22,
+          "text": "Ed Sheeran Azizam"
+        },
+        {
+          "rank": 23,
+          "text": "Chappell Roan The Giver"
+        },
+        {
+          "rank": 24,
+          "text": "Morgan Wallen Feat. Tate Mcrae What I Want"
+        },
+        {
+          "rank": 25,
+          "text": "Doechii Anxiety"
+        },
+        {
+          "rank": 26,
+          "text": "Jonas Brothers Love Me To Heaven"
+        },
+        {
+          "rank": 27,
+          "text": "Moliy X Slient Addy & Shenseea Feat. Skillibeng Shake It To The Max (Fly)"
+        },
+        {
+          "rank": 28,
+          "text": "Ed Sheeran Sapphire"
+        },
+        {
+          "rank": 29,
+          "text": "Morgan Wallen I'm The Problem"
+        },
+        {
+          "rank": 30,
+          "text": "Blackpink Jump"
+        },
+        {
+          "rank": 31,
+          "text": "Justin Bieber Yukon"
+        },
+        {
+          "rank": 32,
+          "text": "Benson Boone"
+        },
+        {
+          "rank": 33,
+          "text": "Sabrina Carpenter Busy Woman"
+        },
+        {
+          "rank": 34,
+          "text": "Thomas Rhett"
+        },
+        {
+          "rank": 35,
+          "text": "Morgan Wallen Just In Case"
+        },
+        {
+          "rank": 36,
+          "text": "Mgk Cliche"
+        },
+        {
+          "rank": 37,
+          "text": "Sabrina Carpenter Tears"
+        },
+        {
+          "rank": 38,
+          "text": "Sombr 12 To 12"
+        },
+        {
+          "rank": 39,
+          "text": "Tate Mcrae Revolving Door"
+        },
+        {
+          "rank": 40,
+          "text": "Tyler, The Creator Sugar On My Tongue"
+        },
+        {
+          "rank": 41,
+          "text": "Jennie Like Jennie"
+        },
+        {
+          "rank": 42,
+          "text": "Forrest Frank Your Way's Better"
+        },
+        {
+          "rank": 43,
+          "text": "Bigxthaplug Feat. Bailey Zimmerman All The Way"
+        },
+        {
+          "rank": 44,
+          "text": "Ravyn Lenae Feat. Rex Orange County Love Me Not"
+        },
+        {
+          "rank": 45,
+          "text": "Scotty Mccreery Feat. Hootie & The Blowfish Bottle Rockets"
+        },
+        {
+          "rank": 46,
+          "text": "Morgan Wallen Feat. Lil Wayne & Rick Ross Miami"
+        },
+        {
+          "rank": 47,
+          "text": "A Day To Remember All My Friends"
+        },
+        {
+          "rank": 48,
+          "text": "Morgan Wallen I Got Better"
+        },
+        {
+          "rank": 49,
+          "text": "Dua Lipa Feat. Troye Sivan Physical"
+        },
+        {
+          "rank": 50,
+          "text": "Bad Bunny Voy A Llevarte Pa Pr"
+        },
+        {
+          "rank": 51,
+          "text": "Lady Gaga The Dead Dance"
+        },
+        {
+          "rank": 52,
+          "text": "Olivia Dean So Easy (To Fall In Love)"
+        },
+        {
+          "rank": 53,
+          "text": "Don Toliver No Pole"
+        },
+        {
+          "rank": 54,
+          "text": "Ed Sheeran Camera"
+        },
+        {
+          "rank": 55,
+          "text": "Karol GLatina Foreva"
+        },
+        {
+          "rank": 56,
+          "text": "Fuerza Regida & Grupo Frontera Me Jalo"
+        },
+        {
+          "rank": 57,
+          "text": "Tommy Richman Actin Up"
+        },
+        {
+          "rank": 58,
+          "text": "Huntr/X, Ejae, Audrey Nuna, Rei Ami & Kpop Demon Hunters Cast How It's Done"
+        },
+        {
+          "rank": 59,
+          "text": "Chrystal The Days"
+        },
+        {
+          "rank": 60,
+          "text": "The Weeknd Cry For Me"
+        },
+        {
+          "rank": 61,
+          "text": "Leon Thomas Feat. Chris Brown Mutt"
+        },
+        {
+          "rank": 62,
+          "text": "Katseye Gabriela"
+        },
+        {
+          "rank": 6,
+          "text": "3"
+        },
+        {
+          "rank": 64,
+          "text": "Bailey Zimmerman & Luke Combs Backup Plan"
+        },
+        {
+          "rank": 65,
+          "text": "Morgan Wallen 20 Cigarettes"
+        },
+        {
+          "rank": 66,
+          "text": "Sombr Undressed"
+        },
+        {
+          "rank": 67,
+          "text": "Ella Langley Choosin' Texas"
+        },
+        {
+          "rank": 68,
+          "text": "Lainey Wilson Somewhere Over Laredo"
+        },
+        {
+          "rank": 69,
+          "text": "Mariah The Scientist Burning Blue"
+        },
+        {
+          "rank": 70,
+          "text": "Tucker Wetmore Brunette"
+        },
+        {
+          "rank": 71,
+          "text": "Riley Green Feat. Ella Langley Don't Mind If I Do"
+        },
+        {
+          "rank": 72,
+          "text": "Zach Top Good Times & Tan Lines"
+        },
+        {
+          "rank": 73,
+          "text": "Jordan Davis Bar None"
+        },
+        {
+          "rank": 74,
+          "text": "Kendrick Lamar Feat. Azchike Peekaboo"
+        },
+        {
+          "rank": 75,
+          "text": "Mau PThe Less I Know The Better"
+        },
+        {
+          "rank": 76,
+          "text": "Tate Mcrae Just Keep Watching"
+        },
+        {
+          "rank": 77,
+          "text": "Pluto & Ykniece Whim Whamiee"
+        },
+        {
+          "rank": 78,
+          "text": "Cardi BOutside"
+        },
+        {
+          "rank": 79,
+          "text": "Kesha Feat. T-Pain Yippee-Ki-Yay"
+        },
+        {
+          "rank": 80,
+          "text": "Cody Johnson The Fall"
+        },
+        {
+          "rank": 81,
+          "text": "Alex Warren Eternity"
+        },
+        {
+          "rank": 82,
+          "text": "Alex Warren & Jelly Roll Bloodline"
+        },
+        {
+          "rank": 83,
+          "text": "Partynextdoor & Drake Somebody Loves Me"
+        },
+        {
+          "rank": 84,
+          "text": "Jonas Brothers No Time To Talk"
+        },
+        {
+          "rank": 85,
+          "text": "Chris Brown Feat. Bryson Tiller It Depends"
+        },
+        {
+          "rank": 86,
+          "text": "Sleep Token Caramel"
+        },
+        {
+          "rank": 87,
+          "text": "Brandon Lake & Jelly Roll Hard Fought Hallelujah"
+        },
+        {
+          "rank": 88,
+          "text": "Jelly Roll Heart Of Stone"
+        },
+        {
+          "rank": 89,
+          "text": "Shakira, Ed Sheeran, Beele Hips Dont Lie"
+        },
+        {
+          "rank": 90,
+          "text": "Sombr Back To Friends"
+        },
+        {
+          "rank": 91,
+          "text": "Luke Combs Back In The Saddle"
+        },
+        {
+          "rank": 92,
+          "text": "Sleep Token Emergence"
+        },
+        {
+          "rank": 93,
+          "text": "Tate Mcrae Tit For Tat"
+        },
+        {
+          "rank": 94,
+          "text": "Calvin Harris & Clementine Douglas Blessings"
+        },
+        {
+          "rank": 95,
+          "text": "Fisher Stay"
+        },
+        {
+          "rank": 96,
+          "text": "Benson Boone Mr Electric Blue"
+        },
+        {
+          "rank": 97,
+          "text": "Kane Brown 2 Pair"
+        },
+        {
+          "rank": 98,
+          "text": "Drake Gimme A Hug"
+        },
+        {
+          "rank": 99,
+          "text": "Drake What Did I Miss?"
+        },
+        {
+          "rank": 100,
+          "text": "Hudson Westbrook House Again"
+        }
+      ]
+    },
+    {
+      "title": "Top 100 Most Requested Hit Radio Songs",
+      "description": "Compiled from millions of song requests made through the DJ Intelligence event planning system in 2025.",
+      "songs": [
+        {
+          "rank": 1,
+          "text": "Chappell Roan Pink Pony Club"
+        },
+        {
+          "rank": 2,
+          "text": "Shaboozey A Bar Song (Tipsy)"
+        },
+        {
+          "rank": 3,
+          "text": "Taylor Swift Love Story"
+        },
+        {
+          "rank": 4,
+          "text": "Outkast Hey Ya!"
+        },
+        {
+          "rank": 5,
+          "text": "Cascada Everytime We Touch"
+        },
+        {
+          "rank": 6,
+          "text": "Chappell Roan Hot To Go!"
+        },
+        {
+          "rank": 7,
+          "text": "Pitbull Feat. John Ryan Fireball"
+        },
+        {
+          "rank": 8,
+          "text": "Nelly Hot In Herre"
+        },
+        {
+          "rank": 9,
+          "text": "Spice Girls Wannabe"
+        },
+        {
+          "rank": 10,
+          "text": "Mark Ronson Feat. Bruno Mars Uptown Funk"
+        },
+        {
+          "rank": 11,
+          "text": "Pitbull Feat. Ne-Yo Time Of Our Lives"
+        },
+        {
+          "rank": 12,
+          "text": "Bruno Mars 24 k Magic"
+        },
+        {
+          "rank": 13,
+          "text": "Rihanna Feat. Calvin Harris We Found Love"
+        },
+        {
+          "rank": 14,
+          "text": "Backstreet Boys I Want It That Way"
+        },
+        {
+          "rank": 15,
+          "text": "Backstreet Boys Everybody (Backstreet's Back)"
+        },
+        {
+          "rank": 16,
+          "text": "Smash Mouth All Star"
+        },
+        {
+          "rank": 17,
+          "text": "Gwen Stefani Hollaback Girl"
+        },
+        {
+          "rank": 18,
+          "text": "Ed Sheeran Perfect"
+        },
+        {
+          "rank": 19,
+          "text": "Taylor Swift Shake It Off"
+        },
+        {
+          "rank": 20,
+          "text": "Daft Punk One More Time"
+        },
+        {
+          "rank": 21,
+          "text": "Alex Warren Ordinary"
+        },
+        {
+          "rank": 22,
+          "text": "Cher Believe"
+        },
+        {
+          "rank": 23,
+          "text": "Wheatus Teenage Dirtbag"
+        },
+        {
+          "rank": 24,
+          "text": "Paul Russell Lil Boo Thang"
+        },
+        {
+          "rank": 25,
+          "text": "Justin Timberlake Can't Stop The Feeling!"
+        },
+        {
+          "rank": 26,
+          "text": "Montell Jordan This Is How We Do It"
+        },
+        {
+          "rank": 27,
+          "text": "Ed Sheeran Thinking Out Loud"
+        },
+        {
+          "rank": 28,
+          "text": "Avril Lavigne Sk 8 er Boi"
+        },
+        {
+          "rank": 29,
+          "text": "Justin Timberlake Rock Your Body"
+        },
+        {
+          "rank": 30,
+          "text": "Maroon 5 Sugar"
+        },
+        {
+          "rank": 31,
+          "text": "Taylor Swift Cruel Summer"
+        },
+        {
+          "rank": 32,
+          "text": "Kygo & Whitney Houston Higher Love"
+        },
+        {
+          "rank": 33,
+          "text": "DNCE Cake By The Ocean"
+        },
+        {
+          "rank": 34,
+          "text": "Dua Lipa Feat. Dababy Levitating"
+        },
+        {
+          "rank": 35,
+          "text": "Lizzo About Damn Time"
+        },
+        {
+          "rank": 36,
+          "text": "Christina Perri A Thousand Years"
+        },
+        {
+          "rank": 37,
+          "text": "Aerosmith I Don't Want To Miss A Thing"
+        },
+        {
+          "rank": 38,
+          "text": "Lonestar Amazed"
+        },
+        {
+          "rank": 39,
+          "text": "Ginuwine Pony"
+        },
+        {
+          "rank": 40,
+          "text": "Pharrell Williams Happy"
+        },
+        {
+          "rank": 41,
+          "text": "Lady Gaga & Bruno Mars Die With A Smile"
+        },
+        {
+          "rank": 42,
+          "text": "Mkto Classic"
+        },
+        {
+          "rank": 43,
+          "text": "Teddy Swims Lose Control"
+        },
+        {
+          "rank": 44,
+          "text": "Rose & Bruno Mars Apt."
+        },
+        {
+          "rank": 45,
+          "text": "Ricky Martin Livin' La Vida Loca"
+        },
+        {
+          "rank": 46,
+          "text": "Jack Harlow Lovin On Me"
+        },
+        {
+          "rank": 47,
+          "text": "Bruno Mars That's What I Like"
+        },
+        {
+          "rank": 48,
+          "text": "Smash Mouth I'm A Believer"
+        },
+        {
+          "rank": 49,
+          "text": "Goo Goo Dolls Iris"
+        },
+        {
+          "rank": 50,
+          "text": "Ed Sheeran Shivers"
+        },
+        {
+          "rank": 51,
+          "text": "Harry Styles Watermelon Sugar"
+        },
+        {
+          "rank": 52,
+          "text": "Lady Gaga Abracadabra"
+        },
+        {
+          "rank": 53,
+          "text": "Stephen Sanchez Until I Found You"
+        },
+        {
+          "rank": 54,
+          "text": "Kelly Clarkson Since U Been Gone"
+        },
+        {
+          "rank": 55,
+          "text": "Mariah Carey Fantasy"
+        },
+        {
+          "rank": 56,
+          "text": "Lit My Own Worst Enemy"
+        },
+        {
+          "rank": 57,
+          "text": "Shaggy It Wasn't Me"
+        },
+        {
+          "rank": 58,
+          "text": "Maroon 5 Feat. Christina Aguilera Moves Like Jagger"
+        },
+        {
+          "rank": 59,
+          "text": "Oasis Wonderwall"
+        },
+        {
+          "rank": 60,
+          "text": "Chumbawamba Tubthumping"
+        },
+        {
+          "rank": 61,
+          "text": "Chappell Roan Good Luck, Babe!"
+        },
+        {
+          "rank": 62,
+          "text": "Eminem The Real Slim Shady"
+        },
+        {
+          "rank": 63,
+          "text": "Glass Animals Heat Waves"
+        },
+        {
+          "rank": 64,
+          "text": "Semisonic Closing Time"
+        },
+        {
+          "rank": 65,
+          "text": "Blanco Brown The Git Up"
+        },
+        {
+          "rank": 66,
+          "text": "Lizzo Truth Hurts"
+        },
+        {
+          "rank": 67,
+          "text": "Fergie London Bridge"
+        },
+        {
+          "rank": 68,
+          "text": "Lil Nas X Feat. Billy Ray Cyrus Old Town Road"
+        },
+        {
+          "rank": 69,
+          "text": "Sabrina Carpenter Please Please Please"
+        },
+        {
+          "rank": 70,
+          "text": "Vanessa Carlton A Thousand Miles"
+        },
+        {
+          "rank": 71,
+          "text": "Will Smith Gettin' Jiggy Wit It"
+        },
+        {
+          "rank": 72,
+          "text": "Britney Spears Baby One More Time"
+        },
+        {
+          "rank": 73,
+          "text": "Nelly Furtado Maneater"
+        },
+        {
+          "rank": 74,
+          "text": "Pink Get The Party Started"
+        },
+        {
+          "rank": 75,
+          "text": "Ed Sheeran Shape Of You"
+        },
+        {
+          "rank": 76,
+          "text": "Beyonce Texas Hold 'Em"
+        },
+        {
+          "rank": 77,
+          "text": "Lizzo Good As Hell"
+        },
+        {
+          "rank": 78,
+          "text": "Dua Lipa Don't Start Now"
+        },
+        {
+          "rank": 79,
+          "text": "Harry Styles Adore You"
+        },
+        {
+          "rank": 80,
+          "text": "La Bouche Be My Lover"
+        },
+        {
+          "rank": 81,
+          "text": "Elle King & Miranda Lambert Drunk (And I Don't Wanna Go Home)"
+        },
+        {
+          "rank": 82,
+          "text": "Aqua Barbie Girl"
+        },
+        {
+          "rank": 83,
+          "text": "Post Malone & Swae Lee Sunflower"
+        },
+        {
+          "rank": 84,
+          "text": "Jessie Murph Blue Strips"
+        },
+        {
+          "rank": 85,
+          "text": "Miley Cyrus We Can't Stop"
+        },
+        {
+          "rank": 86,
+          "text": "Huntr/X, Ejae, Audrey Nuna, Rei Ami Feat. Kpop Demon Hunters Cast Golden"
+        },
+        {
+          "rank": 87,
+          "text": "Harry Styles As It Was"
+        },
+        {
+          "rank": 88,
+          "text": "Sabrina Carpenter Taste"
+        },
+        {
+          "rank": 89,
+          "text": "Bruno Mars Locked Out Of Heaven"
+        },
+        {
+          "rank": 90,
+          "text": "Panic! At The Disco High Hopes"
+        },
+        {
+          "rank": 91,
+          "text": "Charli XCX 360"
+        },
+        {
+          "rank": 92,
+          "text": "Alicia Keys If I Ain't Got You"
+        },
+        {
+          "rank": 93,
+          "text": "Mariah Carey Always Be My Baby"
+        },
+        {
+          "rank": 94,
+          "text": "Kevin Lyttle Turn Me On"
+        },
+        {
+          "rank": 95,
+          "text": "Bts Dynamite"
+        },
+        {
+          "rank": 96,
+          "text": "DJ Snake Feat. Cardi B, Ozuna & Selena Gomez Taki Taki"
+        },
+        {
+          "rank": 97,
+          "text": "Miley Cyrus Flowers"
+        },
+        {
+          "rank": 98,
+          "text": "Dua Lipa & Elton John Cold Heart"
+        },
+        {
+          "rank": 99,
+          "text": "Creed One Last Breath"
+        },
+        {
+          "rank": 100,
+          "text": "Lady Gaga & Ariana Grande Rain On Me"
+        }
+      ]
+    },
+    {
+      "title": "Top 100 Most Requested Rock/Alternative Songs",
+      "description": "Compiled from millions of song requests made through the DJ Intelligence event planning system in 2025.",
+      "songs": [
+        {
+          "rank": 1,
+          "text": "Walk The Moon Shut Up and Dance"
+        },
+        {
+          "rank": 2,
+          "text": "The Killers Mr. Brightside"
+        },
+        {
+          "rank": 3,
+          "text": "Benson Boone Beautiful Things"
+        },
+        {
+          "rank": 4,
+          "text": "Wheatus Teenage Dirtbag"
+        },
+        {
+          "rank": 5,
+          "text": "Panic! At The Disco I Write Sins Not Tragedies"
+        },
+        {
+          "rank": 6,
+          "text": "Jimmy Eat World The Middle"
+        },
+        {
+          "rank": 7,
+          "text": "Grouplove Tongue Tied"
+        },
+        {
+          "rank": 8,
+          "text": "Myles Smith Stargazing"
+        },
+        {
+          "rank": 9,
+          "text": "Counting Crows Accidentally In Love"
+        },
+        {
+          "rank": 10,
+          "text": "Billie Eilish Birds Of A Feather"
+        },
+        {
+          "rank": 11,
+          "text": "All Time Low Dear Maria, Count Me In"
+        },
+        {
+          "rank": 12,
+          "text": "Hozier Too Sweet"
+        },
+        {
+          "rank": 13,
+          "text": "Creed Higher"
+        },
+        {
+          "rank": 14,
+          "text": "Coldplay A Sky Full Of Stars"
+        },
+        {
+          "rank": 15,
+          "text": "Yellowcard Ocean Avenue"
+        },
+        {
+          "rank": 16,
+          "text": "Alex Warren Carry You Home"
+        },
+        {
+          "rank": 17,
+          "text": "Train Drops Of Jupiter (Tell Me)"
+        },
+        {
+          "rank": 18,
+          "text": "Stephen Sanchez Until I Found You"
+        },
+        {
+          "rank": 19,
+          "text": "Glass Animals Heat Waves"
+        },
+        {
+          "rank": 20,
+          "text": "Coldplay Yellow"
+        },
+        {
+          "rank": 21,
+          "text": "Third Eye Blind Semi-Charmed Life"
+        },
+        {
+          "rank": 22,
+          "text": "Tones and IDance Monkey"
+        },
+        {
+          "rank": 23,
+          "text": "Father John Misty Real Love Baby"
+        },
+        {
+          "rank": 24,
+          "text": "Neon Trees Everybody Talks"
+        },
+        {
+          "rank": 25,
+          "text": "Good Charlotte The Anthem"
+        },
+        {
+          "rank": 26,
+          "text": "Borns Electric Love"
+        },
+        {
+          "rank": 27,
+          "text": "Noah Kahan Stick Season"
+        },
+        {
+          "rank": 28,
+          "text": "Weezer Island In The Sun"
+        },
+        {
+          "rank": 29,
+          "text": "My Chemical Romance Welcome To The Black Parade"
+        },
+        {
+          "rank": 30,
+          "text": "Panic! At The Disco High Hopes"
+        },
+        {
+          "rank": 31,
+          "text": "Sum 41 In Too Deep"
+        },
+        {
+          "rank": 32,
+          "text": "Sublime Santeria"
+        },
+        {
+          "rank": 33,
+          "text": "Buckcherry Crazy Bitch"
+        },
+        {
+          "rank": 34,
+          "text": "The Killers Somebody Told Me"
+        },
+        {
+          "rank": 35,
+          "text": "Leon Bridges Coming Home"
+        },
+        {
+          "rank": 36,
+          "text": "Nickelback How You Remind Me"
+        },
+        {
+          "rank": 37,
+          "text": "Role Model Sally, When The Wine Runs Out"
+        },
+        {
+          "rank": 38,
+          "text": "Vance Joy Riptide"
+        },
+        {
+          "rank": 39,
+          "text": "Mumford & Sons I Will Wait"
+        },
+        {
+          "rank": 40,
+          "text": "3 Doors Down Kryptonite"
+        },
+        {
+          "rank": 41,
+          "text": "Lola Young Messy"
+        },
+        {
+          "rank": 42,
+          "text": "Franz Ferdinand Take Me Out"
+        },
+        {
+          "rank": 43,
+          "text": "Uncle Kracker Follow Me"
+        },
+        {
+          "rank": 44,
+          "text": "Myles Smith Nice To Meet You"
+        },
+        {
+          "rank": 45,
+          "text": "New Radicals You Get What You Give"
+        },
+        {
+          "rank": 46,
+          "text": "Jungle Back On 74"
+        },
+        {
+          "rank": 47,
+          "text": "Red Hot Chili Peppers Can't Stop"
+        },
+        {
+          "rank": 48,
+          "text": "Hozier Work Song"
+        },
+        {
+          "rank": 49,
+          "text": "Sum 41 Fat Lip"
+        },
+        {
+          "rank": 50,
+          "text": "Mitski My Love Mine All Mine"
+        },
+        {
+          "rank": 51,
+          "text": "Neon Trees Animal"
+        },
+        {
+          "rank": 52,
+          "text": "Tame Impala The Less I Know The Better"
+        },
+        {
+          "rank": 53,
+          "text": "Snow Patrol Chasing Cars"
+        },
+        {
+          "rank": 54,
+          "text": "Milky Chance Stolen Dance"
+        },
+        {
+          "rank": 55,
+          "text": "Lord Huron The Night We Met"
+        },
+        {
+          "rank": 56,
+          "text": "Saint Motel My Type"
+        },
+        {
+          "rank": 57,
+          "text": "Modest Mouse Float On"
+        },
+        {
+          "rank": 58,
+          "text": "Imagine Dragons Thunder"
+        },
+        {
+          "rank": 59,
+          "text": "Linkin Park In The End"
+        },
+        {
+          "rank": 60,
+          "text": "Weezer Beverly Hills"
+        },
+        {
+          "rank": 61,
+          "text": "Noah Kahan With Post Malone Dial Drunk"
+        },
+        {
+          "rank": 62,
+          "text": "Foster The People Pumped Up Kicks"
+        },
+        {
+          "rank": 63,
+          "text": "The Killers When You Were Young"
+        },
+        {
+          "rank": 64,
+          "text": "Nathaniel Rateliff & The Night Sweats S.O.B."
+        },
+        {
+          "rank": 65,
+          "text": "Hozier Take Me To Church"
+        },
+        {
+          "rank": 66,
+          "text": "Good Charlotte Lifestyles Of The Rich and Famous"
+        },
+        {
+          "rank": 67,
+          "text": "Kid Rock Cowboy"
+        },
+        {
+          "rank": 68,
+          "text": "Portugal. The Man Feel It Still"
+        },
+        {
+          "rank": 69,
+          "text": "Lifehouse Hanging By A Moment"
+        },
+        {
+          "rank": 70,
+          "text": "Good Neighbours Home"
+        },
+        {
+          "rank": 71,
+          "text": "Twenty One Pilots Tear In My Heart"
+        },
+        {
+          "rank": 72,
+          "text": "Weezer Buddy Holly"
+        },
+        {
+          "rank": 73,
+          "text": "Coldplay Adventure Of A Lifetime"
+        },
+        {
+          "rank": 74,
+          "text": "Fitz and The Tantrums Handclap"
+        },
+        {
+          "rank": 75,
+          "text": "Red Hot Chili Peppers Dani California"
+        },
+        {
+          "rank": 76,
+          "text": "Ajr Bang!"
+        },
+        {
+          "rank": 77,
+          "text": "DJo End Of Beginning"
+        },
+        {
+          "rank": 78,
+          "text": "Hinder Lips Of An Angel"
+        },
+        {
+          "rank": 79,
+          "text": "Sublime What I Got"
+        },
+        {
+          "rank": 80,
+          "text": "Billie Eilish Bad Guy"
+        },
+        {
+          "rank": 81,
+          "text": "Red Hot Chili Peppers Californication"
+        },
+        {
+          "rank": 82,
+          "text": "Ini Kamoze Here Comes The Hotstepper"
+        },
+        {
+          "rank": 83,
+          "text": "The 1975 I'm In Love With You"
+        },
+        {
+          "rank": 84,
+          "text": "Sheppard Geronimo"
+        },
+        {
+          "rank": 85,
+          "text": "Simple Plan I'd Do Anything"
+        },
+        {
+          "rank": 86,
+          "text": "Ajr Burn The House Down"
+        },
+        {
+          "rank": 87,
+          "text": "Vance Joy Mess Is Mine"
+        },
+        {
+          "rank": 88,
+          "text": "Weezer Africa"
+        },
+        {
+          "rank": 89,
+          "text": "Imagine Dragons Believer"
+        },
+        {
+          "rank": 90,
+          "text": "Hozier Almost (Sweet Music)"
+        },
+        {
+          "rank": 91,
+          "text": "George Ezra Budapest"
+        },
+        {
+          "rank": 92,
+          "text": "Fall Out Boy Uma Thurman"
+        },
+        {
+          "rank": 93,
+          "text": "Cage The Elephant Cigarette Daydreams"
+        },
+        {
+          "rank": 94,
+          "text": "Empire Of The Sun We Are The People"
+        },
+        {
+          "rank": 95,
+          "text": "Gigi Perez Sailor Song"
+        },
+        {
+          "rank": 96,
+          "text": "Noah Kahan & Hozier Northern Attitude"
+        },
+        {
+          "rank": 97,
+          "text": "Twenty One Pilots Ride"
+        },
+        {
+          "rank": 98,
+          "text": "Hozier Someone New"
+        },
+        {
+          "rank": 99,
+          "text": "Shinedown Simple Man"
+        },
+        {
+          "rank": 100,
+          "text": "Empire Of The Sun Alive"
+        }
+      ]
+    },
+    {
+      "title": "Top 100 Most Requested Rap/R&B/Hip Hop",
+      "description": "Compiled from millions of song requests made through the DJ Intelligence event planning system in 2025.",
+      "songs": [
+        {
+          "rank": 1,
+          "text": "Waka Flocka Flame Feat. Roscoe Dash & Wale No Hands"
+        },
+        {
+          "rank": 2,
+          "text": "Daddy Yankee Gasolina"
+        },
+        {
+          "rank": 3,
+          "text": "50 Cent In Da Club"
+        },
+        {
+          "rank": 4,
+          "text": "Kendrick Lamar Not Like Us"
+        },
+        {
+          "rank": 5,
+          "text": "Fetty Wap Trap Queen"
+        },
+        {
+          "rank": 6,
+          "text": "DJ Snake Feat. Lil Jon Turn Down For What"
+        },
+        {
+          "rank": 7,
+          "text": "Paul Russell Lil Boo Thang"
+        },
+        {
+          "rank": 8,
+          "text": "Sean Paul Get Busy"
+        },
+        {
+          "rank": 9,
+          "text": "Outkast Ms. Jackson"
+        },
+        {
+          "rank": 10,
+          "text": "Beyonce Love On Top"
+        },
+        {
+          "rank": 11,
+          "text": "Rihanna Pon De Replay"
+        },
+        {
+          "rank": 12,
+          "text": "Drake Nokia"
+        },
+        {
+          "rank": 13,
+          "text": "Teddy Swims Lose Control"
+        },
+        {
+          "rank": 14,
+          "text": "Sheck Wes Mo Bamba"
+        },
+        {
+          "rank": 15,
+          "text": "Jack Harlow Lovin On Me"
+        },
+        {
+          "rank": 16,
+          "text": "J-Kwon Tipsy"
+        },
+        {
+          "rank": 17,
+          "text": "Waka Flocka Flame Feat. Kebo Gotti Grove St. Party"
+        },
+        {
+          "rank": 18,
+          "text": "Cardi B Feat. Bad Bunny & J Balvin I Like It"
+        },
+        {
+          "rank": 19,
+          "text": "Tommy Richman Million Dollar Baby"
+        },
+        {
+          "rank": 20,
+          "text": "D 4 l Laffy Taffy"
+        },
+        {
+          "rank": 21,
+          "text": "Petey Pablo Freek-A-Leek"
+        },
+        {
+          "rank": 22,
+          "text": "Flo Rida My House"
+        },
+        {
+          "rank": 23,
+          "text": "Drake Nice For What"
+        },
+        {
+          "rank": 24,
+          "text": "Lil Nas X Feat. Billy Ray Cyrus Old Town Road"
+        },
+        {
+          "rank": 25,
+          "text": "Drake Feat. Wizkid & Kyla One Dance"
+        },
+        {
+          "rank": 26,
+          "text": "Lil Durk X Morgan Wallen Broadway Girls"
+        },
+        {
+          "rank": 27,
+          "text": "Beyonce Cuff It"
+        },
+        {
+          "rank": 28,
+          "text": "Kendrick Lamar & Sza Luther"
+        },
+        {
+          "rank": 29,
+          "text": "Sexyy Red Get It Sexyy"
+        },
+        {
+          "rank": 30,
+          "text": "Cupid Flex"
+        },
+        {
+          "rank": 31,
+          "text": "Post Malone & Swae Lee Sunflower"
+        },
+        {
+          "rank": 32,
+          "text": "Bad Bunny Dtmf"
+        },
+        {
+          "rank": 33,
+          "text": "Kendrick Lamar Squabble Up"
+        },
+        {
+          "rank": 34,
+          "text": "50 Cent Disco Inferno"
+        },
+        {
+          "rank": 35,
+          "text": "Jagged Edge Let's Get Married"
+        },
+        {
+          "rank": 36,
+          "text": "Rae Sremmurd Come Get Her"
+        },
+        {
+          "rank": 37,
+          "text": "Mario Let Me Love You"
+        },
+        {
+          "rank": 38,
+          "text": "Dmx Party Up (Up In Here)"
+        },
+        {
+          "rank": 39,
+          "text": "803 fresh Boots On The Ground"
+        },
+        {
+          "rank": 40,
+          "text": "DJ Kool Let Me Clear My Throat"
+        },
+        {
+          "rank": 41,
+          "text": "Kevin Lyttle Turn Me On"
+        },
+        {
+          "rank": 42,
+          "text": "Glorilla Yeah Glo!"
+        },
+        {
+          "rank": 43,
+          "text": "Drake God's Plan"
+        },
+        {
+          "rank": 44,
+          "text": "50 Cent Candy Shop"
+        },
+        {
+          "rank": 45,
+          "text": "Doja Cat Paint The Town Red"
+        },
+        {
+          "rank": 46,
+          "text": "Rihanna Love On The Brain"
+        },
+        {
+          "rank": 47,
+          "text": "Mary J. Blige Family Affair"
+        },
+        {
+          "rank": 48,
+          "text": "Miguel Sure Thing"
+        },
+        {
+          "rank": 49,
+          "text": "Post Malone Feat. Quavo Congratulations"
+        },
+        {
+          "rank": 50,
+          "text": "Keyshia Cole Love"
+        },
+        {
+          "rank": 51,
+          "text": "Lil Uzi Vert Just Wanna Rock"
+        },
+        {
+          "rank": 52,
+          "text": "Missy Elliott Work It"
+        },
+        {
+          "rank": 53,
+          "text": "Outkast Roses"
+        },
+        {
+          "rank": 54,
+          "text": "Glorilla & Sexyy Red Whatchu Kno About Me"
+        },
+        {
+          "rank": 55,
+          "text": "Next Too Close"
+        },
+        {
+          "rank": 56,
+          "text": "Beyonce Feat. Jay-ZDrunk In Love"
+        },
+        {
+          "rank": 57,
+          "text": "Cardi B Feat. Megan Thee Stallion Wap"
+        },
+        {
+          "rank": 58,
+          "text": "Tyla Water"
+        },
+        {
+          "rank": 59,
+          "text": "Drake Feat. Sexyy Red & Sza Rich Baby Daddy"
+        },
+        {
+          "rank": 60,
+          "text": "Cardi BBodak Yellow"
+        },
+        {
+          "rank": 61,
+          "text": "Migos Stir Fry"
+        },
+        {
+          "rank": 62,
+          "text": "Nicki Minaj Feat. Drake Moment 4 Life"
+        },
+        {
+          "rank": 63,
+          "text": "Saweetie Feat. Doja Cat Best Friend"
+        },
+        {
+          "rank": 64,
+          "text": "Jay-Z & Kanye West N***** In Paris"
+        },
+        {
+          "rank": 65,
+          "text": "D.R.A.M. Feat. Lil Yachty Broccoli"
+        },
+        {
+          "rank": 66,
+          "text": "David Guetta Feat. Usher Without You"
+        },
+        {
+          "rank": 67,
+          "text": "Jack Harlow First Class"
+        },
+        {
+          "rank": 68,
+          "text": "Kendrick Lamar Feat. Lefty Gunplay Tv Off"
+        },
+        {
+          "rank": 69,
+          "text": "Daniel Caesar & H.E.R.Best Part"
+        },
+        {
+          "rank": 70,
+          "text": "Drake Hotline Bling"
+        },
+        {
+          "rank": 71,
+          "text": "Latto Big Energy"
+        },
+        {
+          "rank": 72,
+          "text": "Bad Bunny Feat. Drake Mia"
+        },
+        {
+          "rank": 73,
+          "text": "Glorilla Tgif"
+        },
+        {
+          "rank": 74,
+          "text": "Kendrick Lamar Humble"
+        },
+        {
+          "rank": 75,
+          "text": "Moneybagg Yo & Morgan Wallen Whiskey Whiskey"
+        },
+        {
+          "rank": 76,
+          "text": "The Weeknd Can't Feel My Face"
+        },
+        {
+          "rank": 77,
+          "text": "Fetty Wap Again"
+        },
+        {
+          "rank": 78,
+          "text": "Travis Scott Feat. Playboi Carti Fe!N"
+        },
+        {
+          "rank": 79,
+          "text": "Beyonce Before I Let Go"
+        },
+        {
+          "rank": 80,
+          "text": "Sza Snooze"
+        },
+        {
+          "rank": 81,
+          "text": "Next Wifey"
+        },
+        {
+          "rank": 82,
+          "text": "Post Malone Wow."
+        },
+        {
+          "rank": 83,
+          "text": "Bruno Mars & Anderson .Paak Are Silk Sonic Leave The Door Open"
+        },
+        {
+          "rank": 84,
+          "text": "Tyler, The Creator Feat. Glorilla, Sexyy Red & Lil Wayne Sticky"
+        },
+        {
+          "rank": 85,
+          "text": "Calvin Harris Feat. Frank Ocean & Migos Slide"
+        },
+        {
+          "rank": 86,
+          "text": "Post Malone Feat. Doja Cat I Like You (A Happier Song)"
+        },
+        {
+          "rank": 87,
+          "text": "Megan Thee Stallion Body"
+        },
+        {
+          "rank": 88,
+          "text": "Drake In My Feelings"
+        },
+        {
+          "rank": 89,
+          "text": "Migos Feat. Lil Uzi Vert Bad and Boujee"
+        },
+        {
+          "rank": 90,
+          "text": "Justin Bieber Feat. Daniel Caesar & Giveon Peaches"
+        },
+        {
+          "rank": 91,
+          "text": "Rihanna Sos"
+        },
+        {
+          "rank": 92,
+          "text": "Kendrick Lamar & Sza All The Stars"
+        },
+        {
+          "rank": 93,
+          "text": "Iggy Azalea Feat. Charli XCX Fancy"
+        },
+        {
+          "rank": 94,
+          "text": "Amine Caroline"
+        },
+        {
+          "rank": 95,
+          "text": "Cardi BUp"
+        },
+        {
+          "rank": 96,
+          "text": "Miguel Adorn"
+        },
+        {
+          "rank": 97,
+          "text": "Doja Cat Feat. Sza Kiss Me More"
+        },
+        {
+          "rank": 98,
+          "text": "Nicki Minaj Super Freaky Girl"
+        },
+        {
+          "rank": 99,
+          "text": "Saweetie My Type"
+        },
+        {
+          "rank": 100,
+          "text": "Nicki Minaj Ftcu"
+        }
+      ]
+    },
+    {
+      "title": "Top 100 Most Requested Dance Songs",
+      "description": "Compiled from millions of song requests made through the DJ Intelligence event planning system in 2025.",
+      "songs": [
+        {
+          "rank": 1,
+          "text": "Whitney Houston I Wanna Dance With Somebody (Who Loves Me)"
+        },
+        {
+          "rank": 2,
+          "text": "Shaboozey A Bar Song (Tipsy)"
+        },
+        {
+          "rank": 3,
+          "text": "Cascada Everytime We Touch"
+        },
+        {
+          "rank": 4,
+          "text": "Sean Paul Temperature"
+        },
+        {
+          "rank": 5,
+          "text": "Pitbull Feat. John Ryan Fireball"
+        },
+        {
+          "rank": 6,
+          "text": "Sabrina Carpenter Espresso"
+        },
+        {
+          "rank": 7,
+          "text": "Rednex Cotton Eye Joe"
+        },
+        {
+          "rank": 8,
+          "text": "Pitbull Feat. Ne-Yo, Afrojack & Nayer Give Me Everything"
+        },
+        {
+          "rank": 9,
+          "text": "Dua Lipa Dance The Night"
+        },
+        {
+          "rank": 10,
+          "text": "Sophie Ellis-Bextor Murder On The Dancefloor"
+        },
+        {
+          "rank": 11,
+          "text": "Cher Believe"
+        },
+        {
+          "rank": 12,
+          "text": "Justin Timberlake Sexyback"
+        },
+        {
+          "rank": 13,
+          "text": "Paul Russell Lil Boo Thang"
+        },
+        {
+          "rank": 14,
+          "text": "John Legend All Of Me"
+        },
+        {
+          "rank": 15,
+          "text": "Justin Timberlake Rock Your Body"
+        },
+        {
+          "rank": 16,
+          "text": "David Guetta & Bebe Rexha I'm Good (Blue)"
+        },
+        {
+          "rank": 17,
+          "text": "Kygo & Whitney Houston Higher Love"
+        },
+        {
+          "rank": 18,
+          "text": "Britney Spears Toxic"
+        },
+        {
+          "rank": 19,
+          "text": "Lizzo About Damn Time"
+        },
+        {
+          "rank": 20,
+          "text": "Jennifer Lopez Feat. Pitbull On The Floor"
+        },
+        {
+          "rank": 21,
+          "text": "Calvin Harris Summer"
+        },
+        {
+          "rank": 22,
+          "text": "Kane Brown & Marshmello Miles On It"
+        },
+        {
+          "rank": 23,
+          "text": "Majestic X Boney M.Rasputin"
+        },
+        {
+          "rank": 24,
+          "text": "Glass Animals Heat Waves"
+        },
+        {
+          "rank": 25,
+          "text": "Lil Nas X Feat. Billy Ray Cyrus Old Town Road"
+        },
+        {
+          "rank": 26,
+          "text": "Pink Get The Party Started"
+        },
+        {
+          "rank": 27,
+          "text": "Dua Lipa Don't Start Now"
+        },
+        {
+          "rank": 28,
+          "text": "Enrique Iglesias Feat. Pitbull I Like It"
+        },
+        {
+          "rank": 29,
+          "text": "Chic Le Freak"
+        },
+        {
+          "rank": 30,
+          "text": "Avicii The Nights"
+        },
+        {
+          "rank": 31,
+          "text": "Disco Lines & Tinashe No Broke Boys"
+        },
+        {
+          "rank": 32,
+          "text": "Bts Dynamite"
+        },
+        {
+          "rank": 33,
+          "text": "Lady Gaga & Ariana Grande Rain On Me"
+        },
+        {
+          "rank": 34,
+          "text": "Loud Luxury Feat. Brando Body"
+        },
+        {
+          "rank": 35,
+          "text": "Shakira Whenever, Wherever"
+        },
+        {
+          "rank": 36,
+          "text": "Kylie Minogue Can't Get You Out Of My Head"
+        },
+        {
+          "rank": 37,
+          "text": "Clean Bandit Feat. Jess Glynne Rather Be"
+        },
+        {
+          "rank": 38,
+          "text": "Eric Prydz Call On Me"
+        },
+        {
+          "rank": 39,
+          "text": "Alexandra Stan Mr. Saxobeat"
+        },
+        {
+          "rank": 40,
+          "text": "Jvke Golden Hour"
+        },
+        {
+          "rank": 41,
+          "text": "Dua Lipa Houdini"
+        },
+        {
+          "rank": 42,
+          "text": "Russell Dickerson Happen To Me"
+        },
+        {
+          "rank": 43,
+          "text": "Charli XCX Von Dutch"
+        },
+        {
+          "rank": 44,
+          "text": "Madonna Hung Up"
+        },
+        {
+          "rank": 45,
+          "text": "Tate Mcrae Sports Car"
+        },
+        {
+          "rank": 46,
+          "text": "Tiesto Feat. Matthew Koma Wasted"
+        },
+        {
+          "rank": 47,
+          "text": "Deorro X Chris Brown Five More Hours"
+        },
+        {
+          "rank": 48,
+          "text": "Badger & Natasha Bedingfield These Words"
+        },
+        {
+          "rank": 49,
+          "text": "Troye Sivan Rush"
+        },
+        {
+          "rank": 50,
+          "text": "Gorillaz Feel Good, Inc."
+        },
+        {
+          "rank": 51,
+          "text": "John Summit & Hayla Where You Are"
+        },
+        {
+          "rank": 52,
+          "text": "Calvin Harris & Disciples How Deep Is Your Love"
+        },
+        {
+          "rank": 53,
+          "text": "Raye Where Is My Husband!"
+        },
+        {
+          "rank": 54,
+          "text": "Farruko X David Guetta Pepas"
+        },
+        {
+          "rank": 55,
+          "text": "Omi Cheerleader"
+        },
+        {
+          "rank": 56,
+          "text": "Mariah Carey We Belong Together"
+        },
+        {
+          "rank": 57,
+          "text": "David Guetta, Alphaville & Ava Max Forever Young"
+        },
+        {
+          "rank": 58,
+          "text": "Doja Cat Say So"
+        },
+        {
+          "rank": 59,
+          "text": "Mike Posner I Took A Pill In Ibiza"
+        },
+        {
+          "rank": 60,
+          "text": "Sofi Tukker Purple Hat"
+        },
+        {
+          "rank": 61,
+          "text": "Justin Bieber What Do You Mean?"
+        },
+        {
+          "rank": 62,
+          "text": "Bad Bunny X Jhay Cortez Dakiti"
+        },
+        {
+          "rank": 63,
+          "text": "Zedd Feat. Hayley Williams Of Paramore Stay The Night"
+        },
+        {
+          "rank": 64,
+          "text": "Teddy Swims Bad Dreams"
+        },
+        {
+          "rank": 65,
+          "text": "Hellogoodbye Here (In Your Arms)"
+        },
+        {
+          "rank": 66,
+          "text": "Avicii Hey Brother"
+        },
+        {
+          "rank": 67,
+          "text": "Fisher Losing It"
+        },
+        {
+          "rank": 68,
+          "text": "Britney Spears(You Drive Me) Crazy"
+        },
+        {
+          "rank": 69,
+          "text": "Cash Cash Feat. Bebe Rexha Take Me Home"
+        },
+        {
+          "rank": 70,
+          "text": "Taylor Swift Lavender Haze"
+        },
+        {
+          "rank": 71,
+          "text": "Tiesto The Business"
+        },
+        {
+          "rank": 72,
+          "text": "Hozier Take Me To Church"
+        },
+        {
+          "rank": 73,
+          "text": "Spice Girls Stop"
+        },
+        {
+          "rank": 74,
+          "text": "David Guetta & Onerepublic I Don't Wanna Wait"
+        },
+        {
+          "rank": 75,
+          "text": "Elton John & Britney Spears Hold Me Closer"
+        },
+        {
+          "rank": 76,
+          "text": "Stardust Music Sounds Better With You"
+        },
+        {
+          "rank": 77,
+          "text": "Wuki Sunshine (My Girl)"
+        },
+        {
+          "rank": 78,
+          "text": "Beyonce Break My Soul"
+        },
+        {
+          "rank": 79,
+          "text": "Joel Corry Feat. Mnek Head & Heart"
+        },
+        {
+          "rank": 80,
+          "text": "Tiesto Feat. Tate Mcrae 10:35"
+        },
+        {
+          "rank": 81,
+          "text": "Martin Garrix Animals"
+        },
+        {
+          "rank": 82,
+          "text": "Avicii Waiting For Love"
+        },
+        {
+          "rank": 83,
+          "text": "George Ezra Shotgun"
+        },
+        {
+          "rank": 84,
+          "text": "Jess Glynne Hold My Hand"
+        },
+        {
+          "rank": 85,
+          "text": "Dom Dolla Saving Up"
+        },
+        {
+          "rank": 86,
+          "text": "Fatboy Slim Praise You"
+        },
+        {
+          "rank": 87,
+          "text": "Hinder Lips Of An Angel"
+        },
+        {
+          "rank": 88,
+          "text": "Kylie Minogue Padam Padam"
+        },
+        {
+          "rank": 89,
+          "text": "Masked Wolf Astronaut In The Ocean"
+        },
+        {
+          "rank": 90,
+          "text": "Sam Smith & Kim Petras Unholy"
+        },
+        {
+          "rank": 91,
+          "text": "Tiesto & Dzeko Feat. Preme & Post Malone Jackie Chan"
+        },
+        {
+          "rank": 92,
+          "text": "Bbno$ & Rich Brian Edamame"
+        },
+        {
+          "rank": 93,
+          "text": "John Summit & Hayla Shiver"
+        },
+        {
+          "rank": 94,
+          "text": "Travis Scott & Hvme Goosebumps"
+        },
+        {
+          "rank": 95,
+          "text": "Ava Max Kings & Queens"
+        },
+        {
+          "rank": 96,
+          "text": "Modjo Lady (Hear Me Tonight)"
+        },
+        {
+          "rank": 97,
+          "text": "Bob Marley & The Wailers Jamming"
+        },
+        {
+          "rank": 98,
+          "text": "Cyril Stumblin' In"
+        },
+        {
+          "rank": 99,
+          "text": "Khalid Better"
+        },
+        {
+          "rank": 100,
+          "text": "Coldplay All My Love"
+        }
+      ]
+    },
+    {
+      "title": "Top 100 Most Requested Country Songs",
+      "description": "Compiled from millions of song requests made through the DJ Intelligence event planning system in 2025.",
+      "songs": [
+        {
+          "rank": 1,
+          "text": "Shaboozey A Bar Song (Tipsy)"
+        },
+        {
+          "rank": 2,
+          "text": "Taylor Swift Love Story"
+        },
+        {
+          "rank": 3,
+          "text": "Garth Brooks Friends In Low Places"
+        },
+        {
+          "rank": 4,
+          "text": "Big & Rich Save A Horse (Ride A Cowboy)"
+        },
+        {
+          "rank": 5,
+          "text": "Brooks & Dunn Boot Scootin' Boogie"
+        },
+        {
+          "rank": 6,
+          "text": "Post Malone & Morgan Wallen I Had Some Help"
+        },
+        {
+          "rank": 7,
+          "text": "Luke Combs Beautiful Crazy"
+        },
+        {
+          "rank": 8,
+          "text": "Taylor Swift You Belong With Me"
+        },
+        {
+          "rank": 9,
+          "text": "Darius Rucker Wagon Wheel"
+        },
+        {
+          "rank": 10,
+          "text": "Luke Bryan Country Girl (Shake It For Me)"
+        },
+        {
+          "rank": 11,
+          "text": "Zac Brown Band Chicken Fried"
+        },
+        {
+          "rank": 12,
+          "text": "Dan + Shay Speechless"
+        },
+        {
+          "rank": 13,
+          "text": "Shania Twain You're Still The One"
+        },
+        {
+          "rank": 14,
+          "text": "Morgan Wallen Spin You Around (1/24)"
+        },
+        {
+          "rank": 15,
+          "text": "Luke Combs Better Together"
+        },
+        {
+          "rank": 16,
+          "text": "Lonestar Amazed"
+        },
+        {
+          "rank": 17,
+          "text": "Luke Combs Forever After All"
+        },
+        {
+          "rank": 18,
+          "text": "Ella Langley & Riley Green You Look Like You Love Me"
+        },
+        {
+          "rank": 19,
+          "text": "Toby Keith Courtesy Of The Red, White and Blue (The Angry American)"
+        },
+        {
+          "rank": 20,
+          "text": "The Red Clay Strays Wondering Why"
+        },
+        {
+          "rank": 21,
+          "text": "Rascal Flatts My Wish"
+        },
+        {
+          "rank": 22,
+          "text": "Josh Turner Why Don't We Just Dance"
+        },
+        {
+          "rank": 23,
+          "text": "Thomas Rhett Die A Happy Man"
+        },
+        {
+          "rank": 24,
+          "text": "Rascal Flatts Bless The Broken Road"
+        },
+        {
+          "rank": 25,
+          "text": "Kane Brown & Marshmello Miles On It"
+        },
+        {
+          "rank": 26,
+          "text": "Trace Adkins Honky Tonk Badonkadonk"
+        },
+        {
+          "rank": 27,
+          "text": "Kane Brown & Katelyn Brown Thank God"
+        },
+        {
+          "rank": 28,
+          "text": "Luke Combs Beer Never Broke My Heart"
+        },
+        {
+          "rank": 29,
+          "text": "Jason Aldean You Make It Easy"
+        },
+        {
+          "rank": 30,
+          "text": "Luke Combs Fast Car"
+        },
+        {
+          "rank": 31,
+          "text": "Toby Keith Red Solo Cup"
+        },
+        {
+          "rank": 32,
+          "text": "Brett Young In Case You Didn't Know"
+        },
+        {
+          "rank": 33,
+          "text": "Taylor Swift Our Song"
+        },
+        {
+          "rank": 34,
+          "text": "George Strait I Cross My Heart"
+        },
+        {
+          "rank": 35,
+          "text": "Blanco Brown The Git Up"
+        },
+        {
+          "rank": 36,
+          "text": "Morgan Wallen Whiskey Glasses"
+        },
+        {
+          "rank": 37,
+          "text": "Lil Nas X Feat. Billy Ray Cyrus Old Town Road"
+        },
+        {
+          "rank": 38,
+          "text": "Cody Johnson The Painter"
+        },
+        {
+          "rank": 39,
+          "text": "Jon Pardi Head Over Boots"
+        },
+        {
+          "rank": 40,
+          "text": "Dan + Shay From The Ground Up"
+        },
+        {
+          "rank": 41,
+          "text": "Shania Twain That Don't Impress Me Much"
+        },
+        {
+          "rank": 42,
+          "text": "Alan Jackson Good Time"
+        },
+        {
+          "rank": 43,
+          "text": "Morgan Wallen Feat. Ernest Cowgirls"
+        },
+        {
+          "rank": 44,
+          "text": "Cody Johnson With Carrie Underwood I'm Gonna Love You"
+        },
+        {
+          "rank": 45,
+          "text": "Beyonce Texas Hold 'Em"
+        },
+        {
+          "rank": 46,
+          "text": "Cole Swindell She Had Me At Heads Carolina"
+        },
+        {
+          "rank": 47,
+          "text": "Zach Top I Never Lie"
+        },
+        {
+          "rank": 48,
+          "text": "Elle King & Miranda Lambert Drunk (And I Don't Wanna Go Home)"
+        },
+        {
+          "rank": 49,
+          "text": "Luke Combs The Kind Of Love We Make"
+        },
+        {
+          "rank": 50,
+          "text": "Morgan Wallen Love Somebody"
+        },
+        {
+          "rank": 51,
+          "text": "Chris Stapleton Millionaire"
+        },
+        {
+          "rank": 52,
+          "text": "Tim Mcgraw My Best Friend"
+        },
+        {
+          "rank": 53,
+          "text": "Chris Stapleton Think I'm In Love With You"
+        },
+        {
+          "rank": 54,
+          "text": "Lee Ann Womack I Hope You Dance"
+        },
+        {
+          "rank": 55,
+          "text": "Jordan Davis Next Thing You Know"
+        },
+        {
+          "rank": 56,
+          "text": "Gretchen Wilson Redneck Woman"
+        },
+        {
+          "rank": 57,
+          "text": "Brad Paisley She's Everything"
+        },
+        {
+          "rank": 58,
+          "text": "Gretchen Wilson Here For The Party"
+        },
+        {
+          "rank": 59,
+          "text": "Blake Shelton God Gave Me You"
+        },
+        {
+          "rank": 60,
+          "text": "Gabby Barrett The Good Ones"
+        },
+        {
+          "rank": 61,
+          "text": "Post Malone Feat. Blake Shelton Pour Me A Drink"
+        },
+        {
+          "rank": 62,
+          "text": "Johnny Cash Ring Of Fire"
+        },
+        {
+          "rank": 63,
+          "text": "Jordan Davis Feat. Luke Bryan Buy Dirt"
+        },
+        {
+          "rank": 64,
+          "text": "Tyler Childers In Your Love"
+        },
+        {
+          "rank": 65,
+          "text": "Cody Johnson'Til You Can't"
+        },
+        {
+          "rank": 66,
+          "text": "Zach Bryan Something In The Orange"
+        },
+        {
+          "rank": 67,
+          "text": "Morgan Wallen You Proof"
+        },
+        {
+          "rank": 68,
+          "text": "Sam Hunt House Party"
+        },
+        {
+          "rank": 69,
+          "text": "Josh Turner Would You Go With Me"
+        },
+        {
+          "rank": 70,
+          "text": "Morgan Wallen Chasin' You"
+        },
+        {
+          "rank": 71,
+          "text": "Heartland I Loved Her First"
+        },
+        {
+          "rank": 72,
+          "text": "Riley Green Worst Way"
+        },
+        {
+          "rank": 73,
+          "text": "Kelsey Hart Life With You"
+        },
+        {
+          "rank": 74,
+          "text": "Dixie Chicks Goodbye Earl"
+        },
+        {
+          "rank": 75,
+          "text": "Dolly Parton Jolene"
+        },
+        {
+          "rank": 76,
+          "text": "Lee Brice I Don't Dance"
+        },
+        {
+          "rank": 77,
+          "text": "Brad Paisley Then"
+        },
+        {
+          "rank": 78,
+          "text": "Sam Hunt Body Like A Back Road"
+        },
+        {
+          "rank": 79,
+          "text": "Kenny Chesney She Thinks My Tractor's Sexy"
+        },
+        {
+          "rank": 80,
+          "text": "Russell Dickerson Yours"
+        },
+        {
+          "rank": 81,
+          "text": "Alan Jackson Remember When"
+        },
+        {
+          "rank": 82,
+          "text": "Tim Mcgraw With Faith Hill It's Your Love"
+        },
+        {
+          "rank": 83,
+          "text": "Dixie Chicks Cowboy Take Me Away"
+        },
+        {
+          "rank": 84,
+          "text": "Cody Johnson On My Way To You"
+        },
+        {
+          "rank": 85,
+          "text": "Eric Church Drink In My Hand"
+        },
+        {
+          "rank": 86,
+          "text": "Hardy Truck Bed"
+        },
+        {
+          "rank": 87,
+          "text": "Florida Georgia Line Cruise"
+        },
+        {
+          "rank": 88,
+          "text": "Russell Dickerson Happen To Me"
+        },
+        {
+          "rank": 89,
+          "text": "Zac Brown Band Loving You Easy"
+        },
+        {
+          "rank": 90,
+          "text": "Elvis Presley Suspicious Minds"
+        },
+        {
+          "rank": 91,
+          "text": "Dan + Shay You"
+        },
+        {
+          "rank": 92,
+          "text": "Luke Bryan That's My Kind Of Night"
+        },
+        {
+          "rank": 93,
+          "text": "Tim Mcgraw Humble and Kind"
+        },
+        {
+          "rank": 94,
+          "text": "Luke Bryan One Margarita"
+        },
+        {
+          "rank": 95,
+          "text": "Morgan Wallen Thought You Should Know"
+        },
+        {
+          "rank": 96,
+          "text": "Jordan Davis What My World Spins Around"
+        },
+        {
+          "rank": 97,
+          "text": "George Strait Here For A Good Time"
+        },
+        {
+          "rank": 98,
+          "text": "Scotty Mccreery This Is It"
+        },
+        {
+          "rank": 99,
+          "text": "Dan + Shay Tequila"
+        },
+        {
+          "rank": 100,
+          "text": "Parmalee Take My Name"
+        }
+      ]
+    },
+    {
+      "title": "Top 100 Most Requested Latin Songs",
+      "description": "Compiled from millions of song requests made through the DJ Intelligence event planning system in 2025.",
+      "songs": [
+        {
+          "rank": 1,
+          "text": "Pitbull Feat. John Ryan Fireball"
+        },
+        {
+          "rank": 2,
+          "text": "Daddy Yankee Gasolina"
+        },
+        {
+          "rank": 3,
+          "text": "Pitbull Feat. Ne-Yo Time Of Our Lives"
+        },
+        {
+          "rank": 4,
+          "text": "Pitbull Feat. Ne-Yo, Afrojack & Nayer Give Me Everything"
+        },
+        {
+          "rank": 5,
+          "text": "Farruko Pepas"
+        },
+        {
+          "rank": 6,
+          "text": "Elvis Crespo Suavemente"
+        },
+        {
+          "rank": 7,
+          "text": "Luis Fonsi & Daddy Yankee Feat. Justin Bieber Despacito"
+        },
+        {
+          "rank": 8,
+          "text": "Marc Anthony Vivir Mi Vida"
+        },
+        {
+          "rank": 9,
+          "text": "Jennifer Lopez Feat. Pitbull On The Floor"
+        },
+        {
+          "rank": 10,
+          "text": "Cardi B Feat. Bad Bunny & J Balvin I Like It"
+        },
+        {
+          "rank": 11,
+          "text": "Bad Bunny Titi Me Pregunto"
+        },
+        {
+          "rank": 12,
+          "text": "Bad Bunny Nuevayol"
+        },
+        {
+          "rank": 13,
+          "text": "J Balvin & Willy William Mi Gente"
+        },
+        {
+          "rank": 14,
+          "text": "Celia Cruz La Vida Es Un Carnaval"
+        },
+        {
+          "rank": 15,
+          "text": "Pitbull Feat. Christina Aguilera Feel This Moment"
+        },
+        {
+          "rank": 16,
+          "text": "Bad Bunny Baile Inolvidable"
+        },
+        {
+          "rank": 17,
+          "text": "Bad Bunny Dtmf"
+        },
+        {
+          "rank": 18,
+          "text": "Pitbull I Know You Want Me (Calle Ocho)"
+        },
+        {
+          "rank": 19,
+          "text": "Karol GSi Antes Te Hubiera Conocido"
+        },
+        {
+          "rank": 20,
+          "text": "DJ Snake Feat. Cardi B, Ozuna & Selena Gomez Taki Taki"
+        },
+        {
+          "rank": 21,
+          "text": "Pitbull Feat. Chris Brown International Love"
+        },
+        {
+          "rank": 22,
+          "text": "Bad Bunny Eoo"
+        },
+        {
+          "rank": 23,
+          "text": "Alexandra Stan Mr. Saxobeat"
+        },
+        {
+          "rank": 24,
+          "text": "Bad Bunny Yo Perreo Sola"
+        },
+        {
+          "rank": 25,
+          "text": "Don Omar Dile"
+        },
+        {
+          "rank": 26,
+          "text": "Bad Bunny Feat. Drake Mia"
+        },
+        {
+          "rank": 27,
+          "text": "Azul Azul La Bomba"
+        },
+        {
+          "rank": 28,
+          "text": "Manuel Turizo La Bachata"
+        },
+        {
+          "rank": 29,
+          "text": "Gente De Zona Feat. Marc Anthony La Gozadera"
+        },
+        {
+          "rank": 30,
+          "text": "Pitbull Feat. Lil Jon The Anthem"
+        },
+        {
+          "rank": 31,
+          "text": "Prince Royce Stand By Me"
+        },
+        {
+          "rank": 32,
+          "text": "Daddy Yankee Limbo"
+        },
+        {
+          "rank": 33,
+          "text": "Daddy Yankee Rompe"
+        },
+        {
+          "rank": 34,
+          "text": "Daddy Yankee Lo Que Paso, Paso"
+        },
+        {
+          "rank": 35,
+          "text": "Bad Bunny Despues De La Playa"
+        },
+        {
+          "rank": 36,
+          "text": "Bad Bunny Feat. Rauw Alejandro Party"
+        },
+        {
+          "rank": 37,
+          "text": "Bad Bunny Feat. Chencho Corleone Me Porto Bonito"
+        },
+        {
+          "rank": 38,
+          "text": "Aventura Un Beso"
+        },
+        {
+          "rank": 39,
+          "text": "Prince Royce Corazon Sin Cara"
+        },
+        {
+          "rank": 40,
+          "text": "Marc Anthony Pa'lla Voy"
+        },
+        {
+          "rank": 41,
+          "text": "Bad Bunny Monaco"
+        },
+        {
+          "rank": 42,
+          "text": "Ariana Grande Feat. Zedd Break Free"
+        },
+        {
+          "rank": 43,
+          "text": "Chayanne Bailando Bachata"
+        },
+        {
+          "rank": 44,
+          "text": "Daddy Yankee Dura"
+        },
+        {
+          "rank": 45,
+          "text": "Romeo Santos Propuesta Indecente"
+        },
+        {
+          "rank": 46,
+          "text": "Los Angeles Azules Feat. Natalia Lafourcade Nunca Es Suficiente"
+        },
+        {
+          "rank": 47,
+          "text": "Grupo Frontera & Bad Bunny Un X 100 to"
+        },
+        {
+          "rank": 48,
+          "text": "Juanes La Camisa Negra"
+        },
+        {
+          "rank": 49,
+          "text": "Banda La Chacaloza De Jerez Zacatecas Macarena"
+        },
+        {
+          "rank": 50,
+          "text": "Daddy Yankee Feat. Snow Con Calma"
+        },
+        {
+          "rank": 51,
+          "text": "Marc Anthony Aguanile"
+        },
+        {
+          "rank": 52,
+          "text": "Pitbull Don't Stop The Party"
+        },
+        {
+          "rank": 53,
+          "text": "Ozuna Feat. Daddy Yankee, J Balvin, Farruko & Anuel Aa Baila Baila Baila"
+        },
+        {
+          "rank": 54,
+          "text": "Luis Enrique Yo No Se Manana"
+        },
+        {
+          "rank": 55,
+          "text": "Nio Garcia, Casper Magico, Darell, Bad Bunny, Ozuna & Nicky Jam Te Bote"
+        },
+        {
+          "rank": 56,
+          "text": "Daddy Yankee Ella Me Levanto"
+        },
+        {
+          "rank": 57,
+          "text": "Aventura Mi Corazoncito"
+        },
+        {
+          "rank": 58,
+          "text": "Bad Bunny & Tainy Callaita"
+        },
+        {
+          "rank": 59,
+          "text": "Marc Anthony Tu Amor Me Hace Bien"
+        },
+        {
+          "rank": 60,
+          "text": "Aventura Dile Al Amor"
+        },
+        {
+          "rank": 61,
+          "text": "Major Lazer Feat. J Balvin & El Alfa Que Calor"
+        },
+        {
+          "rank": 62,
+          "text": "Marshmello & Manuel Turizo El Merengue"
+        },
+        {
+          "rank": 63,
+          "text": "Romeo Santos Eres Mia"
+        },
+        {
+          "rank": 64,
+          "text": "Pitbull Feat. Marc Anthony Rain Over Me"
+        },
+        {
+          "rank": 65,
+          "text": "Prince Royce Darte Un Beso"
+        },
+        {
+          "rank": 66,
+          "text": "La Sonora Dinamita & Mon Laferte Que Nadie Sepa Mi Sufrir"
+        },
+        {
+          "rank": 67,
+          "text": "Myke Towers Lala"
+        },
+        {
+          "rank": 68,
+          "text": "Chino Y Nacho Mi Nina Bonita"
+        },
+        {
+          "rank": 69,
+          "text": "Daddy Yankee Shaky Shaky"
+        },
+        {
+          "rank": 70,
+          "text": "Mach and Daddy La Botella"
+        },
+        {
+          "rank": 71,
+          "text": "Don Omar Salio El Sol"
+        },
+        {
+          "rank": 72,
+          "text": "Marc Anthony Valio La Pena"
+        },
+        {
+          "rank": 73,
+          "text": "Carlos Vives & Shakira La Bicicleta"
+        },
+        {
+          "rank": 74,
+          "text": "David Guetta Feat. Rihanna Who's That Chick?"
+        },
+        {
+          "rank": 75,
+          "text": "Dayvi & Victor Cardenas Feat. Kelly Ruiz Baila Conmigo"
+        },
+        {
+          "rank": 76,
+          "text": "Maluma Felices Los 4"
+        },
+        {
+          "rank": 77,
+          "text": "Bizarrap & Quevedo Quevedo Bzrp Music Sessions, Vol. 52"
+        },
+        {
+          "rank": 78,
+          "text": "Danny Ocean Me Rehuso"
+        },
+        {
+          "rank": 79,
+          "text": "Karol GAmargura"
+        },
+        {
+          "rank": 80,
+          "text": "Rosalia Despecha"
+        },
+        {
+          "rank": 81,
+          "text": "Bad Bunny & Feid Perro Negro"
+        },
+        {
+          "rank": 82,
+          "text": "Grupo Frontera & Carin Leon Que Vuelvas"
+        },
+        {
+          "rank": 83,
+          "text": "Becky G Feat. Bad Bunny Mayores"
+        },
+        {
+          "rank": 84,
+          "text": "Maluma Hawai"
+        },
+        {
+          "rank": 85,
+          "text": "Carlos Vives Fruta Fresca"
+        },
+        {
+          "rank": 86,
+          "text": "J Balvin & Bad Bunny La Cancion"
+        },
+        {
+          "rank": 87,
+          "text": "Pitbull Feat. Ke$Ha Timber"
+        },
+        {
+          "rank": 88,
+          "text": "Rauw Alejandro Tu Con El"
+        },
+        {
+          "rank": 89,
+          "text": "Anuel Aa Feat. Daddy Yankee, Karol G, Ozuna & J Balvin China"
+        },
+        {
+          "rank": 90,
+          "text": "J Balvin Ginza"
+        },
+        {
+          "rank": 91,
+          "text": "Jennifer Lopez Jenny From The Block"
+        },
+        {
+          "rank": 92,
+          "text": "Becky G Feat. Karol GMamiii"
+        },
+        {
+          "rank": 93,
+          "text": "Karol GLatina Foreva"
+        },
+        {
+          "rank": 94,
+          "text": "Bad Bunny Where She Goes"
+        },
+        {
+          "rank": 95,
+          "text": "Floyymenor & Cris Mj Gata Only"
+        },
+        {
+          "rank": 96,
+          "text": "Fuerza Regida & Grupo Frontera Me Jalo"
+        },
+        {
+          "rank": 97,
+          "text": "J Balvin Azul"
+        },
+        {
+          "rank": 98,
+          "text": "Peso Pluma & Anitta Bellakeo"
+        },
+        {
+          "rank": 99,
+          "text": "Rauw Alejandro & Bad Bunny Que Pasaria..."
+        },
+        {
+          "rank": 100,
+          "text": "Karol G & Shakira Tqg"
+        }
+      ]
+    },
+    {
+      "title": "Top 100 Most Requested Reggaeton Songs",
+      "description": "Compiled from millions of song requests made through the DJ Intelligence event planning system in 2025.",
+      "songs": [
+        {
+          "rank": 1,
+          "text": "Luis Fonsi & Daddy Yankee Feat. Justin Bieber Despacito"
+        },
+        {
+          "rank": 2,
+          "text": "J Balvin & Willy William Mi Gente"
+        },
+        {
+          "rank": 3,
+          "text": "DJ Snake Feat. Cardi B, Ozuna & Selena Gomez Taki Taki"
+        },
+        {
+          "rank": 4,
+          "text": "Bad Bunny Eoo"
+        },
+        {
+          "rank": 5,
+          "text": "Bad Bunny Yo Perreo Sola"
+        },
+        {
+          "rank": 6,
+          "text": "Bad Bunny Feat. Drake Mia"
+        },
+        {
+          "rank": 7,
+          "text": "Gente De Zona Feat. Marc Anthony La Gozadera"
+        },
+        {
+          "rank": 8,
+          "text": "Bad Bunny Feat. Rauw Alejandro Party"
+        },
+        {
+          "rank": 9,
+          "text": "Bad Bunny Feat. Chencho Corleone Me Porto Bonito"
+        },
+        {
+          "rank": 10,
+          "text": "Daddy Yankee Dura"
+        },
+        {
+          "rank": 11,
+          "text": "Bad Bunny Moscow Mule"
+        },
+        {
+          "rank": 12,
+          "text": "Bad Bunny Callaita"
+        },
+        {
+          "rank": 13,
+          "text": "Daddy Yankee Feat. Snow Con Calma"
+        },
+        {
+          "rank": 14,
+          "text": "Ozuna Feat. Daddy Yankee, J Balvin, Farruko & Anuel Aa Baila Baila Baila"
+        },
+        {
+          "rank": 15,
+          "text": "Nio Garcia, Casper Magico, Darell, Bad Bunny, Ozuna & Nicky Jam Te Bote"
+        },
+        {
+          "rank": 16,
+          "text": "Daddy Yankee Ella Me Levanto"
+        },
+        {
+          "rank": 17,
+          "text": "Karol G & Nicki Minaj Tusa"
+        },
+        {
+          "rank": 18,
+          "text": "Myke Towers Lala"
+        },
+        {
+          "rank": 19,
+          "text": "Daddy Yankee Shaky Shaky"
+        },
+        {
+          "rank": 20,
+          "text": "Mach and Daddy La Botella"
+        },
+        {
+          "rank": 21,
+          "text": "Maluma Felices Los 4"
+        },
+        {
+          "rank": 22,
+          "text": "Danny Ocean Me Rehuso"
+        },
+        {
+          "rank": 23,
+          "text": "Karol GAmargura"
+        },
+        {
+          "rank": 24,
+          "text": "Bad Bunny & Feid Perro Negro"
+        },
+        {
+          "rank": 25,
+          "text": "Becky G Feat. Bad Bunny Mayores"
+        },
+        {
+          "rank": 26,
+          "text": "Maluma Hawai"
+        },
+        {
+          "rank": 27,
+          "text": "Bad Bunny Voy A Llevarte Pa Pr"
+        },
+        {
+          "rank": 28,
+          "text": "J Balvin & Bad Bunny La Cancion"
+        },
+        {
+          "rank": 29,
+          "text": "Anuel Aa Feat. Daddy Yankee, Karol G, Ozuna & J Balvin China"
+        },
+        {
+          "rank": 30,
+          "text": "J Balvin Ginza"
+        },
+        {
+          "rank": 31,
+          "text": "Becky G Feat. Karol GMamiii"
+        },
+        {
+          "rank": 32,
+          "text": "Karol GLatina Foreva"
+        },
+        {
+          "rank": 33,
+          "text": "Floyymenor & Cris Mj Gata Only"
+        },
+        {
+          "rank": 34,
+          "text": "J Balvin Azul"
+        },
+        {
+          "rank": 35,
+          "text": "Peso Pluma & Anitta Bellakeo"
+        },
+        {
+          "rank": 36,
+          "text": "Rauw Alejandro & Bad Bunny Que Pasaria..."
+        },
+        {
+          "rank": 37,
+          "text": "Karol G & Shakira Tqg"
+        },
+        {
+          "rank": 38,
+          "text": "Nicky Jam & J Balvin X"
+        },
+        {
+          "rank": 39,
+          "text": "Bad Bunny Yonaguni"
+        },
+        {
+          "rank": 40,
+          "text": "Aventura & Bad Bunny Volvi"
+        },
+        {
+          "rank": 41,
+          "text": "Shakira Feat. Maluma Chantaje"
+        },
+        {
+          "rank": 42,
+          "text": "Black Eyed Peas X Ozuna X J. Rey Soul Mamacita"
+        },
+        {
+          "rank": 43,
+          "text": "Rauw Alejandro, Lyanno & Brray Lokera"
+        },
+        {
+          "rank": 44,
+          "text": "Nicky Jam Hasta El Amanecer"
+        },
+        {
+          "rank": 45,
+          "text": "Yng Lvcas & Peso Pluma La Bebe"
+        },
+        {
+          "rank": 46,
+          "text": "Shakira Soltera"
+        },
+        {
+          "rank": 47,
+          "text": "Ozuna Dile Que Tu Me Quieres"
+        },
+        {
+          "rank": 48,
+          "text": "Karol GBichota"
+        },
+        {
+          "rank": 49,
+          "text": "Myke Towers La Falda"
+        },
+        {
+          "rank": 50,
+          "text": "Plan BCandy"
+        },
+        {
+          "rank": 51,
+          "text": "Daddy Yankee Llamado De Emergencia"
+        },
+        {
+          "rank": 52,
+          "text": "Jhay Cortez, J Balvin & Bad Bunny No Me Conoce"
+        },
+        {
+          "rank": 53,
+          "text": "Rosalia & Rauw Alejandro Beso"
+        },
+        {
+          "rank": 54,
+          "text": "Plan BSi No Le Contesto"
+        },
+        {
+          "rank": 55,
+          "text": "Anitta Envolver"
+        },
+        {
+          "rank": 56,
+          "text": "Ricky Martin Feat. Maluma Vente Pa' Ca"
+        },
+        {
+          "rank": 57,
+          "text": "Don Omar Guaya Guaya"
+        },
+        {
+          "rank": 58,
+          "text": "Nicky Jam Travesuras"
+        },
+        {
+          "rank": 59,
+          "text": "Rauw Alejandro Diluvio"
+        },
+        {
+          "rank": 60,
+          "text": "Wisin Feat. Ozuna Escapate Conmigo"
+        },
+        {
+          "rank": 61,
+          "text": "Nicky Jam El Amante"
+        },
+        {
+          "rank": 62,
+          "text": "Ozuna Se Preparo"
+        },
+        {
+          "rank": 63,
+          "text": "Don Omar Hasta Abajo"
+        },
+        {
+          "rank": 64,
+          "text": "Natti Natasha & Ozuna Criminal"
+        },
+        {
+          "rank": 65,
+          "text": "Quevedo Columbia"
+        },
+        {
+          "rank": 66,
+          "text": "Bad Bunny Un Preview"
+        },
+        {
+          "rank": 67,
+          "text": "Bad Bunny Vete"
+        },
+        {
+          "rank": 68,
+          "text": "J Balvin & Jowell & Randy Feat. Nicky Jam, Wisin, Yandel & Ozuna Bonita"
+        },
+        {
+          "rank": 69,
+          "text": "Rauw Alejandro & Chencho Corleone Desesperados"
+        },
+        {
+          "rank": 70,
+          "text": "Rosalia & J Balvin Feat. El Guincho Con Altura"
+        },
+        {
+          "rank": 71,
+          "text": "Alison Hinds Roll It Gal"
+        },
+        {
+          "rank": 72,
+          "text": "Chino & Nacho Feat. Daddy Yankee Andas En Mi Cabeza"
+        },
+        {
+          "rank": 73,
+          "text": "Maluma Borro Cassette"
+        },
+        {
+          "rank": 74,
+          "text": "Bad Bunny & Rosalia La Noche De Anoche"
+        },
+        {
+          "rank": 75,
+          "text": "Pitbull & J Balvin Feat. Camila Cabello Hey Ma"
+        },
+        {
+          "rank": 76,
+          "text": "Rauw Alejandro & Baby Rasta Punto 40"
+        },
+        {
+          "rank": 77,
+          "text": "Rauw Alejandro & Romeo Santos Khe?"
+        },
+        {
+          "rank": 78,
+          "text": "Anuel Aa Feat. Romeo Santos Ella Quiere Beber"
+        },
+        {
+          "rank": 79,
+          "text": "J Balvin Ay Vamos"
+        },
+        {
+          "rank": 80,
+          "text": "Ozuna Feat. Manuel Turizo Vaina Loca"
+        },
+        {
+          "rank": 81,
+          "text": "Ryan Castro, Peso Pluma & Sog Quema"
+        },
+        {
+          "rank": 82,
+          "text": "Bad Bunny La Dificil"
+        },
+        {
+          "rank": 83,
+          "text": "J Balvin Reggaeton"
+        },
+        {
+          "rank": 84,
+          "text": "Karol G & Romeo Santos X Si Volvemos"
+        },
+        {
+          "rank": 85,
+          "text": "Pitbull, Natti Natasha & Daddy Yankee No Lo Trates"
+        },
+        {
+          "rank": 86,
+          "text": "Romeo Santos, Daddy Yankee & Nicky Jam Bella Y Sensual"
+        },
+        {
+          "rank": 87,
+          "text": "Yandel & Feid Yandel 150"
+        },
+        {
+          "rank": 88,
+          "text": "Justin Quiles Feat. Chimbala, Zion & Lennox Loco"
+        },
+        {
+          "rank": 89,
+          "text": "Karol G & Maldy Gatubela"
+        },
+        {
+          "rank": 90,
+          "text": "Plan BEs Un Secreto"
+        },
+        {
+          "rank": 91,
+          "text": "Bad Bunny No Me Quiero Casar"
+        },
+        {
+          "rank": 92,
+          "text": "Becky G & Natti Natasha Sin Pijama"
+        },
+        {
+          "rank": 93,
+          "text": "Danny Ocean Dembow"
+        },
+        {
+          "rank": 94,
+          "text": "Feid"
+        },
+        {
+          "rank": 95,
+          "text": "Gente De Zona Feat. Marc Anthony Traidora"
+        },
+        {
+          "rank": 9,
+          "text": "6"
+        },
+        {
+          "rank": 97,
+          "text": "Nicky Jam & Daddy Yankee Muevelo"
+        },
+        {
+          "rank": 98,
+          "text": "Wisin Feat. Carlos Vives & Daddy Yankee Nota De Amor"
+        },
+        {
+          "rank": 99,
+          "text": "Feid Normal"
+        },
+        {
+          "rank": 100,
+          "text": "J Balvin & Feid Doblexxo"
+        }
+      ]
+    },
+    {
+      "title": "Top 100 Most Requested Songs of the 2020's",
+      "description": "Compiled from millions of song requests made through the DJ Intelligence event planning system in 2025.",
+      "songs": [
+        {
+          "rank": 1,
+          "text": "Chappell Roan Pink Pony Club"
+        },
+        {
+          "rank": 2,
+          "text": "Shaboozey A Bar Song (Tipsy)"
+        },
+        {
+          "rank": 3,
+          "text": "Chappell Roan Hot To Go!"
+        },
+        {
+          "rank": 4,
+          "text": "Sabrina Carpenter Espresso"
+        },
+        {
+          "rank": 5,
+          "text": "Post Malone & Morgan Wallen I Had Some Help"
+        },
+        {
+          "rank": 6,
+          "text": "Benson Boone Beautiful Things"
+        },
+        {
+          "rank": 7,
+          "text": "Dua Lipa Dance The Night"
+        },
+        {
+          "rank": 8,
+          "text": "Kendrick Lamar Not Like Us"
+        },
+        {
+          "rank": 9,
+          "text": "Farruko Pepas"
+        },
+        {
+          "rank": 10,
+          "text": "Alex Warren Ordinary"
+        },
+        {
+          "rank": 11,
+          "text": "Paul Russell Lil Boo Thang"
+        },
+        {
+          "rank": 12,
+          "text": "Taylor Swift Cruel Summer"
+        },
+        {
+          "rank": 13,
+          "text": "David Guetta & Bebe Rexha I'm Good (Blue)"
+        },
+        {
+          "rank": 14,
+          "text": "The Weeknd Blinding Lights"
+        },
+        {
+          "rank": 15,
+          "text": "Dua Lipa Feat. Dababy Levitating"
+        },
+        {
+          "rank": 16,
+          "text": "Myles Smith Stargazing"
+        },
+        {
+          "rank": 17,
+          "text": "Morgan Wallen Last Night"
+        },
+        {
+          "rank": 18,
+          "text": "Lizzo About Damn Time"
+        },
+        {
+          "rank": 19,
+          "text": "Luke Combs Better Together"
+        },
+        {
+          "rank": 20,
+          "text": "Drake Nokia"
+        },
+        {
+          "rank": 21,
+          "text": "Luke Combs Forever After All"
+        },
+        {
+          "rank": 22,
+          "text": "Billie Eilish Birds Of A Feather"
+        },
+        {
+          "rank": 23,
+          "text": "Cody Johnson With Carrie Underwood I'm Gonna Love You"
+        },
+        {
+          "rank": 24,
+          "text": "Chris Stapleton Joy Of My Life"
+        },
+        {
+          "rank": 25,
+          "text": "Lady Gaga & Bruno Mars Die With A Smile"
+        },
+        {
+          "rank": 26,
+          "text": "Hozier Too Sweet"
+        },
+        {
+          "rank": 27,
+          "text": "Teddy Swims Lose Control"
+        },
+        {
+          "rank": 28,
+          "text": "Rose & Bruno Mars Apt."
+        },
+        {
+          "rank": 29,
+          "text": "Jack Harlow Lovin On Me"
+        },
+        {
+          "rank": 30,
+          "text": "Ella Langley & Riley Green You Look Like You Love Me"
+        },
+        {
+          "rank": 31,
+          "text": "Ed Sheeran Shivers"
+        },
+        {
+          "rank": 32,
+          "text": "Harry Styles Watermelon Sugar"
+        },
+        {
+          "rank": 33,
+          "text": "The Red Clay Strays Wondering Why"
+        },
+        {
+          "rank": 34,
+          "text": "Bad Bunny Titi Me Pregunto"
+        },
+        {
+          "rank": 35,
+          "text": "Tommy Richman Million Dollar Baby"
+        },
+        {
+          "rank": 36,
+          "text": "Kane Brown & Marshmello Miles On It"
+        },
+        {
+          "rank": 37,
+          "text": "Lady Gaga Abracadabra"
+        },
+        {
+          "rank": 38,
+          "text": "Alex Warren Carry You Home"
+        },
+        {
+          "rank": 39,
+          "text": "Stephen Sanchez Until I Found You"
+        },
+        {
+          "rank": 40,
+          "text": "Kane Brown & Katelyn Brown Thank God"
+        },
+        {
+          "rank": 41,
+          "text": "Majestic X Boney M.Rasputin"
+        },
+        {
+          "rank": 42,
+          "text": "Luke Combs Fast Car"
+        },
+        {
+          "rank": 43,
+          "text": "Bad Bunny Nuevayol"
+        },
+        {
+          "rank": 44,
+          "text": "Chappell Roan Good Luck, Babe!"
+        },
+        {
+          "rank": 45,
+          "text": "Glass Animals Heat Waves"
+        },
+        {
+          "rank": 46,
+          "text": "Cody Johnson The Painter"
+        },
+        {
+          "rank": 47,
+          "text": "Sabrina Carpenter Please Please Please"
+        },
+        {
+          "rank": 48,
+          "text": "Lil Durk X Morgan Wallen Broadway Girls"
+        },
+        {
+          "rank": 49,
+          "text": "Beyonce Cuff It"
+        },
+        {
+          "rank": 50,
+          "text": "Drake Feat. Sexyy Red & Sza Rich Baby Daddy"
+        },
+        {
+          "rank": 51,
+          "text": "Kendrick Lamar & Sza Luther"
+        },
+        {
+          "rank": 52,
+          "text": "Morgan Wallen Feat. Ernest Cowgirls"
+        },
+        {
+          "rank": 53,
+          "text": "Beyonce Texas Hold 'Em"
+        },
+        {
+          "rank": 54,
+          "text": "Dua Lipa Don't Start Now"
+        },
+        {
+          "rank": 55,
+          "text": "Sexyy Red Get It Sexyy"
+        },
+        {
+          "rank": 56,
+          "text": "Cole Swindell She Had Me At Heads Carolina"
+        },
+        {
+          "rank": 57,
+          "text": "Cupid Flex"
+        },
+        {
+          "rank": 58,
+          "text": "Harry Styles Adore You"
+        },
+        {
+          "rank": 59,
+          "text": "Zach Top I Never Lie"
+        },
+        {
+          "rank": 60,
+          "text": "Elle King & Miranda Lambert Drunk (And I Don't Wanna Go Home)"
+        },
+        {
+          "rank": 61,
+          "text": "Walker Hayes Fancy Like"
+        },
+        {
+          "rank": 62,
+          "text": "Bad Bunny Baile Inolvidable"
+        },
+        {
+          "rank": 63,
+          "text": "Bad Bunny Dtmf"
+        },
+        {
+          "rank": 64,
+          "text": "Kendrick Lamar Squabble Up"
+        },
+        {
+          "rank": 65,
+          "text": "Jessie Murph Blue Strips"
+        },
+        {
+          "rank": 66,
+          "text": "Luke Combs The Kind Of Love We Make"
+        },
+        {
+          "rank": 67,
+          "text": "Noah Kahan Stick Season"
+        },
+        {
+          "rank": 68,
+          "text": "Huntr/X, Ejae, Audrey Nuna, Rei Ami Feat. Kpop Demon Hunters Cast Golden"
+        },
+        {
+          "rank": 69,
+          "text": "Morgan Wallen Love Somebody"
+        },
+        {
+          "rank": 70,
+          "text": "Chris Stapleton Think I'm In Love With You"
+        },
+        {
+          "rank": 71,
+          "text": "Harry Styles As It Was"
+        },
+        {
+          "rank": 72,
+          "text": "Disco Lines & Tinashe No Broke Boys"
+        },
+        {
+          "rank": 73,
+          "text": "Sabrina Carpenter Taste"
+        },
+        {
+          "rank": 74,
+          "text": "Jordan Davis Next Thing You Know"
+        },
+        {
+          "rank": 75,
+          "text": "Charli XCX 360"
+        },
+        {
+          "rank": 76,
+          "text": "Gabby Barrett The Good Ones"
+        },
+        {
+          "rank": 77,
+          "text": "Post Malone Feat. Blake Shelton Pour Me A Drink"
+        },
+        {
+          "rank": 78,
+          "text": "803 fresh Boots On The Ground"
+        },
+        {
+          "rank": 79,
+          "text": "Karol GSi Antes Te Hubiera Conocido"
+        },
+        {
+          "rank": 80,
+          "text": "Bts Dynamite"
+        },
+        {
+          "rank": 81,
+          "text": "Glorilla Yeah Glo!"
+        },
+        {
+          "rank": 82,
+          "text": "Miley Cyrus Flowers"
+        },
+        {
+          "rank": 83,
+          "text": "Tyler, The Creator Feat. Glorilla, Sexyy Red & Lil Wayne Sticky"
+        },
+        {
+          "rank": 84,
+          "text": "Jordan Davis Feat. Luke Bryan Buy Dirt"
+        },
+        {
+          "rank": 85,
+          "text": "Dua Lipa & Elton John Cold Heart"
+        },
+        {
+          "rank": 86,
+          "text": "Lady Gaga & Ariana Grande Rain On Me"
+        },
+        {
+          "rank": 87,
+          "text": "Doja Cat Paint The Town Red"
+        },
+        {
+          "rank": 88,
+          "text": "Tyler Childers In Your Love"
+        },
+        {
+          "rank": 89,
+          "text": "Cody Johnson'Til You Can't"
+        },
+        {
+          "rank": 90,
+          "text": "Justin Bieber Daisies"
+        },
+        {
+          "rank": 91,
+          "text": "Mark Ambor Belong Together"
+        },
+        {
+          "rank": 92,
+          "text": "Zach Bryan Something In The Orange"
+        },
+        {
+          "rank": 93,
+          "text": "Morgan Wallen You Proof"
+        },
+        {
+          "rank": 94,
+          "text": "Benson Boone Mystical Magical"
+        },
+        {
+          "rank": 95,
+          "text": "Lil Uzi Vert Just Wanna Rock"
+        },
+        {
+          "rank": 96,
+          "text": "Riley Green Worst Way"
+        },
+        {
+          "rank": 97,
+          "text": "Kelsey Hart Life With You"
+        },
+        {
+          "rank": 98,
+          "text": "Olivia Dean Man I Need"
+        },
+        {
+          "rank": 99,
+          "text": "Taylor Swift Opalite"
+        },
+        {
+          "rank": 100,
+          "text": "Glorilla & Sexyy Red Whatchu Kno About Me"
+        }
+      ]
+    },
+    {
+      "title": "Top 100 Most Requested Songs of the 2010's",
+      "description": "Compiled from millions of song requests made through the DJ Intelligence event planning system in 2025.",
+      "songs": [
+        {
+          "rank": 1,
+          "text": "Walk The Moon Shut Up and Dance"
+        },
+        {
+          "rank": 2,
+          "text": "Waka Flocka Flame Feat. Roscoe Dash & Wale No Hands"
+        },
+        {
+          "rank": 3,
+          "text": "Chris Stapleton Tennessee Whiskey"
+        },
+        {
+          "rank": 4,
+          "text": "Bruno Mars Marry You"
+        },
+        {
+          "rank": 5,
+          "text": "Pitbull Feat. John Ryan Fireball"
+        },
+        {
+          "rank": 6,
+          "text": "Mark Ronson Feat. Bruno Mars Uptown Funk"
+        },
+        {
+          "rank": 7,
+          "text": "Pitbull Feat. Ne-Yo Time Of Our Lives"
+        },
+        {
+          "rank": 8,
+          "text": "Nicki Minaj Starships"
+        },
+        {
+          "rank": 9,
+          "text": "Bruno Mars 24 k Magic"
+        },
+        {
+          "rank": 10,
+          "text": "Rihanna Feat. Calvin Harris We Found Love"
+        },
+        {
+          "rank": 11,
+          "text": "Pitbull Feat. Ne-Yo, Afrojack & Nayer Give Me Everything"
+        },
+        {
+          "rank": 12,
+          "text": "Usher Feat. Pitbull DJ Got Us Fallin' In Love"
+        },
+        {
+          "rank": 13,
+          "text": "Taio Cruz Dynamite"
+        },
+        {
+          "rank": 14,
+          "text": "Nicki Minaj Super Bass"
+        },
+        {
+          "rank": 15,
+          "text": "Luke Combs Beautiful Crazy"
+        },
+        {
+          "rank": 16,
+          "text": "Ed Sheeran Perfect"
+        },
+        {
+          "rank": 17,
+          "text": "Darius Rucker Wagon Wheel"
+        },
+        {
+          "rank": 18,
+          "text": "LMFAO Feat. Lauren Bennett and Goon Rock Party Rock Anthem"
+        },
+        {
+          "rank": 19,
+          "text": "Taylor Swift Shake It Off"
+        },
+        {
+          "rank": 20,
+          "text": "Luke Bryan Country Girl (Shake It For Me)"
+        },
+        {
+          "rank": 21,
+          "text": "Cherub Doses & Mimosas"
+        },
+        {
+          "rank": 22,
+          "text": "One Direction What Makes You Beautiful"
+        },
+        {
+          "rank": 23,
+          "text": "LMFAO Feat. Lil Jon Shots"
+        },
+        {
+          "rank": 24,
+          "text": "Pitbull Feat. Kesha Timber"
+        },
+        {
+          "rank": 25,
+          "text": "Don Omar Feat. Lucenzo Danza Kuduro"
+        },
+        {
+          "rank": 26,
+          "text": "Flo Rida Feat. David Guetta Club Can't Handle Me"
+        },
+        {
+          "rank": 27,
+          "text": "Paramore Still Into You"
+        },
+        {
+          "rank": 28,
+          "text": "Fetty Wap Trap Queen"
+        },
+        {
+          "rank": 29,
+          "text": "Katy Perry Last Friday Night (T.G.I.F.)"
+        },
+        {
+          "rank": 30,
+          "text": "Dan + Shay Speechless"
+        },
+        {
+          "rank": 31,
+          "text": "DJ Snake Feat. Lil Jon Turn Down For What"
+        },
+        {
+          "rank": 32,
+          "text": "Justin Timberlake Can't Stop The Feeling!"
+        },
+        {
+          "rank": 33,
+          "text": "John Legend All Of Me"
+        },
+        {
+          "rank": 34,
+          "text": "Ed Sheeran Thinking Out Loud"
+        },
+        {
+          "rank": 35,
+          "text": "Pink Raise Your Glass"
+        },
+        {
+          "rank": 36,
+          "text": "Luis Fonsi & Daddy Yankee Feat. Justin Bieber Despacito"
+        },
+        {
+          "rank": 37,
+          "text": "Icona Pop Feat. Charli XCXI Love It"
+        },
+        {
+          "rank": 38,
+          "text": "Avicii Levels"
+        },
+        {
+          "rank": 39,
+          "text": "Maroon 5 Sugar"
+        },
+        {
+          "rank": 40,
+          "text": "Calvin Harris Feel So Close"
+        },
+        {
+          "rank": 41,
+          "text": "Kygo & Whitney Houston Higher Love"
+        },
+        {
+          "rank": 42,
+          "text": "DNCE Cake By The Ocean"
+        },
+        {
+          "rank": 43,
+          "text": "Carly Rae Jepsen Call Me Maybe"
+        },
+        {
+          "rank": 44,
+          "text": "Taylor Swift Lover"
+        },
+        {
+          "rank": 45,
+          "text": "Grouplove Tongue Tied"
+        },
+        {
+          "rank": 46,
+          "text": "Trey Songz Feat. Nicki Minaj Bottoms Up"
+        },
+        {
+          "rank": 47,
+          "text": "Chainsmokers Feat. Halsey Closer"
+        },
+        {
+          "rank": 48,
+          "text": "Beyonce Love On Top"
+        },
+        {
+          "rank": 49,
+          "text": "Bruno Mars Just The Way You Are"
+        },
+        {
+          "rank": 50,
+          "text": "Morgan Wallen Spin You Around (1/24)"
+        },
+        {
+          "rank": 51,
+          "text": "Christina Perri A Thousand Years"
+        },
+        {
+          "rank": 52,
+          "text": "Sammy Adams All Night Longer"
+        },
+        {
+          "rank": 53,
+          "text": "Flo Rida Good Feeling"
+        },
+        {
+          "rank": 54,
+          "text": "T-Pain Feat. Chris Brown Best Love Song"
+        },
+        {
+          "rank": 55,
+          "text": "Rihanna Only Girl (In The World)"
+        },
+        {
+          "rank": 56,
+          "text": "Pharrell Williams Happy"
+        },
+        {
+          "rank": 57,
+          "text": "Mkto Classic"
+        },
+        {
+          "rank": 58,
+          "text": "Marc Anthony Vivir Mi Vida"
+        },
+        {
+          "rank": 59,
+          "text": "Sheck Wes Mo Bamba"
+        },
+        {
+          "rank": 60,
+          "text": "Jennifer Lopez Feat. Pitbull On The Floor"
+        },
+        {
+          "rank": 61,
+          "text": "Waka Flocka Flame Feat. Kebo Gotti Grove St. Party"
+        },
+        {
+          "rank": 62,
+          "text": "Coldplay A Sky Full Of Stars"
+        },
+        {
+          "rank": 63,
+          "text": "Bruno Mars That's What I Like"
+        },
+        {
+          "rank": 64,
+          "text": "Chris Brown Yeah 3 x"
+        },
+        {
+          "rank": 65,
+          "text": "Justin Bieber Feat. Ludacris Baby"
+        },
+        {
+          "rank": 66,
+          "text": "Kesha Your Love Is My Drug"
+        },
+        {
+          "rank": 67,
+          "text": "Cardi B Feat. Bad Bunny & J Balvin I Like It"
+        },
+        {
+          "rank": 68,
+          "text": "Kesha Die Young"
+        },
+        {
+          "rank": 69,
+          "text": "David Guetta Feat. Flo Rida & Nicki Minaj Where Them Girls At"
+        },
+        {
+          "rank": 70,
+          "text": "Calvin Harris Summer"
+        },
+        {
+          "rank": 71,
+          "text": "Thomas Rhett Die A Happy Man"
+        },
+        {
+          "rank": 72,
+          "text": "Justin Bieber Feat. Nikki Minaj Beauty and A Beat"
+        },
+        {
+          "rank": 73,
+          "text": "Far East Movement Feat. The Cataracs & Dev Like A G 6"
+        },
+        {
+          "rank": 74,
+          "text": "Macklemore & Ryan Lewis Feat. Ray Dalton Can't Hold Us"
+        },
+        {
+          "rank": 75,
+          "text": "David Guetta Feat. Kid Cudi Memories"
+        },
+        {
+          "rank": 76,
+          "text": "Katy Perry Firework"
+        },
+        {
+          "rank": 77,
+          "text": "Flo Rida My House"
+        },
+        {
+          "rank": 78,
+          "text": "Katy Perry Teenage Dream"
+        },
+        {
+          "rank": 79,
+          "text": "Luke Combs Beer Never Broke My Heart"
+        },
+        {
+          "rank": 80,
+          "text": "Jason Aldean You Make It Easy"
+        },
+        {
+          "rank": 81,
+          "text": "Toby Keith Red Solo Cup"
+        },
+        {
+          "rank": 82,
+          "text": "Brett Young In Case You Didn't Know"
+        },
+        {
+          "rank": 83,
+          "text": "Maroon 5 Feat. Christina Aguilera Moves Like Jagger"
+        },
+        {
+          "rank": 84,
+          "text": "One Direction Best Song Ever"
+        },
+        {
+          "rank": 85,
+          "text": "California Swag District Teach Me How To Dougie"
+        },
+        {
+          "rank": 86,
+          "text": "Drake Nice For What"
+        },
+        {
+          "rank": 87,
+          "text": "DJ Khaled Feat. T-Pain, Ludacris, Rick Ross & Snoop Dogg All I Do Is Win"
+        },
+        {
+          "rank": 88,
+          "text": "Blanco Brown The Git Up"
+        },
+        {
+          "rank": 89,
+          "text": "Morgan Wallen Whiskey Glasses"
+        },
+        {
+          "rank": 90,
+          "text": "Lizzo Truth Hurts"
+        },
+        {
+          "rank": 91,
+          "text": "Travis Porter Feat. Tyga Ayy Ladies"
+        },
+        {
+          "rank": 92,
+          "text": "Lil Nas X Feat. Billy Ray Cyrus Old Town Road"
+        },
+        {
+          "rank": 93,
+          "text": "Drake Feat. Wizkid & Kyla One Dance"
+        },
+        {
+          "rank": 94,
+          "text": "J Balvin & Willy William Mi Gente"
+        },
+        {
+          "rank": 95,
+          "text": "Usher Feat. Will.I.Am OMG"
+        },
+        {
+          "rank": 96,
+          "text": "Jon Pardi Head Over Boots"
+        },
+        {
+          "rank": 97,
+          "text": "LMFAO Sexy and I Know It"
+        },
+        {
+          "rank": 98,
+          "text": "Tones and IDance Monkey"
+        },
+        {
+          "rank": 99,
+          "text": "Dan + Shay From The Ground Up"
+        },
+        {
+          "rank": 100,
+          "text": "Ed Sheeran Shape Of You"
+        }
+      ]
+    },
+    {
+      "title": "Top 100 Most Requested Songs of the 2000's",
+      "description": "Compiled from millions of song requests made through the DJ Intelligence event planning system in 2025.",
+      "songs": [
+        {
+          "rank": 1,
+          "text": "Killers Mr. Brightside"
+        },
+        {
+          "rank": 2,
+          "text": "Usher Feat. Ludacris & Lil' Jon Yeah"
+        },
+        {
+          "rank": 3,
+          "text": "Cupid Cupid Shuffle"
+        },
+        {
+          "rank": 4,
+          "text": "Black Eyed Peas I Gotta Feeling"
+        },
+        {
+          "rank": 5,
+          "text": "Pitbull Hotel Room Service"
+        },
+        {
+          "rank": 6,
+          "text": "Miley Cyrus Party In The U.S.A."
+        },
+        {
+          "rank": 7,
+          "text": "Chris Brown Forever"
+        },
+        {
+          "rank": 8,
+          "text": "Taylor Swift Love Story"
+        },
+        {
+          "rank": 9,
+          "text": "Outkast Hey Ya!"
+        },
+        {
+          "rank": 10,
+          "text": "Natasha Bedingfield Unwritten"
+        },
+        {
+          "rank": 11,
+          "text": "Cascada Everytime We Touch"
+        },
+        {
+          "rank": 12,
+          "text": "V.I.C.Wobble"
+        },
+        {
+          "rank": 13,
+          "text": "Flo Rida Feat. T-Pain Low"
+        },
+        {
+          "rank": 14,
+          "text": "Sean Paul Temperature"
+        },
+        {
+          "rank": 15,
+          "text": "DJ Casper Cha Cha Slide"
+        },
+        {
+          "rank": 16,
+          "text": "Daddy Yankee Gasolina"
+        },
+        {
+          "rank": 1,
+          "text": "7"
+        },
+        {
+          "rank": 18,
+          "text": "Nelly Hot In Herre"
+        },
+        {
+          "rank": 19,
+          "text": "Rihanna Don't Stop The Music"
+        },
+        {
+          "rank": 20,
+          "text": "Big & Rich Save A Horse (Ride A Cowboy)"
+        },
+        {
+          "rank": 21,
+          "text": "Sean Kingston Fire Burning"
+        },
+        {
+          "rank": 22,
+          "text": "50 Cent In Da Club"
+        },
+        {
+          "rank": 23,
+          "text": "Fall Out Boy Sugar, We're Goin Down"
+        },
+        {
+          "rank": 24,
+          "text": "Gwen Stefani Hollaback Girl"
+        },
+        {
+          "rank": 25,
+          "text": "Taylor Swift You Belong With Me"
+        },
+        {
+          "rank": 26,
+          "text": "Fergie Feat. Will.I.Am Fergalicious"
+        },
+        {
+          "rank": 27,
+          "text": "Kesha Tik Tok"
+        },
+        {
+          "rank": 28,
+          "text": "Daft Punk One More Time"
+        },
+        {
+          "rank": 29,
+          "text": "Metro Station Shake It"
+        },
+        {
+          "rank": 30,
+          "text": "Soulja Boy Tell'em Crank That (Soulja Boy)"
+        },
+        {
+          "rank": 31,
+          "text": "Sophie Ellis-Bextor Murder On The Dancefloor"
+        },
+        {
+          "rank": 32,
+          "text": "Fountains Of Wayne Stacy's Mom"
+        },
+        {
+          "rank": 33,
+          "text": "Jonas Brothers Burnin' Up"
+        },
+        {
+          "rank": 34,
+          "text": "'N Sync Bye Bye Bye"
+        },
+        {
+          "rank": 35,
+          "text": "Beyonce Feat. Jay-ZCrazy In Love"
+        },
+        {
+          "rank": 36,
+          "text": "T-Pain Feat. Yung Joc Buy U A Drank (Shawty Snappin')"
+        },
+        {
+          "rank": 37,
+          "text": "Nelly Furtado Feat. Timbaland Promiscuous"
+        },
+        {
+          "rank": 38,
+          "text": "Zac Brown Band Chicken Fried"
+        },
+        {
+          "rank": 39,
+          "text": "Lady Gaga Feat. Colby O'donis Just Dance"
+        },
+        {
+          "rank": 40,
+          "text": "Justin Timberlake Sexyback"
+        },
+        {
+          "rank": 41,
+          "text": "Wheatus Teenage Dirtbag"
+        },
+        {
+          "rank": 42,
+          "text": "Panic! At The Disco I Write Sins Not Tragedies"
+        },
+        {
+          "rank": 43,
+          "text": "Shakira Hips Don't Lie"
+        },
+        {
+          "rank": 44,
+          "text": "Avril Lavigne Sk 8 er Boi"
+        },
+        {
+          "rank": 45,
+          "text": "Justin Timberlake Rock Your Body"
+        },
+        {
+          "rank": 46,
+          "text": "Black Eyed Peas Let's Get It Started"
+        },
+        {
+          "rank": 47,
+          "text": "Toploader Dancing In The Moonlight"
+        },
+        {
+          "rank": 48,
+          "text": "Britney Spears Toxic"
+        },
+        {
+          "rank": 49,
+          "text": "Jimmy Eat World The Middle"
+        },
+        {
+          "rank": 50,
+          "text": "T.I.Whatever You Like"
+        },
+        {
+          "rank": 51,
+          "text": "Sean Paul Get Busy"
+        },
+        {
+          "rank": 52,
+          "text": "Outkast Ms. Jackson"
+        },
+        {
+          "rank": 53,
+          "text": "Beyonce Single Ladies (Put A Ring On It)"
+        },
+        {
+          "rank": 54,
+          "text": "Jay Sean Feat. Lil Wayne Down"
+        },
+        {
+          "rank": 55,
+          "text": "Rihanna Pon De Replay"
+        },
+        {
+          "rank": 56,
+          "text": "Kanye West Feat. Jamie Foxx Gold Digger"
+        },
+        {
+          "rank": 57,
+          "text": "Counting Crows Accidentally In Love"
+        },
+        {
+          "rank": 58,
+          "text": "Baby Bash Feat. T-Pain Cyclone"
+        },
+        {
+          "rank": 59,
+          "text": "Ciara Feat. Missy Elliott 1, 2 Step"
+        },
+        {
+          "rank": 60,
+          "text": "Bowling For Soup 1985"
+        },
+        {
+          "rank": 61,
+          "text": "All Time Low Dear Maria, Count Me In"
+        },
+        {
+          "rank": 62,
+          "text": "Akon Feat. Eminem Smack That"
+        },
+        {
+          "rank": 63,
+          "text": "Ray Lamontagne You Are The Best Thing"
+        },
+        {
+          "rank": 64,
+          "text": "J-Kwon Tipsy"
+        },
+        {
+          "rank": 65,
+          "text": "Yellowcard Ocean Avenue"
+        },
+        {
+          "rank": 66,
+          "text": "Toby Keith"
+        },
+        {
+          "rank": 67,
+          "text": "Smash Mouth I'm A Believer"
+        },
+        {
+          "rank": 68,
+          "text": "R. Kelly Ignition"
+        },
+        {
+          "rank": 69,
+          "text": "Nickelback Rockstar"
+        },
+        {
+          "rank": 70,
+          "text": "Paramore Misery Business"
+        },
+        {
+          "rank": 71,
+          "text": "Rascal Flatts My Wish"
+        },
+        {
+          "rank": 72,
+          "text": "Josh Turner Why Don't We Just Dance"
+        },
+        {
+          "rank": 73,
+          "text": "D 4 l Laffy Taffy"
+        },
+        {
+          "rank": 74,
+          "text": "Mamma Mia Cast Gimme! Gimme! Gimme! (A Man After Midnight)"
+        },
+        {
+          "rank": 75,
+          "text": "Jason Mraz I'm Yours"
+        },
+        {
+          "rank": 76,
+          "text": "Rascal Flatts Bless The Broken Road"
+        },
+        {
+          "rank": 77,
+          "text": "Mark Ronson Feat. Amy Winehouse Valerie"
+        },
+        {
+          "rank": 78,
+          "text": "Lady Gaga Poker Face"
+        },
+        {
+          "rank": 79,
+          "text": "Train Drops Of Jupiter (Tell Me)"
+        },
+        {
+          "rank": 80,
+          "text": "Florence + The Machine Dog Days Are Over"
+        },
+        {
+          "rank": 81,
+          "text": "Kelly Clarkson Since U Been Gone"
+        },
+        {
+          "rank": 82,
+          "text": "Trace Adkins Honky Tonk Badonkadonk"
+        },
+        {
+          "rank": 83,
+          "text": "Kid Cudi Feat. Mgmt & Ratatat Pursuit Of Happiness"
+        },
+        {
+          "rank": 84,
+          "text": "Flo Rida Feat. Keisha Right Round"
+        },
+        {
+          "rank": 85,
+          "text": "Sean Kingston Beautiful Girls"
+        },
+        {
+          "rank": 86,
+          "text": "Petey Pablo Freek-A-Leek"
+        },
+        {
+          "rank": 87,
+          "text": "Black Eyed Peas My Humps"
+        },
+        {
+          "rank": 88,
+          "text": "Drake Best I Ever Had"
+        },
+        {
+          "rank": 89,
+          "text": "Lady Gaga Bad Romance"
+        },
+        {
+          "rank": 90,
+          "text": "Iyaz Replay"
+        },
+        {
+          "rank": 91,
+          "text": "T-Pain Feat. Akon Bartender"
+        },
+        {
+          "rank": 92,
+          "text": "Shaggy It Wasn't Me"
+        },
+        {
+          "rank": 93,
+          "text": "Taylor Swift Our Song"
+        },
+        {
+          "rank": 94,
+          "text": "Kid Rock All Summer Long"
+        },
+        {
+          "rank": 95,
+          "text": "Rihanna Feat. Jay-ZUmbrella"
+        },
+        {
+          "rank": 96,
+          "text": "Eminem The Real Slim Shady"
+        },
+        {
+          "rank": 97,
+          "text": "Coldplay Yellow"
+        },
+        {
+          "rank": 98,
+          "text": "Blink-182 First Date"
+        },
+        {
+          "rank": 99,
+          "text": "Fall Out Boy Dance, Dance"
+        },
+        {
+          "rank": 100,
+          "text": "Fergie Feat. Ludacris Glamorous"
+        }
+      ]
+    },
+    {
+      "title": "Top 100 Most Requested Songs of the 1990's",
+      "description": "Compiled from millions of song requests made through the DJ Intelligence event planning system in 2025.",
+      "songs": [
+        {
+          "rank": 1,
+          "text": "Shania Twain Man! I Feel Like A Woman!"
+        },
+        {
+          "rank": 2,
+          "text": "Blink-182 All The Small Things"
+        },
+        {
+          "rank": 3,
+          "text": "Spice Girls Wannabe"
+        },
+        {
+          "rank": 4,
+          "text": "Garth Brooks Friends In Low Places"
+        },
+        {
+          "rank": 5,
+          "text": "Lou Bega Mambo No. 5 (A Little Bit Of...)"
+        },
+        {
+          "rank": 6,
+          "text": "Rednex Cotton Eye Joe"
+        },
+        {
+          "rank": 7,
+          "text": "Backstreet Boys I Want It That Way"
+        },
+        {
+          "rank": 8,
+          "text": "Backstreet Boys Everybody (Backstreet's Back)"
+        },
+        {
+          "rank": 9,
+          "text": "Smash Mouth All Star"
+        },
+        {
+          "rank": 10,
+          "text": "Brooks & Dunn Boot Scootin' Boogie"
+        },
+        {
+          "rank": 11,
+          "text": "AC/DC Thunderstruck"
+        },
+        {
+          "rank": 12,
+          "text": "House Of Pain Jump Around"
+        },
+        {
+          "rank": 13,
+          "text": "Sir Mix-A-Lot Baby Got Back"
+        },
+        {
+          "rank": 14,
+          "text": "Elvis Crespo Suavemente"
+        },
+        {
+          "rank": 15,
+          "text": "Cher Believe"
+        },
+        {
+          "rank": 16,
+          "text": "Shania Twain Any Man Of Mine"
+        },
+        {
+          "rank": 17,
+          "text": "Vanilla Ice Ice Ice Baby"
+        },
+        {
+          "rank": 18,
+          "text": "Los Del Rio Macarena"
+        },
+        {
+          "rank": 19,
+          "text": "Montell Jordan This Is How We Do It"
+        },
+        {
+          "rank": 20,
+          "text": "TLC No Scrubs"
+        },
+        {
+          "rank": 21,
+          "text": "Shania Twain You're Still The One"
+        },
+        {
+          "rank": 22,
+          "text": "Mark Morrison Return Of The Mack"
+        },
+        {
+          "rank": 23,
+          "text": "Aerosmith I Don't Want To Miss A Thing"
+        },
+        {
+          "rank": 24,
+          "text": "Brooks & Dunn Neon Moon"
+        },
+        {
+          "rank": 25,
+          "text": "Sixpence None The Richer Kiss Me"
+        },
+        {
+          "rank": 26,
+          "text": "Lonestar Amazed"
+        },
+        {
+          "rank": 27,
+          "text": "Ginuwine Pony"
+        },
+        {
+          "rank": 28,
+          "text": "Ricky Martin Livin' La Vida Loca"
+        },
+        {
+          "rank": 29,
+          "text": "Creed Higher"
+        },
+        {
+          "rank": 30,
+          "text": "Goo Goo Dolls Iris"
+        },
+        {
+          "rank": 31,
+          "text": "Mariah Carey Fantasy"
+        },
+        {
+          "rank": 32,
+          "text": "Alan Jackson Chattahoochee"
+        },
+        {
+          "rank": 33,
+          "text": "Lit My Own Worst Enemy"
+        },
+        {
+          "rank": 34,
+          "text": "Oasis Wonderwall"
+        },
+        {
+          "rank": 35,
+          "text": "Chumbawamba Tubthumping"
+        },
+        {
+          "rank": 36,
+          "text": "George Strait I Cross My Heart"
+        },
+        {
+          "rank": 37,
+          "text": "Semisonic Closing Time"
+        },
+        {
+          "rank": 38,
+          "text": "Third Eye Blind Semi-Charmed Life"
+        },
+        {
+          "rank": 39,
+          "text": "Will Smith Gettin' Jiggy Wit It"
+        },
+        {
+          "rank": 40,
+          "text": "Britney Spears Baby One More Time"
+        },
+        {
+          "rank": 41,
+          "text": "Technotronic Pump Up The Jam"
+        },
+        {
+          "rank": 42,
+          "text": "Celia Cruz La Vida Es Un Carnaval"
+        },
+        {
+          "rank": 43,
+          "text": "Haddaway What Is Love"
+        },
+        {
+          "rank": 44,
+          "text": "Juvenile Feat. Mannie Fresh & Lil' Wayne Back That Thang Up"
+        },
+        {
+          "rank": 45,
+          "text": "Blackstreet Feat. Dr. Dre No Diggity"
+        },
+        {
+          "rank": 46,
+          "text": "Shania Twain That Don't Impress Me Much"
+        },
+        {
+          "rank": 47,
+          "text": "Bell Biv Devoe Poison"
+        },
+        {
+          "rank": 48,
+          "text": "Toby Keith Should've Been A Cowboy"
+        },
+        {
+          "rank": 49,
+          "text": "Notorious B.I.G.Hypnotize"
+        },
+        {
+          "rank": 50,
+          "text": "La Bouche Be My Lover"
+        },
+        {
+          "rank": 51,
+          "text": "Jennifer Lopez Let's Get Loud"
+        },
+        {
+          "rank": 52,
+          "text": "Aqua Barbie Girl"
+        },
+        {
+          "rank": 53,
+          "text": "Salt-N-Pepa Shoop"
+        },
+        {
+          "rank": 54,
+          "text": "George Strait Check Yes Or No"
+        },
+        {
+          "rank": 55,
+          "text": "K-Ci & Jojo All My Life"
+        },
+        {
+          "rank": 56,
+          "text": "Tim Mcgraw My Best Friend"
+        },
+        {
+          "rank": 57,
+          "text": "Hootie & The Blowfish Only Wanna Be With You"
+        },
+        {
+          "rank": 58,
+          "text": "2 pac Feat. Dr. Dre and Roger Troutman California Love"
+        },
+        {
+          "rank": 59,
+          "text": "69 Boyz Tootsee Roll"
+        },
+        {
+          "rank": 60,
+          "text": "Blink-182 What's My Age Again ?"
+        },
+        {
+          "rank": 61,
+          "text": "M.C. Hammer U Can't Touch This"
+        },
+        {
+          "rank": 62,
+          "text": "DJ Kool Let Me Clear My Throat"
+        },
+        {
+          "rank": 63,
+          "text": "Mariah Carey Always Be My Baby"
+        },
+        {
+          "rank": 64,
+          "text": "George Strait Carrying Your Love With Me"
+        },
+        {
+          "rank": 65,
+          "text": "Sublime Santeria"
+        },
+        {
+          "rank": 66,
+          "text": "Wilson Phillips Hold On"
+        },
+        {
+          "rank": 67,
+          "text": "Tim Mcgraw I Like It, I Love It"
+        },
+        {
+          "rank": 68,
+          "text": "Corona The Rhythm Of The Night"
+        },
+        {
+          "rank": 69,
+          "text": "Robin SShow Me Love"
+        },
+        {
+          "rank": 70,
+          "text": "Vengaboys Boom, Boom, Boom, Boom!!"
+        },
+        {
+          "rank": 71,
+          "text": "C+C Music Factory Feat. Freedom Williams Gonna Make You Sweat (Everybody Dance Now)"
+        },
+        {
+          "rank": 72,
+          "text": "Tracy Byrd Watermelon Crawl"
+        },
+        {
+          "rank": 73,
+          "text": "Edwin Mccain I'll Be"
+        },
+        {
+          "rank": 74,
+          "text": "Santana Feat. Rob Thomas Smooth"
+        },
+        {
+          "rank": 75,
+          "text": "Destiny's Child Say My Name"
+        },
+        {
+          "rank": 76,
+          "text": "Phil Collins You'll Be In My Heart"
+        },
+        {
+          "rank": 77,
+          "text": "Deee-Lite Groove Is In The Heart"
+        },
+        {
+          "rank": 78,
+          "text": "Next Too Close"
+        },
+        {
+          "rank": 79,
+          "text": "Elton John Can You Feel The Love Tonight"
+        },
+        {
+          "rank": 80,
+          "text": "Savage Garden Truly Madly Deeply"
+        },
+        {
+          "rank": 81,
+          "text": "Kenny Chesney She Thinks My Tractor's Sexy"
+        },
+        {
+          "rank": 82,
+          "text": "Tim Mcgraw With Faith Hill It's Your Love"
+        },
+        {
+          "rank": 83,
+          "text": "Dixie Chicks Cowboy Take Me Away"
+        },
+        {
+          "rank": 84,
+          "text": "Neil Young Harvest Moon"
+        },
+        {
+          "rank": 85,
+          "text": "Backstreet Boys Larger Than Life"
+        },
+        {
+          "rank": 86,
+          "text": "Brooks & Dunn My Maria"
+        },
+        {
+          "rank": 87,
+          "text": "Will Smith Miami"
+        },
+        {
+          "rank": 88,
+          "text": "Cure Friday I'm In Love"
+        },
+        {
+          "rank": 89,
+          "text": "Eiffel 65 Blue (Da Ba Dee)"
+        },
+        {
+          "rank": 90,
+          "text": "Spice Girls Spice Up Your Life"
+        },
+        {
+          "rank": 91,
+          "text": "Bryan Adams(Everything I Do) I Do It For You"
+        },
+        {
+          "rank": 92,
+          "text": "Garth Brooks Callin' Baton Rouge"
+        },
+        {
+          "rank": 93,
+          "text": "Snap!Rhythm Is A Dancer"
+        },
+        {
+          "rank": 94,
+          "text": "Vengaboys We Like To Party!"
+        },
+        {
+          "rank": 95,
+          "text": "Tag Team Whoomp! (There It Is)"
+        },
+        {
+          "rank": 96,
+          "text": "Alice Deejay Better Off Alone"
+        },
+        {
+          "rank": 97,
+          "text": "Whitney Houston I Will Always Love You"
+        },
+        {
+          "rank": 98,
+          "text": "Mazzy Star Fade Into You"
+        },
+        {
+          "rank": 99,
+          "text": "Sir Mix-A-Lot Jump On It"
+        },
+        {
+          "rank": 100,
+          "text": "New Radicals You Get What You Give"
+        }
+      ]
+    },
+    {
+      "title": "Top 100 Most Requested Songs of the 1980's",
+      "description": "Compiled from millions of song requests made through the DJ Intelligence event planning system in 2025.",
+      "songs": [
+        {
+          "rank": 1,
+          "text": "Whitney Houston I Wanna Dance With Somebody (Who Loves Me)"
+        },
+        {
+          "rank": 2,
+          "text": "Journey Don't Stop Believin'"
+        },
+        {
+          "rank": 3,
+          "text": "Bon Jovi Livin' On A Prayer"
+        },
+        {
+          "rank": 4,
+          "text": "AC/DC You Shook Me All Night Long"
+        },
+        {
+          "rank": 5,
+          "text": "Kenny Loggins Footloose"
+        },
+        {
+          "rank": 6,
+          "text": "Cyndi Lauper Girls Just Want To Have Fun"
+        },
+        {
+          "rank": 7,
+          "text": "Earth, Wind & Fire Let's Groove"
+        },
+        {
+          "rank": 8,
+          "text": "Dexy's Midnight Runners Come On Eileen"
+        },
+        {
+          "rank": 9,
+          "text": "Def Leppard Pour Some Sugar On Me"
+        },
+        {
+          "rank": 10,
+          "text": "B-52's Love Shack"
+        },
+        {
+          "rank": 11,
+          "text": "Kool & The Gang Celebration"
+        },
+        {
+          "rank": 12,
+          "text": "Bryan Adams Summer Of '69"
+        },
+        {
+          "rank": 13,
+          "text": "Billy Joel Uptown Girl"
+        },
+        {
+          "rank": 14,
+          "text": "Rick Springfield Jessie's Girl"
+        },
+        {
+          "rank": 15,
+          "text": "Michael Jackson Billie Jean"
+        },
+        {
+          "rank": 16,
+          "text": "A-Ha Take On Me"
+        },
+        {
+          "rank": 17,
+          "text": "Toto Africa"
+        },
+        {
+          "rank": 18,
+          "text": "Michael Jackson P.Y.T. (Pretty Young Thing)"
+        },
+        {
+          "rank": 19,
+          "text": "Guns N' Roses Sweet Child O' Mine"
+        },
+        {
+          "rank": 20,
+          "text": "Daryl Hall & John Oates You Make My Dreams Come True"
+        },
+        {
+          "rank": 21,
+          "text": "Randy Travis Forever and Ever, Amen"
+        },
+        {
+          "rank": 22,
+          "text": "Rick Astley Never Gonna Give You Up"
+        },
+        {
+          "rank": 23,
+          "text": "Run-D.M.C.It's Tricky"
+        },
+        {
+          "rank": 24,
+          "text": "Queen Crazy Little Thing Called Love"
+        },
+        {
+          "rank": 25,
+          "text": "Bill Medley & Jennifer Warnes(I've Had) The Time Of My Life"
+        },
+        {
+          "rank": 26,
+          "text": "Steve Earle Copperhead Road"
+        },
+        {
+          "rank": 27,
+          "text": "Nitty Gritty Dirt Band Fishin' In The Dark"
+        },
+        {
+          "rank": 28,
+          "text": "Kool & The Gang Get Down On It"
+        },
+        {
+          "rank": 29,
+          "text": "Alabama Dixieland Delight"
+        },
+        {
+          "rank": 30,
+          "text": "Marcia Griffiths Electric Boogie (Electric Slide)"
+        },
+        {
+          "rank": 31,
+          "text": "Wham!Wake Me Up Before You Go-Go"
+        },
+        {
+          "rank": 32,
+          "text": "Madonna Like A Prayer"
+        },
+        {
+          "rank": 33,
+          "text": "Michael Jackson Thriller"
+        },
+        {
+          "rank": 34,
+          "text": "Proclaimers I'm Gonna Be (500 Miles)"
+        },
+        {
+          "rank": 35,
+          "text": "Dolly Parton 9 To 5"
+        },
+        {
+          "rank": 36,
+          "text": "Michael Jackson Beat It"
+        },
+        {
+          "rank": 37,
+          "text": "Whitney Houston How Will I Know"
+        },
+        {
+          "rank": 38,
+          "text": "Prince Kiss"
+        },
+        {
+          "rank": 39,
+          "text": "Fleetwood Mac Everywhere"
+        },
+        {
+          "rank": 40,
+          "text": "Salt-N-Pepa Push It"
+        },
+        {
+          "rank": 41,
+          "text": "Tears For Fears Everybody Wants To Rule The World"
+        },
+        {
+          "rank": 42,
+          "text": "Bruce Springsteen Dancing In The Dark"
+        },
+        {
+          "rank": 43,
+          "text": "Young M.C.Bust A Move"
+        },
+        {
+          "rank": 44,
+          "text": "Journey Faithfully"
+        },
+        {
+          "rank": 45,
+          "text": "Joan Jett & The Blackhearts I Love Rock 'N Roll"
+        },
+        {
+          "rank": 46,
+          "text": "Michael Jackson The Way You Make Me Feel"
+        },
+        {
+          "rank": 47,
+          "text": "Luther Vandross Never Too Much"
+        },
+        {
+          "rank": 48,
+          "text": "Outfield Your Love"
+        },
+        {
+          "rank": 49,
+          "text": "Prince Let's Go Crazy"
+        },
+        {
+          "rank": 50,
+          "text": "Michael Jackson Rock With You"
+        },
+        {
+          "rank": 51,
+          "text": "Katrina and The Waves Walking On Sunshine"
+        },
+        {
+          "rank": 52,
+          "text": "Billy Idol White Wedding"
+        },
+        {
+          "rank": 53,
+          "text": "Elton John I'm Still Standing"
+        },
+        {
+          "rank": 54,
+          "text": "Eddie Money Take Me Home Tonight"
+        },
+        {
+          "rank": 55,
+          "text": "Journey Any Way You Want It"
+        },
+        {
+          "rank": 56,
+          "text": "Weather Girls It's Raining Men"
+        },
+        {
+          "rank": 57,
+          "text": "Tina Turner The Best"
+        },
+        {
+          "rank": 58,
+          "text": "Eurythmics Sweet Dreams (Are Made Of This)"
+        },
+        {
+          "rank": 59,
+          "text": "Lipps, Inc.Funkytown"
+        },
+        {
+          "rank": 60,
+          "text": "Lionel Richie All Night Long (All Night)"
+        },
+        {
+          "rank": 61,
+          "text": "Belinda Carlisle Heaven Is A Place On Earth"
+        },
+        {
+          "rank": 62,
+          "text": "Dead Or Alive You Spin Me Round (Like A Record)"
+        },
+        {
+          "rank": 63,
+          "text": "Cyndi Lauper Time After Time"
+        },
+        {
+          "rank": 64,
+          "text": "Paul Simon You Can Call Me Al"
+        },
+        {
+          "rank": 65,
+          "text": "Queen Another One Bites The Dust"
+        },
+        {
+          "rank": 66,
+          "text": "Bon Jovi You Give Love A Bad Name"
+        },
+        {
+          "rank": 67,
+          "text": "Rick James Super Freak (Part 1)"
+        },
+        {
+          "rank": 68,
+          "text": "Kenny Rogers & Dolly Parton Islands In The Stream"
+        },
+        {
+          "rank": 69,
+          "text": "Billy Idol Mony Mony"
+        },
+        {
+          "rank": 70,
+          "text": "David Bowie Let's Dance"
+        },
+        {
+          "rank": 71,
+          "text": "Soft Cell Tainted Love"
+        },
+        {
+          "rank": 72,
+          "text": "UB 40 Red Red Wine"
+        },
+        {
+          "rank": 73,
+          "text": "Romantics What I Like About You"
+        },
+        {
+          "rank": 74,
+          "text": "Starship Nothing's Gonna Stop Us Now"
+        },
+        {
+          "rank": 75,
+          "text": "Survivor Eye Of The Tiger"
+        },
+        {
+          "rank": 76,
+          "text": "Rob Base & D.J. E-Z Rock It Takes Two"
+        },
+        {
+          "rank": 77,
+          "text": "Billy Joel We Didn't Start The Fire"
+        },
+        {
+          "rank": 78,
+          "text": "Diana Ross I'm Coming Out"
+        },
+        {
+          "rank": 79,
+          "text": "AC/DC Back In Black"
+        },
+        {
+          "rank": 80,
+          "text": "Van Halen Jump"
+        },
+        {
+          "rank": 81,
+          "text": "Bob Marley & The Wailers Could You Be Loved"
+        },
+        {
+          "rank": 82,
+          "text": "Grover Washington Jr. & Bill Withers Just The Two Of Us"
+        },
+        {
+          "rank": 83,
+          "text": "Beastie Boys(You Gotta) Fight For Your Right (To Party!)"
+        },
+        {
+          "rank": 84,
+          "text": "Prince 1999"
+        },
+        {
+          "rank": 85,
+          "text": "Huey Lewis & The News The Power Of Love"
+        },
+        {
+          "rank": 86,
+          "text": "Shenandoah Two Dozen Roses"
+        },
+        {
+          "rank": 87,
+          "text": "Guns N' Roses Paradise City"
+        },
+        {
+          "rank": 88,
+          "text": "Simple Minds Don't You (Forget About Me)"
+        },
+        {
+          "rank": 89,
+          "text": "Ozzy Osbourne Crazy Train"
+        },
+        {
+          "rank": 90,
+          "text": "Men Without Hats The Safety Dance"
+        },
+        {
+          "rank": 91,
+          "text": "Cameo Candy"
+        },
+        {
+          "rank": 92,
+          "text": "Gloria Estefan & The Miami Sound Machine Conga"
+        },
+        {
+          "rank": 93,
+          "text": "Tracy Chapman Fast Car"
+        },
+        {
+          "rank": 94,
+          "text": "ZZ Top Sharp Dressed Man"
+        },
+        {
+          "rank": 95,
+          "text": "Prince Raspberry Beret"
+        },
+        {
+          "rank": 96,
+          "text": "Modern English I Melt With You"
+        },
+        {
+          "rank": 97,
+          "text": "Fleetwood Mac Gypsy"
+        },
+        {
+          "rank": 98,
+          "text": "Motley Crue Kickstart My Heart"
+        },
+        {
+          "rank": 99,
+          "text": "Gap Band You Dropped A Bomb On Me"
+        },
+        {
+          "rank": 100,
+          "text": "Beach Boys Kokomo"
+        }
+      ]
+    },
+    {
+      "title": "Top 100 Most Requested Songs of the 1970's",
+      "description": "Compiled from millions of song requests made through the DJ Intelligence event planning system in 2025.",
+      "songs": [
+        {
+          "rank": 1,
+          "text": "ABBA Dancing Queen"
+        },
+        {
+          "rank": 2,
+          "text": "Earth, Wind & Fire September"
+        },
+        {
+          "rank": 3,
+          "text": "Village People Y.M.C.A."
+        },
+        {
+          "rank": 4,
+          "text": "Wild Cherry Play That Funky Music"
+        },
+        {
+          "rank": 5,
+          "text": "Natalie Cole This Will Be (An Everlasting Love)"
+        },
+        {
+          "rank": 6,
+          "text": "John Denver Take Me Home, Country Roads"
+        },
+        {
+          "rank": 7,
+          "text": "King Harvest Dancing In The Moonlight"
+        },
+        {
+          "rank": 8,
+          "text": "Bee Gees Stayin' Alive"
+        },
+        {
+          "rank": 9,
+          "text": "Sister Sledge We Are Family"
+        },
+        {
+          "rank": 10,
+          "text": "ABBA Mamma Mia"
+        },
+        {
+          "rank": 11,
+          "text": "Billy Joel Piano Man"
+        },
+        {
+          "rank": 12,
+          "text": "Lynyrd Skynyrd Sweet Home Alabama"
+        },
+        {
+          "rank": 13,
+          "text": "Stevie Wonder Signed, Sealed, Delivered I'm Yours"
+        },
+        {
+          "rank": 14,
+          "text": "Michael Jackson Don't Stop 'Til You Get Enough"
+        },
+        {
+          "rank": 15,
+          "text": "Queen Bohemian Rhapsody"
+        },
+        {
+          "rank": 16,
+          "text": "Bob Seger & The Silver Bullet Band Old Time Rock & Roll"
+        },
+        {
+          "rank": 17,
+          "text": "Queen Fat Bottomed Girls"
+        },
+        {
+          "rank": 18,
+          "text": "James Taylor How Sweet It Is (To Be Loved By You)"
+        },
+        {
+          "rank": 19,
+          "text": "Eric Clapton Wonderful Tonight"
+        },
+        {
+          "rank": 20,
+          "text": "Commodores Brick House"
+        },
+        {
+          "rank": 21,
+          "text": "Redbone Come and Get Your Love"
+        },
+        {
+          "rank": 22,
+          "text": "Stevie Wonder Isn't She Lovely"
+        },
+        {
+          "rank": 23,
+          "text": "KC & The Sunshine Band Boogie Shoes"
+        },
+        {
+          "rank": 24,
+          "text": "Al Green Let's Stay Together"
+        },
+        {
+          "rank": 25,
+          "text": "Bee Gees More Than A Woman"
+        },
+        {
+          "rank": 26,
+          "text": "Four Seasons December 1963 (Oh, What A Night)"
+        },
+        {
+          "rank": 27,
+          "text": "Fleetwood Mac Dreams"
+        },
+        {
+          "rank": 28,
+          "text": "Daryl Hall & John Oates Rich Girl"
+        },
+        {
+          "rank": 29,
+          "text": "Blue Swede Hooked On A Feeling"
+        },
+        {
+          "rank": 30,
+          "text": "Elton John Your Song"
+        },
+        {
+          "rank": 31,
+          "text": "Earth, Wind & Fire With The Emotions Boogie Wonderland"
+        },
+        {
+          "rank": 32,
+          "text": "John Travolta & Olivia Newton-John You're The One That I Want"
+        },
+        {
+          "rank": 33,
+          "text": "ABBA Take A Chance On Me"
+        },
+        {
+          "rank": 34,
+          "text": "Looking Glass Brandy (You're A Fine Girl)"
+        },
+        {
+          "rank": 35,
+          "text": "Elvis Presley Burning Love"
+        },
+        {
+          "rank": 36,
+          "text": "Queen Somebody To Love"
+        },
+        {
+          "rank": 37,
+          "text": "Hank Williams, Jr.Family Tradition"
+        },
+        {
+          "rank": 38,
+          "text": "Elton John Tiny Dancer"
+        },
+        {
+          "rank": 39,
+          "text": "KC & The Sunshine Band Get Down Tonight"
+        },
+        {
+          "rank": 40,
+          "text": "Bee Gees You Should Be Dancing"
+        },
+        {
+          "rank": 41,
+          "text": "Electric Light Orchestra Mr. Blue Sky"
+        },
+        {
+          "rank": 42,
+          "text": "Gloria Gaynor I Will Survive"
+        },
+        {
+          "rank": 43,
+          "text": "Fleetwood Mac Landslide"
+        },
+        {
+          "rank": 44,
+          "text": "Elton John Crocodile Rock"
+        },
+        {
+          "rank": 45,
+          "text": "Elton John Bennie and The Jets"
+        },
+        {
+          "rank": 46,
+          "text": "Bill Withers Lovely Day"
+        },
+        {
+          "rank": 47,
+          "text": "ABBA Waterloo"
+        },
+        {
+          "rank": 48,
+          "text": "Kiss I Was Made For Loving You"
+        },
+        {
+          "rank": 49,
+          "text": "Jackson 5 I Want You Back"
+        },
+        {
+          "rank": 50,
+          "text": "Ike & Tina Turner Proud Mary"
+        },
+        {
+          "rank": 51,
+          "text": "Chic Le Freak"
+        },
+        {
+          "rank": 52,
+          "text": "Elton John & Kiki Dee Don't Go Breaking My Heart"
+        },
+        {
+          "rank": 53,
+          "text": "Jimmy Buffett Margaritaville"
+        },
+        {
+          "rank": 54,
+          "text": "Donna Summer Last Dance"
+        },
+        {
+          "rank": 55,
+          "text": "Bee Gees How Deep Is Your Love"
+        },
+        {
+          "rank": 56,
+          "text": "Don Mclean American Pie"
+        },
+        {
+          "rank": 57,
+          "text": "Hot Chocolate You Sexy Thing"
+        },
+        {
+          "rank": 58,
+          "text": "Queen You're My Best Friend"
+        },
+        {
+          "rank": 59,
+          "text": "Boston More Than A Feeling"
+        },
+        {
+          "rank": 60,
+          "text": "Stevie Wonder Superstition"
+        },
+        {
+          "rank": 61,
+          "text": "Lynyrd Skynyrd Gimme Three Steps"
+        },
+        {
+          "rank": 62,
+          "text": "Lynyrd Skynyrd Free Bird"
+        },
+        {
+          "rank": 63,
+          "text": "Dolly Parton Jolene"
+        },
+        {
+          "rank": 64,
+          "text": "Maxine Nightingale Right Back Where We Started From"
+        },
+        {
+          "rank": 65,
+          "text": "Eagles Hotel California"
+        },
+        {
+          "rank": 66,
+          "text": "Bee Gees Night Fever"
+        },
+        {
+          "rank": 67,
+          "text": "Meat Loaf Paradise By The Dashboard Light"
+        },
+        {
+          "rank": 68,
+          "text": "Emotions Best Of My Love"
+        },
+        {
+          "rank": 69,
+          "text": "Barry White You're The First, The Last, My Everything"
+        },
+        {
+          "rank": 70,
+          "text": "Billy Joel Just The Way You Are"
+        },
+        {
+          "rank": 71,
+          "text": "Tom Petty & The Heartbreakers American Girl"
+        },
+        {
+          "rank": 72,
+          "text": "Jacksons Blame It On The Boogie"
+        },
+        {
+          "rank": 73,
+          "text": "Cheryl Lynn Got To Be Real"
+        },
+        {
+          "rank": 74,
+          "text": "Rupert Holmes Escape (The Pina Colada Song)"
+        },
+        {
+          "rank": 75,
+          "text": "Blondie Heart Of Glass"
+        },
+        {
+          "rank": 76,
+          "text": "KC & The Sunshine Band That's The Way (I Like It)"
+        },
+        {
+          "rank": 77,
+          "text": "Fleetwood Mac Go Your Own Way"
+        },
+        {
+          "rank": 78,
+          "text": "Lynyrd Skynyrd Simple Man"
+        },
+        {
+          "rank": 79,
+          "text": "James Brown Get Up Offa That Thing"
+        },
+        {
+          "rank": 80,
+          "text": "Stevie Wonder Sir Duke"
+        },
+        {
+          "rank": 81,
+          "text": "Peaches & Herb Shake Your Groove Thing"
+        },
+        {
+          "rank": 82,
+          "text": "Aerosmith Walk This Way"
+        },
+        {
+          "rank": 83,
+          "text": "AC/DC Highway To Hell"
+        },
+        {
+          "rank": 84,
+          "text": "Bob Marley & The Wailers Is This Love"
+        },
+        {
+          "rank": 85,
+          "text": "Barry White Can't Get Enough Of Your Love, Babe"
+        },
+        {
+          "rank": 86,
+          "text": "Candi Staton Young Hearts Run Free"
+        },
+        {
+          "rank": 87,
+          "text": "Charlie Daniels Band The Devil Went Down To Georgia"
+        },
+        {
+          "rank": 88,
+          "text": "Orleans Still The One"
+        },
+        {
+          "rank": 89,
+          "text": "Billy Joel Only The Good Die Young"
+        },
+        {
+          "rank": 90,
+          "text": "Bruce Springsteen Born To Run"
+        },
+        {
+          "rank": 91,
+          "text": "Marvin Gaye Let's Get It On"
+        },
+        {
+          "rank": 92,
+          "text": "Edison Lighthouse Love Grows (Where My Rosemary Goes)"
+        },
+        {
+          "rank": 93,
+          "text": "Bob Seger & The Silver Bullet Band Night Moves"
+        },
+        {
+          "rank": 94,
+          "text": "Eagles Take It Easy"
+        },
+        {
+          "rank": 95,
+          "text": "Jackson 5 ABC"
+        },
+        {
+          "rank": 96,
+          "text": "Otis Day Shout"
+        },
+        {
+          "rank": 97,
+          "text": "Bill Withers Lean On Me"
+        },
+        {
+          "rank": 98,
+          "text": "Fleetwood Mac The Chain"
+        },
+        {
+          "rank": 99,
+          "text": "O'jays Love Train"
+        },
+        {
+          "rank": 100,
+          "text": "Trammps Disco Inferno"
+        }
+      ]
+    },
+    {
+      "title": "Top 100 Most Requested Songs of the 1960's",
+      "description": "Compiled from millions of song requests made through the DJ Intelligence event planning system in 2025.",
+      "songs": [
+        {
+          "rank": 1,
+          "text": "Neil Diamond Sweet Caroline (Good Times Never Seemed So Good)"
+        },
+        {
+          "rank": 2,
+          "text": "Elvis Presley Can't Help Falling In Love"
+        },
+        {
+          "rank": 3,
+          "text": "Van Morrison Brown Eyed Girl"
+        },
+        {
+          "rank": 4,
+          "text": "Marvin Gaye & Tammi Terrell Ain't No Mountain High Enough"
+        },
+        {
+          "rank": 5,
+          "text": "Frankie Valli Can't Take My Eyes Off You"
+        },
+        {
+          "rank": 6,
+          "text": "Temptations My Girl"
+        },
+        {
+          "rank": 7,
+          "text": "Etta James At Last"
+        },
+        {
+          "rank": 8,
+          "text": "Frank Sinatra The Way You Look Tonight"
+        },
+        {
+          "rank": 9,
+          "text": "Ben E. King Stand By Me"
+        },
+        {
+          "rank": 10,
+          "text": "Beatles Twist and Shout"
+        },
+        {
+          "rank": 11,
+          "text": "Foundations Build Me Up Buttercup"
+        },
+        {
+          "rank": 12,
+          "text": "Louis Armstrong What A Wonderful World"
+        },
+        {
+          "rank": 13,
+          "text": "Four Tops I Can't Help Myself (Sugar Pie, Honey Bunch)"
+        },
+        {
+          "rank": 14,
+          "text": "Frank Sinatra Fly Me To The Moon"
+        },
+        {
+          "rank": 15,
+          "text": "Aretha Franklin Respect"
+        },
+        {
+          "rank": 16,
+          "text": "Righteous Brothers Unchained Melody"
+        },
+        {
+          "rank": 17,
+          "text": "Chubby Checker The Twist"
+        },
+        {
+          "rank": 18,
+          "text": "Stevie Wonder For Once In My Life"
+        },
+        {
+          "rank": 19,
+          "text": "Johnny Cash Ring Of Fire"
+        },
+        {
+          "rank": 20,
+          "text": "Bobby Darin Beyond The Sea"
+        },
+        {
+          "rank": 21,
+          "text": "Roy Orbison Oh, Pretty Woman"
+        },
+        {
+          "rank": 22,
+          "text": "Frank Sinatra My Way"
+        },
+        {
+          "rank": 23,
+          "text": "Otis Redding(Sittin' On) The Dock Of The Bay"
+        },
+        {
+          "rank": 24,
+          "text": "Dion Runaround Sue"
+        },
+        {
+          "rank": 25,
+          "text": "Percy Sledge When A Man Loves A Woman"
+        },
+        {
+          "rank": 26,
+          "text": "Marvin Gaye How Sweet It Is (To Be Loved By You)"
+        },
+        {
+          "rank": 27,
+          "text": "Beatles Here Comes The Sun"
+        },
+        {
+          "rank": 28,
+          "text": "Elvis Presley Suspicious Minds"
+        },
+        {
+          "rank": 29,
+          "text": "Beach Boys Wouldn't It Be Nice"
+        },
+        {
+          "rank": 30,
+          "text": "Archies Sugar, Sugar"
+        },
+        {
+          "rank": 31,
+          "text": "Monkees I'm A Believer"
+        },
+        {
+          "rank": 32,
+          "text": "Aretha Franklin I Say A Little Prayer"
+        },
+        {
+          "rank": 33,
+          "text": "Harry Belafonte Jump In Line (Shake, Shake Senora)"
+        },
+        {
+          "rank": 34,
+          "text": "Diana Ross & The Supremes You Can't Hurry Love"
+        },
+        {
+          "rank": 35,
+          "text": "Creedence Clearwater Revival Bad Moon Rising"
+        },
+        {
+          "rank": 36,
+          "text": "Dean Martin Everybody Loves Somebody"
+        },
+        {
+          "rank": 37,
+          "text": "Ronettes Be My Baby"
+        },
+        {
+          "rank": 38,
+          "text": "Sonny & Cher I Got You Babe"
+        },
+        {
+          "rank": 39,
+          "text": "James Brown I Got You (I Feel Good)"
+        },
+        {
+          "rank": 40,
+          "text": "Jackie Wilson(Your Love Keeps Lifting Me) Higher and Higher"
+        },
+        {
+          "rank": 41,
+          "text": "Beatles In My Life"
+        },
+        {
+          "rank": 42,
+          "text": "Chubby Checker Let's Twist Again"
+        },
+        {
+          "rank": 43,
+          "text": "Turtles Happy Together"
+        },
+        {
+          "rank": 44,
+          "text": "Sam Cooke Bring It On Home To Me"
+        },
+        {
+          "rank": 45,
+          "text": "Tom Jones It's Not Unusual"
+        },
+        {
+          "rank": 46,
+          "text": "Creedence Clearwater Revival Proud Mary"
+        },
+        {
+          "rank": 47,
+          "text": "Beach Boys Good Vibrations"
+        },
+        {
+          "rank": 48,
+          "text": "Beach Boys God Only Knows"
+        },
+        {
+          "rank": 49,
+          "text": "Beatles All You Need Is Love"
+        },
+        {
+          "rank": 50,
+          "text": "Frank Sinatra Strangers In The Night"
+        },
+        {
+          "rank": 51,
+          "text": "Beatles I Want To Hold Your Hand"
+        },
+        {
+          "rank": 52,
+          "text": "Creedence Clearwater Revival Fortunate Son"
+        },
+        {
+          "rank": 53,
+          "text": "Contours Do You Love Me"
+        },
+        {
+          "rank": 54,
+          "text": "Temptations Ain't Too Proud To Beg"
+        },
+        {
+          "rank": 55,
+          "text": "Sam Cooke Twistin' The Night Away"
+        },
+        {
+          "rank": 56,
+          "text": "Beatles Hey Jude"
+        },
+        {
+          "rank": 57,
+          "text": "Wilson Pickett Land Of 1000 Dances"
+        },
+        {
+          "rank": 58,
+          "text": "Rolling Stones(I Can't Get No) Satisfaction"
+        },
+        {
+          "rank": 59,
+          "text": "Frank Sinatra That's Life"
+        },
+        {
+          "rank": 60,
+          "text": "Wilson Pickett Mustang Sally"
+        },
+        {
+          "rank": 61,
+          "text": "Dixie Cups Chapel Of Love"
+        },
+        {
+          "rank": 62,
+          "text": "Stevie Wonder My Cherie Amour"
+        },
+        {
+          "rank": 63,
+          "text": "Otis Redding These Arms Of Mine"
+        },
+        {
+          "rank": 64,
+          "text": "Osborne Brothers Rocky Top"
+        },
+        {
+          "rank": 65,
+          "text": "Martha & The Vandellas Dancing In The Street"
+        },
+        {
+          "rank": 66,
+          "text": "Drifters This Magic Moment"
+        },
+        {
+          "rank": 67,
+          "text": "Four Tops Baby I Need Your Loving"
+        },
+        {
+          "rank": 68,
+          "text": "Frank Sinatra Summer Wind"
+        },
+        {
+          "rank": 69,
+          "text": "Louis Armstrong Dream A Little Dream Of Me"
+        },
+        {
+          "rank": 70,
+          "text": "Mccoys Hang On Sloopy"
+        },
+        {
+          "rank": 71,
+          "text": "Young-Holt Unlimited Soulful Strut"
+        },
+        {
+          "rank": 72,
+          "text": "Brenton Wood The Oogum Boogum Song"
+        },
+        {
+          "rank": 73,
+          "text": "Marvin Gaye I Heard It Through The Grapevine"
+        },
+        {
+          "rank": 74,
+          "text": "Beatles Something"
+        },
+        {
+          "rank": 75,
+          "text": "Elvis Presley A Little Less Conversation"
+        },
+        {
+          "rank": 76,
+          "text": "Chuck Berry You Never Can Tell"
+        },
+        {
+          "rank": 77,
+          "text": "Beatles I Saw Her Standing There"
+        },
+        {
+          "rank": 78,
+          "text": "Sam Cooke Wonderful World"
+        },
+        {
+          "rank": 79,
+          "text": "Patsy Cline Crazy"
+        },
+        {
+          "rank": 80,
+          "text": "Beach Boys Surfin' U.S.A."
+        },
+        {
+          "rank": 81,
+          "text": "Drifters Under The Boardwalk"
+        },
+        {
+          "rank": 82,
+          "text": "Lovin' Spoonful Do You Believe In Magic?"
+        },
+        {
+          "rank": 83,
+          "text": "Sly & The Family Stone Dance To The Music"
+        },
+        {
+          "rank": 84,
+          "text": "Beatles Ob-La-Di, Ob-La-Da"
+        },
+        {
+          "rank": 85,
+          "text": "Steppenwolf Magic Carpet Ride"
+        },
+        {
+          "rank": 86,
+          "text": "Aretha Franklin(You Make Me Feel Like) A Natural Woman"
+        },
+        {
+          "rank": 87,
+          "text": "Jay & The Americans Come A Little Bit Closer"
+        },
+        {
+          "rank": 88,
+          "text": "Johnny Cash Folsom Prison Blues"
+        },
+        {
+          "rank": 89,
+          "text": "Mamas & The Papas California Dreamin'"
+        },
+        {
+          "rank": 90,
+          "text": "Beatles Come Together"
+        },
+        {
+          "rank": 91,
+          "text": "Diana Ross & The Supremes Baby Love"
+        },
+        {
+          "rank": 92,
+          "text": "Kinks You Really Got Me"
+        },
+        {
+          "rank": 93,
+          "text": "Dean Martin You're Nobody Till Somebody Loves You"
+        },
+        {
+          "rank": 94,
+          "text": "Andy Williams Moon River"
+        },
+        {
+          "rank": 95,
+          "text": "Creedence Clearwater Revival Down On The Corner"
+        },
+        {
+          "rank": 96,
+          "text": "Sam & Dave Soul Man"
+        },
+        {
+          "rank": 97,
+          "text": "Beatles Can't Buy Me Love"
+        },
+        {
+          "rank": 98,
+          "text": "Nancy Sinatra & Frank Sinatra Somethin' Stupid"
+        },
+        {
+          "rank": 99,
+          "text": "Temptations The Way You Do The Things You Do"
+        },
+        {
+          "rank": 100,
+          "text": "Beach Boys Barbara Ann"
+        }
+      ]
+    },
+    {
+      "title": "Top 100 Most Requested Songs of the 1950's",
+      "description": "Compiled from millions of song requests made through the DJ Intelligence event planning system in 2025.",
+      "songs": [
+        {
+          "rank": 1,
+          "text": "Isley Brothers Shout"
+        },
+        {
+          "rank": 2,
+          "text": "Dean Martin That's Amore"
+        },
+        {
+          "rank": 3,
+          "text": "Elvis Presley Jailhouse Rock"
+        },
+        {
+          "rank": 4,
+          "text": "Paul Anka Put Your Head On My Shoulder"
+        },
+        {
+          "rank": 5,
+          "text": "Natalie Cole With Nat King Cole Unforgettable"
+        },
+        {
+          "rank": 6,
+          "text": "Frank Sinatra Come Fly With Me"
+        },
+        {
+          "rank": 7,
+          "text": "Sam Cooke You Send Me"
+        },
+        {
+          "rank": 8,
+          "text": "Frank Sinatra You Make Me Feel So Young"
+        },
+        {
+          "rank": 9,
+          "text": "Jerry Lee Lewis Great Balls Of Fire"
+        },
+        {
+          "rank": 10,
+          "text": "Chuck Berry Johnny B. Goode"
+        },
+        {
+          "rank": 11,
+          "text": "Ritchie Valens La Bamba"
+        },
+        {
+          "rank": 12,
+          "text": "Elvis Presley Hound Dog"
+        },
+        {
+          "rank": 13,
+          "text": "Champs Tequila"
+        },
+        {
+          "rank": 14,
+          "text": "Frank Sinatra I've Got You Under My Skin"
+        },
+        {
+          "rank": 15,
+          "text": "Dean Martin Volare"
+        },
+        {
+          "rank": 16,
+          "text": "Johnny Cash I Walk The Line"
+        },
+        {
+          "rank": 17,
+          "text": "Elvis Presley Love Me Tender"
+        },
+        {
+          "rank": 18,
+          "text": "Frank Sinatra Love and Marriage"
+        },
+        {
+          "rank": 19,
+          "text": "Elvis Presley All Shook Up"
+        },
+        {
+          "rank": 20,
+          "text": "Flamingos I Only Have Eyes For You"
+        },
+        {
+          "rank": 21,
+          "text": "Elvis Presley Blue Suede Shoes"
+        },
+        {
+          "rank": 22,
+          "text": "Bobby Day Rockin' Robin"
+        },
+        {
+          "rank": 23,
+          "text": "Bill Haley & His Comets(We're Gonna) Rock Around The Clock"
+        },
+        {
+          "rank": 24,
+          "text": "Dean Martin Sway"
+        },
+        {
+          "rank": 25,
+          "text": "Platters Only You (And You Alone)"
+        },
+        {
+          "rank": 26,
+          "text": "Bobby Darin Mack The Knife"
+        },
+        {
+          "rank": 27,
+          "text": "Penguins Earth Angel (Will You Be Mine)"
+        },
+        {
+          "rank": 28,
+          "text": "Bobby Darin Dream Lover"
+        },
+        {
+          "rank": 29,
+          "text": "Frank Sinatra I Get A Kick Out Of You"
+        },
+        {
+          "rank": 30,
+          "text": "Harry Belafonte The Banana Boat Song (Day-O)"
+        },
+        {
+          "rank": 31,
+          "text": "Little Richard Good Golly, Miss Molly"
+        },
+        {
+          "rank": 32,
+          "text": "Hank Williams Hey, Good Lookin'"
+        },
+        {
+          "rank": 33,
+          "text": "Thurston Harris Little Bitty Pretty One"
+        },
+        {
+          "rank": 34,
+          "text": "Clovers Love Potion No. 9"
+        },
+        {
+          "rank": 35,
+          "text": "Patsy Cline Walkin' After Midnight"
+        },
+        {
+          "rank": 36,
+          "text": "Bill Haley & His Comets Shake, Rattle and Roll"
+        },
+        {
+          "rank": 37,
+          "text": "Johnny Mathis Chances Are"
+        },
+        {
+          "rank": 38,
+          "text": "Ray Charles I Got A Woman"
+        },
+        {
+          "rank": 39,
+          "text": "Peggy Lee Fever"
+        },
+        {
+          "rank": 40,
+          "text": "Nat King Cole Love Is Here To Stay"
+        },
+        {
+          "rank": 41,
+          "text": "Mickey & Sylvia Love Is Strange"
+        },
+        {
+          "rank": 42,
+          "text": "Five Satins In The Still Of The Nite"
+        },
+        {
+          "rank": 43,
+          "text": "Elvis Presley Don't Be Cruel"
+        },
+        {
+          "rank": 44,
+          "text": "Little Richard Tutti-Frutti"
+        },
+        {
+          "rank": 45,
+          "text": "Frankie Yankovic Pennsylvania Polka"
+        },
+        {
+          "rank": 46,
+          "text": "Buddy Holly & The Crickets That'll Be The Day"
+        },
+        {
+          "rank": 47,
+          "text": "Bobby Darin Splish Splash"
+        },
+        {
+          "rank": 48,
+          "text": "Dion & The Belmonts A Teenager In Love"
+        },
+        {
+          "rank": 49,
+          "text": "Everly Brothers All I Have To Do Is Dream"
+        },
+        {
+          "rank": 50,
+          "text": "Frank Sinatra All The Way"
+        },
+        {
+          "rank": 51,
+          "text": "Jerry Lee Lewis Whole Lotta Shakin' Going On"
+        },
+        {
+          "rank": 52,
+          "text": "Big Bopper Chantilly Lace"
+        },
+        {
+          "rank": 53,
+          "text": "Danny & The Juniors At The Hop"
+        },
+        {
+          "rank": 54,
+          "text": "Dean Martin I've Got My Love To Keep Me Warm"
+        },
+        {
+          "rank": 55,
+          "text": "Frankie Lymon & The Teenagers Why Do Fools Fall In Love"
+        },
+        {
+          "rank": 56,
+          "text": "Johnny Cash Get Rhythm"
+        },
+        {
+          "rank": 57,
+          "text": "Fats Domino Blueberry Hill"
+        },
+        {
+          "rank": 58,
+          "text": "Dean Martin Return To Me"
+        },
+        {
+          "rank": 59,
+          "text": "Screamin' Jay Hawkins I Put A Spell On You"
+        },
+        {
+          "rank": 60,
+          "text": "Dean Martin Memories Are Made Of This"
+        },
+        {
+          "rank": 61,
+          "text": "Al Hibbler Unchained Melody"
+        },
+        {
+          "rank": 62,
+          "text": "Buddy Holly Peggy Sue"
+        },
+        {
+          "rank": 63,
+          "text": "Santo & Johnny Sleep Walk"
+        },
+        {
+          "rank": 64,
+          "text": "Everly Brothers Wake Up Little Susie"
+        },
+        {
+          "rank": 65,
+          "text": "Platters Smoke Gets In Your Eyes"
+        },
+        {
+          "rank": 66,
+          "text": "Frank Sinatra Have Yourself A Merry Little Christmas"
+        },
+        {
+          "rank": 67,
+          "text": "Johnny Mathis Misty"
+        },
+        {
+          "rank": 68,
+          "text": "Phil Phillips With The Twilights Sea Of Love"
+        },
+        {
+          "rank": 69,
+          "text": "Ritchie Valens Come On, Let's Go"
+        },
+        {
+          "rank": 70,
+          "text": "Tennessee Ernie Ford Sixteen Tons"
+        },
+        {
+          "rank": 71,
+          "text": "Buddy Holly Everyday"
+        },
+        {
+          "rank": 72,
+          "text": "Chordettes Lollipop"
+        },
+        {
+          "rank": 73,
+          "text": "Chordettes Mr. Sandman"
+        },
+        {
+          "rank": 74,
+          "text": "Coasters Yakety Yak"
+        },
+        {
+          "rank": 75,
+          "text": "Doris Day Whatever Will Be Will Be (Que Sera, Sera)"
+        },
+        {
+          "rank": 76,
+          "text": "Monotones Book Of Love"
+        },
+        {
+          "rank": 77,
+          "text": "Perry Como Magic Moments"
+        },
+        {
+          "rank": 78,
+          "text": "Domenico Modugno Volare (Nel Blu, Dipinto Di Blu)"
+        },
+        {
+          "rank": 79,
+          "text": "Fats Domino Ain't That A Shame"
+        },
+        {
+          "rank": 80,
+          "text": "George Jones White Lightning"
+        },
+        {
+          "rank": 81,
+          "text": "Hank Williams Jambalaya (On The Bayou)"
+        },
+        {
+          "rank": 82,
+          "text": "Dell-Vikings Come Go With Me"
+        },
+        {
+          "rank": 83,
+          "text": "Everly Brothers Bye Bye Love"
+        },
+        {
+          "rank": 84,
+          "text": "Frank Sinatra My Funny Valentine"
+        },
+        {
+          "rank": 85,
+          "text": "Johnny Mathis The Twelfth Of Never"
+        },
+        {
+          "rank": 86,
+          "text": "Little Richard Long Tall Sally"
+        },
+        {
+          "rank": 87,
+          "text": "Tony Bennett Rags To Riches"
+        },
+        {
+          "rank": 88,
+          "text": "Chuck Berry Roll Over Beethoven"
+        },
+        {
+          "rank": 89,
+          "text": "Elvis Presley Heartbreak Hotel"
+        },
+        {
+          "rank": 90,
+          "text": "Jo Stafford You Belong To Me"
+        },
+        {
+          "rank": 91,
+          "text": "Sheb Wooley Purple People Eater"
+        },
+        {
+          "rank": 92,
+          "text": "Buddy Holly True Love Ways"
+        },
+        {
+          "rank": 93,
+          "text": "Chuck Berry Run Rudolph Run"
+        },
+        {
+          "rank": 94,
+          "text": "David Seville Witch Doctor"
+        },
+        {
+          "rank": 95,
+          "text": "Elvis Presley Teddy Bear"
+        },
+        {
+          "rank": 96,
+          "text": "Bing Crosby It's Beginning To Look A Lot Like Christmas"
+        },
+        {
+          "rank": 97,
+          "text": "Dion & The Belmonts I Wonder Why"
+        },
+        {
+          "rank": 98,
+          "text": "Frank Sinatra(Love Is) The Tender Trap"
+        },
+        {
+          "rank": 99,
+          "text": "Coasters Charlie Brown"
+        },
+        {
+          "rank": 100,
+          "text": "Platters The Great Pretender"
+        }
+      ]
+    }
+  ],
+  "fetchedAt": "2026-02-22T04:46:02.740Z"
+}

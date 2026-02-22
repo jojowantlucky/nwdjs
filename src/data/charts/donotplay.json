@@ -1,0 +1,412 @@
+{
+  "label": "Do Not Play",
+  "charts": [
+    {
+      "title": "Top 100 Most Requested Do Not Play Songs",
+      "description": "Compiled from millions of song requests made through the DJ Intelligence event planning system in 2025.",
+      "songs": [
+        {
+          "rank": 1,
+          "text": "DJ Casper Cha Cha Slide"
+        },
+        {
+          "rank": 2,
+          "text": "Cupid Cupid Shuffle"
+        },
+        {
+          "rank": 3,
+          "text": "Village People Y.M.C.A."
+        },
+        {
+          "rank": 4,
+          "text": "Rednex Cotton Eye Joe"
+        },
+        {
+          "rank": 5,
+          "text": "Pharrell Williams Happy"
+        },
+        {
+          "rank": 6,
+          "text": "V.I.C.Wobble"
+        },
+        {
+          "rank": 7,
+          "text": "Mark Ronson Feat. Bruno Mars Uptown Funk"
+        },
+        {
+          "rank": 8,
+          "text": "Neil Diamond Sweet Caroline (Good Times Never Seemed So Good)"
+        },
+        {
+          "rank": 9,
+          "text": "Los Del Rio Macarena"
+        },
+        {
+          "rank": 10,
+          "text": "Sorta Crackers Band Chicken Dance"
+        },
+        {
+          "rank": 11,
+          "text": "Taylor Swift Shake It Off"
+        },
+        {
+          "rank": 12,
+          "text": "Walk The Moon Shut Up and Dance"
+        },
+        {
+          "rank": 13,
+          "text": "Bruno Mars Marry You"
+        },
+        {
+          "rank": 14,
+          "text": "Beyonce Single Ladies (Put A Ring On It)"
+        },
+        {
+          "rank": 15,
+          "text": "Bruno Mars 24 k Magic"
+        },
+        {
+          "rank": 16,
+          "text": "Journey Don't Stop Believin'"
+        },
+        {
+          "rank": 17,
+          "text": "Marcia Griffiths Electric Boogie (Electric Slide)"
+        },
+        {
+          "rank": 18,
+          "text": "Justin Timberlake Can't Stop The Feeling!"
+        },
+        {
+          "rank": 19,
+          "text": "Black Eyed Peas I Gotta Feeling"
+        },
+        {
+          "rank": 20,
+          "text": "Sister Sledge We Are Family"
+        },
+        {
+          "rank": 21,
+          "text": "Miley Cyrus Party In The U.S.A."
+        },
+        {
+          "rank": 22,
+          "text": "Taylor Swift Love Story"
+        },
+        {
+          "rank": 23,
+          "text": "Shaboozey A Bar Song (Tipsy)"
+        },
+        {
+          "rank": 24,
+          "text": "Psy Gangnam Style"
+        },
+        {
+          "rank": 25,
+          "text": "Chappell Roan Pink Pony Club"
+        },
+        {
+          "rank": 26,
+          "text": "Lou Bega Mambo No. 5 (A Little Bit Of...)"
+        },
+        {
+          "rank": 27,
+          "text": "Kool & The Gang Celebration"
+        },
+        {
+          "rank": 28,
+          "text": "Robin Thicke Blurred Lines"
+        },
+        {
+          "rank": 29,
+          "text": "LMFAO Feat. Lauren Bennett and Goon Rock Party Rock Anthem"
+        },
+        {
+          "rank": 30,
+          "text": "Killers Mr. Brightside"
+        },
+        {
+          "rank": 31,
+          "text": "Carly Rae Jepsen Call Me Maybe"
+        },
+        {
+          "rank": 32,
+          "text": "Chappell Roan Hot To Go!"
+        },
+        {
+          "rank": 33,
+          "text": "Cardi B Feat. Megan Thee Stallion Wap"
+        },
+        {
+          "rank": 34,
+          "text": "Banda La Chacaloza De Jerez Zacatecas Macarena"
+        },
+        {
+          "rank": 35,
+          "text": "Ed Sheeran Perfect"
+        },
+        {
+          "rank": 36,
+          "text": "John Legend All Of Me"
+        },
+        {
+          "rank": 37,
+          "text": "Bayou City Beats Cotton Eyed Joe"
+        },
+        {
+          "rank": 38,
+          "text": "Big & Rich Save A Horse (Ride A Cowboy)"
+        },
+        {
+          "rank": 39,
+          "text": "DNCE Cake By The Ocean"
+        },
+        {
+          "rank": 40,
+          "text": "B-52's Love Shack"
+        },
+        {
+          "rank": 41,
+          "text": "Outkast Hey Ya!"
+        },
+        {
+          "rank": 42,
+          "text": "DJ Snake Feat. Lil Jon Turn Down For What"
+        },
+        {
+          "rank": 43,
+          "text": "Pitbull Feat. John Ryan Fireball"
+        },
+        {
+          "rank": 44,
+          "text": "Daddy Yankee Gasolina"
+        },
+        {
+          "rank": 45,
+          "text": "ABBA Dancing Queen"
+        },
+        {
+          "rank": 46,
+          "text": "Taylor Swift You Belong With Me"
+        },
+        {
+          "rank": 47,
+          "text": "Lil Nas X Feat. Billy Ray Cyrus Old Town Road"
+        },
+        {
+          "rank": 48,
+          "text": "Meghan Trainor All About That Bass"
+        },
+        {
+          "rank": 49,
+          "text": "LMFAO Feat. Lil Jon Shots"
+        },
+        {
+          "rank": 50,
+          "text": "Chris Brown Forever"
+        },
+        {
+          "rank": 51,
+          "text": "Kenny Loggins Footloose"
+        },
+        {
+          "rank": 52,
+          "text": "Darius Rucker Wagon Wheel"
+        },
+        {
+          "rank": 53,
+          "text": "Ed Sheeran Thinking Out Loud"
+        },
+        {
+          "rank": 54,
+          "text": "Bruno Mars Just The Way You Are"
+        },
+        {
+          "rank": 55,
+          "text": "Soulja Boy Tell'em Crank That (Soulja Boy)"
+        },
+        {
+          "rank": 56,
+          "text": "Sabrina Carpenter Espresso"
+        },
+        {
+          "rank": 57,
+          "text": "Bon Jovi Livin' On A Prayer"
+        },
+        {
+          "rank": 58,
+          "text": "Shania Twain Man! I Feel Like A Woman!"
+        },
+        {
+          "rank": 59,
+          "text": "Baha Men Who Let The Dogs Out"
+        },
+        {
+          "rank": 60,
+          "text": "Luke Bryan Country Girl (Shake It For Me)"
+        },
+        {
+          "rank": 61,
+          "text": "Isley Brothers Shout"
+        },
+        {
+          "rank": 62,
+          "text": "Usher Feat. Ludacris & Lil' Jon Yeah"
+        },
+        {
+          "rank": 63,
+          "text": "Earth, Wind & Fire September"
+        },
+        {
+          "rank": 64,
+          "text": "Dexy's Midnight Runners Come On Eileen"
+        },
+        {
+          "rank": 65,
+          "text": "Chris Stapleton Tennessee Whiskey"
+        },
+        {
+          "rank": 66,
+          "text": "Nelly Hot In Herre"
+        },
+        {
+          "rank": 67,
+          "text": "Beyonce Texas Hold 'Em"
+        },
+        {
+          "rank": 68,
+          "text": "Christina Perri A Thousand Years"
+        },
+        {
+          "rank": 69,
+          "text": "Tones and IDance Monkey"
+        },
+        {
+          "rank": 70,
+          "text": "Luis Fonsi & Daddy Yankee Feat. Justin Bieber Despacito"
+        },
+        {
+          "rank": 71,
+          "text": "Vanilla Ice Ice Ice Baby"
+        },
+        {
+          "rank": 72,
+          "text": "Benson Boone Beautiful Things"
+        },
+        {
+          "rank": 73,
+          "text": "Lizzo About Damn Time"
+        },
+        {
+          "rank": 74,
+          "text": "Pitbull Feat. Kesha Timber"
+        },
+        {
+          "rank": 75,
+          "text": "Zac Brown Band Chicken Fried"
+        },
+        {
+          "rank": 76,
+          "text": "Sir Mix-A-Lot Baby Got Back"
+        },
+        {
+          "rank": 77,
+          "text": "Taylor Swift Cruel Summer"
+        },
+        {
+          "rank": 78,
+          "text": "Lynyrd Skynyrd Sweet Home Alabama"
+        },
+        {
+          "rank": 79,
+          "text": "Lil' Jon & The East Side Boyz Feat. Ying Yang Twins Get Low"
+        },
+        {
+          "rank": 80,
+          "text": "Pitbull Hotel Room Service"
+        },
+        {
+          "rank": 81,
+          "text": "Cascada Everytime We Touch"
+        },
+        {
+          "rank": 82,
+          "text": "Smash Mouth All Star"
+        },
+        {
+          "rank": 83,
+          "text": "Wild Cherry Play That Funky Music"
+        },
+        {
+          "rank": 84,
+          "text": "Garth Brooks Friends In Low Places"
+        },
+        {
+          "rank": 85,
+          "text": "House Of Pain Jump Around"
+        },
+        {
+          "rank": 86,
+          "text": "John Denver Take Me Home, Country Roads"
+        },
+        {
+          "rank": 87,
+          "text": "Brooks & Dunn Boot Scootin' Boogie"
+        },
+        {
+          "rank": 88,
+          "text": "Flo Rida Feat. T-Pain Low"
+        },
+        {
+          "rank": 89,
+          "text": "Kanye West Feat. Jamie Foxx Gold Digger"
+        },
+        {
+          "rank": 90,
+          "text": "Kendrick Lamar Not Like Us"
+        },
+        {
+          "rank": 91,
+          "text": "Cyndi Lauper Girls Just Want To Have Fun"
+        },
+        {
+          "rank": 92,
+          "text": "Queen Bohemian Rhapsody"
+        },
+        {
+          "rank": 93,
+          "text": "Toto Africa"
+        },
+        {
+          "rank": 94,
+          "text": "Spice Girls Wannabe"
+        },
+        {
+          "rank": 95,
+          "text": "Nicki Minaj Starships"
+        },
+        {
+          "rank": 96,
+          "text": "Kesha Tik Tok"
+        },
+        {
+          "rank": 97,
+          "text": "Waka Flocka Flame Feat. Roscoe Dash & Wale No Hands"
+        },
+        {
+          "rank": 98,
+          "text": "Bee Gees Stayin' Alive"
+        },
+        {
+          "rank": 99,
+          "text": "Paul Russell Lil Boo Thang"
+        },
+        {
+          "rank": 100,
+          "text": "Ed Sheeran Shape Of You"
+        }
+      ]
+    }
+  ],
+  "fetchedAt": "2026-02-22T04:46:13.308Z"
+}

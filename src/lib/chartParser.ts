@@ -1,3 +1,6 @@
+import path from 'path'
+import fs from 'fs'
+
 export interface ChartSong {
   rank: number
   text: string
@@ -15,12 +18,7 @@ export interface ChartCollection {
   fetchedAt: string
 }
 
-const CHART_URLS: Record<string, string> = {
-  party:     'https://www.djintelligence.com/charts/?email=info@noteworthydjs.com&authkey=ZBNAR3DP2XJiF09ihbFBJWdDS4sh49&chart=MostRequested',
-  wedding:   'https://www.djintelligence.com/charts/?email=info@noteworthydjs.com&authkey=ZBNAR3DP2XJiF09ihbFBJWdDS4sh49&chart=MostRequestedWedding',
-  combined:  'https://www.djintelligence.com/charts/?email=info@noteworthydjs.com&authkey=ZBNAR3DP2XJiF09ihbFBJWdDS4sh49&chart=MostRequestedAll',
-  donotplay: 'https://www.djintelligence.com/charts/?email=info@noteworthydjs.com&authkey=ZBNAR3DP2XJiF09ihbFBJWdDS4sh49&chart=DoNotPlay',
-}
+const CHART_KEYS = ['party', 'wedding', 'combined', 'donotplay'] as const
 
 const CHART_LABELS: Record<string, string> = {
   party:     'Party Charts',
@@ -29,6 +27,33 @@ const CHART_LABELS: Record<string, string> = {
   donotplay: 'Do Not Play',
 }
 
+// Path to the committed JSON cache files
+const CACHE_DIR = path.join(process.cwd(), 'src/data/charts')
+
+function loadFromCache(key: string): ChartCollection | null {
+  try {
+    const filePath = path.join(CACHE_DIR, `${key}.json`)
+    if (!fs.existsSync(filePath)) return null
+    const raw = fs.readFileSync(filePath, 'utf-8')
+    return JSON.parse(raw) as ChartCollection
+  } catch {
+    return null
+  }
+}
+
+export async function fetchAllCharts(): Promise<ChartCollection[]> {
+  return CHART_KEYS.map(key => {
+    const cached = loadFromCache(key)
+    if (cached) {
+      console.log(`[charts] ${key}: loaded from cache (${cached.charts.length} charts)`)
+      return cached
+    }
+    console.warn(`[charts] ${key}: no cache file at src/data/charts/${key}.json — run: node scripts/fetchCharts.mjs`)
+    return { label: CHART_LABELS[key], charts: [], fetchedAt: '' }
+  })
+}
+
+// Exported for use by scripts/fetchCharts.mjs
 const SKIP_LINES = ['RANK ARTIST SONG', 'RANK ARTIST SONG YEAR', 'RANKARTISTSONG', 'RANKARTISTSONGYEAR']
 
 function isBoilerplate(line: string): boolean {
@@ -48,13 +73,12 @@ function isChartTitle(line: string): boolean {
   return /^Top \d/.test(line) || line.startsWith('Most Requested') || line.startsWith('Do Not Play')
 }
 
-/** Insert spaces at column-merge boundaries that pdf-parse drops */
 function insertSpaces(text: string): string {
   return text
-    .replace(/([a-z])([A-Z])/g, '$1 $2')        // centIn → cent In
-    .replace(/([A-Z]{2,})([A-Z][a-z])/g, '$1 $2') // ABBADancing → ABBA Dancing
-    .replace(/(\d)([A-Za-z])/g, '$1 $2')          // 50Cent → 50 Cent
-    .replace(/([a-zA-Z])(\d)/g, '$1 $2')          // edge cases
+    .replace(/([a-z])([A-Z])/g, '$1 $2')
+    .replace(/([A-Z]{2,})([A-Z][a-z])/g, '$1 $2')
+    .replace(/(\d)([A-Za-z])/g, '$1 $2')
+    .replace(/([a-zA-Z])(\d)/g, '$1 $2')
 }
 
 export function parseCharts(text: string): Chart[] {
@@ -86,9 +110,6 @@ export function parseCharts(text: string): Chart[] {
     let rank = parseInt(m[1], 10)
     let rest = m[2]
 
-    // Fix rank collision: e.g. "5850Cent In Da Club" where rank=58, artist starts with "50"
-    // If parsed rank doesn't match expected but expected is a prefix of the digits found,
-    // peel off only the expected rank's digits and push the rest into the song text.
     const expectedStr = String(expectedRank)
     if (rank !== expectedRank && m[1].startsWith(expectedStr) && m[1].length > expectedStr.length) {
       rank = expectedRank
@@ -104,33 +125,4 @@ export function parseCharts(text: string): Chart[] {
 
   if (current && current.songs.length > 0) charts.push(current)
   return charts
-}
-
-async function fetchChartCollection(key: string): Promise<ChartCollection> {
-  const label = CHART_LABELS[key]
-  try {
-    const res = await fetch(CHART_URLS[key], {
-      next: { revalidate: 86400 },
-      headers: { 'User-Agent': 'Mozilla/5.0' },
-    })
-    if (!res.ok) throw new Error(`HTTP ${res.status}`)
-
-    const buffer = Buffer.from(await res.arrayBuffer())
-    // eslint-disable-next-line @typescript-eslint/no-require-imports
-    const pdfParse = require('pdf-parse/lib/pdf-parse.js')
-    const data = await pdfParse(buffer)
-    const charts = parseCharts(data.text as string)
-
-    console.log(`[charts] ${key}: ${charts.length} charts | songs: ${charts.map(c => c.songs.length).join(', ')}`)
-    return { label, charts, fetchedAt: new Date().toISOString() }
-  } catch (e) {
-    console.error(`[charts] FAILED ${key}:`, e)
-    return { label, charts: [], fetchedAt: '' }
-  }
-}
-
-export async function fetchAllCharts(): Promise<ChartCollection[]> {
-  return Promise.all(
-    Object.keys(CHART_URLS).map(k => fetchChartCollection(k))
-  )
 }
