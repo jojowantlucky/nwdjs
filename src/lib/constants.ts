@@ -73,6 +73,7 @@ export const BADGES = [
     src: '/img/homepage/book-with-confidence/bbb-150x150.webp',
     alt: 'Noteworthy Productions LLC BBB Business Review',
     external: true,
+    iframeSrc: 'https://seal-alaskaoregonwesternwashington.bbb.org/frame/blue-seal-150-110-bbb-1000083774.png?chk=0DE3410CC9',
   },
   {
     id: 'google',

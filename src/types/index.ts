@@ -69,4 +69,5 @@ export interface Badge {
   src: string
   alt: string
   external?: boolean
+  iframeSrc?: string
 }

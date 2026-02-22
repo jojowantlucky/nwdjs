@@ -15,15 +15,24 @@ export default function BookWithConfidence() {
               href={badge.href}
               target={badge.external ? '_blank' : undefined}
               rel={badge.external ? 'noopener noreferrer' : undefined}
-              className="hover:opacity-80 transition-opacity"
+              className="hover:opacity-80 transition-opacity flex items-center justify-center"
             >
-              <Image
-                src={assetPath(badge.src)}
-                alt={badge.alt}
-                width={150}
-                height={150}
-                className="w-36 h-36 object-contain"
-              />
+              {badge.iframeSrc ? (
+                <iframe
+                  src={badge.iframeSrc}
+                  title={badge.alt}
+                  style={{ border: 0, height: '110px', width: '150px', pointerEvents: 'none' }}
+                  frameBorder="0"
+                />
+              ) : (
+                <Image
+                  src={assetPath(badge.src)}
+                  alt={badge.alt}
+                  width={150}
+                  height={150}
+                  className="w-36 h-36 object-contain"
+                />
+              )}
             </a>
           ))}
         </div>
