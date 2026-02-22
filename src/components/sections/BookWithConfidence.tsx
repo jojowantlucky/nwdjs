@@ -16,7 +16,7 @@ export default function BookWithConfidence() {
               target={badge.external ? '_blank' : undefined}
               rel={badge.external ? 'noopener noreferrer' : undefined}
               className="hover:opacity-80 transition-opacity flex items-center justify-center"
-              style={badge.iframeSrc ? { width: '150px', height: '110px', overflow: 'hidden', display: 'block' } : undefined}
+              style={badge.iframeSrc ? { width: '150px', height: '110px', overflow: 'hidden', display: 'flex', alignItems: 'center', alignSelf: 'center' } : undefined}
             >
               {badge.iframeSrc ? (
                 <iframe
