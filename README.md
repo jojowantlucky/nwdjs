@@ -91,6 +91,39 @@ for most updates:
 
 ---
 
+## Song Lists (DJ Intelligence Charts)
+
+The Song Ideas page (`/song-ideas`) displays charts pulled from DJ Intelligence. Because
+the DJ Intelligence server blocks requests from build servers, the chart data is
+**pre-fetched and committed as JSON cache files** in `src/data/charts/`. The build
+reads those files directly — no network call needed.
+
+### Refreshing the song lists
+
+Run this locally whenever you want to pull updated charts:
+
+```bash
+node scripts/fetchCharts.mjs
+```
+
+This fetches the four PDFs from DJ Intelligence, parses them, and writes:
+- `src/data/charts/party.json`
+- `src/data/charts/wedding.json`
+- `src/data/charts/combined.json`
+- `src/data/charts/donotplay.json`
+
+Then commit and push the updated files:
+
+```bash
+git add src/data/charts/*.json
+git commit -m "Refresh song charts"
+git push origin updates
+```
+
+DeployHQ will pick up the new data on the next build automatically.
+
+---
+
 ## Check Cherry Widgets
 
 All widget types are in `CheckCherryWidgets.tsx`. The script is loaded once via
