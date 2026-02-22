@@ -273,15 +273,15 @@ export default async function PhotoBoothPage() {
             {supplemental.map((item) => (
               <li
                 key={item.id}
+                className="service-pkg-item"
                 style={{
-                  display: 'flex',
                   alignItems: 'stretch',
                   marginTop: '3em',
                   paddingTop: '3em',
                   boxShadow: '0 -1px 0 rgba(155,155,155,0.3)',
                 }}
               >
-                <div style={{ width: '13em', flexShrink: 0, marginRight: '3em' }}>
+                <div className="service-pkg-image" style={{ width: '13em', flexShrink: 0, marginRight: '3em' }}>
                   <img
                     src={item.image}
                     alt={item.alt}
