@@ -16,13 +16,15 @@ export default function BookWithConfidence() {
               target={badge.external ? '_blank' : undefined}
               rel={badge.external ? 'noopener noreferrer' : undefined}
               className="hover:opacity-80 transition-opacity flex items-center justify-center"
+              style={badge.iframeSrc ? { width: '150px', height: '110px', overflow: 'hidden', display: 'block' } : undefined}
             >
               {badge.iframeSrc ? (
                 <iframe
                   src={badge.iframeSrc}
                   title={badge.alt}
-                  style={{ border: 0, height: '110px', width: '150px', pointerEvents: 'none' }}
+                  style={{ border: 0, height: '110px', width: '150px', display: 'block', pointerEvents: 'none' }}
                   frameBorder="0"
+                  scrolling="no"
                 />
               ) : (
                 <Image
