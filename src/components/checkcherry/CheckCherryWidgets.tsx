@@ -147,6 +147,60 @@ export function CheckCherryGallery({
 }: CheckCherryGalleryProps) {
   useCheckCherryScript()
 
+  const [loaded, setLoaded] = useState(false)
+  const widgetRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    const el = widgetRef.current
+    if (!el) return
+
+    // Gallery has rendered when there's at least one img inside the widget
+    const hasRealContent = () => el.querySelectorAll('img').length > 0
+
+    let markedLoaded = false
+    const markLoaded = () => {
+      if (markedLoaded) return
+      markedLoaded = true
+      setLoaded(true)
+      observer.disconnect()
+      clearInterval(poll)
+      clearTimeout(retryTimeout)
+      clearTimeout(hardTimeout)
+    }
+
+    const observer = new MutationObserver(() => {
+      if (hasRealContent()) markLoaded()
+    })
+    observer.observe(el, { childList: true, subtree: true })
+
+    const poll = setInterval(() => {
+      if (hasRealContent()) markLoaded()
+    }, 300)
+
+    // Retry: reload CC script after 5s if nothing has appeared
+    const retryTimeout = setTimeout(() => {
+      if (markedLoaded) return
+      const existing = document.querySelector(`script[src="${CC_CONFIG.scriptSrc}"]`)
+      if (existing) existing.remove()
+      const script = document.createElement('script')
+      script.src = CC_CONFIG.scriptSrc
+      script.type = 'text/javascript'
+      script.charset = 'utf-8'
+      script.async = true
+      document.body.appendChild(script)
+    }, 5000)
+
+    // Hard timeout at 25s
+    const hardTimeout = setTimeout(markLoaded, 25000)
+
+    return () => {
+      observer.disconnect()
+      clearInterval(poll)
+      clearTimeout(retryTimeout)
+      clearTimeout(hardTimeout)
+    }
+  }, [])
+
   const widgetClassStr = `checkcherry__widget__${widgetType}`
 
   const props = JSON.stringify({
@@ -160,8 +214,32 @@ export function CheckCherryGallery({
   })
 
   return (
-    <div className={className}>
-      <div className={widgetClassStr} data-props={props} />
+    <div className={className} style={{ position: 'relative', minHeight: loaded ? undefined : '160px' }}>
+      {!loaded && (
+        <div style={{
+          position: 'absolute',
+          inset: 0,
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          justifyContent: 'center',
+          padding: '3rem 1rem',
+          color: '#9b9b9b',
+          gap: '1rem',
+          zIndex: 1,
+        }}>
+          <div style={{
+            width: '36px',
+            height: '36px',
+            border: '3px solid rgba(232,108,108,0.2)',
+            borderTopColor: '#e86c6c',
+            borderRadius: '50%',
+            animation: 'spin 0.8s linear infinite',
+          }} />
+          <p style={{ margin: 0, fontSize: '0.85rem' }}>Loading…</p>
+        </div>
+      )}
+      <div ref={widgetRef} className={widgetClassStr} data-props={props} />
     </div>
   )
 }
