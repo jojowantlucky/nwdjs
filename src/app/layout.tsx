@@ -17,8 +17,33 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <head>
-        {/* Favicon — explicit link so it works under any basePath */}
-        <link rel="icon" href={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ''}/favicon.ico`} sizes="any" />
+        {/* ── Favicons & touch icons ── */}
+        {(() => {
+          const b = process.env.NEXT_PUBLIC_BASE_PATH ?? ''
+          return (<>
+            <link rel="icon" type="image/x-icon" href={`${b}/favicon.ico`} />
+            <link rel="icon" type="image/png" sizes="96x96" href={`${b}/images/favicons/favicon-96x96.png`} />
+            <link rel="icon" type="image/png" sizes="32x32" href={`${b}/images/favicons/favicon-32x32.png`} />
+            <link rel="icon" type="image/png" sizes="16x16" href={`${b}/images/favicons/favicon-16x16.png`} />
+            <link rel="apple-touch-icon" href={`${b}/images/favicons/apple-icon.png`} />
+            <link rel="apple-touch-icon-precomposed" href={`${b}/images/favicons/apple-icon-precomposed.png`} />
+            <link rel="apple-touch-icon" sizes="180x180" href={`${b}/images/favicons/apple-icon-180x180.png`} />
+            <link rel="apple-touch-icon" sizes="152x152" href={`${b}/images/favicons/apple-icon-152x152.png`} />
+            <link rel="apple-touch-icon" sizes="144x144" href={`${b}/images/favicons/apple-icon-144x144.png`} />
+            <link rel="apple-touch-icon" sizes="120x120" href={`${b}/images/favicons/apple-icon-120x120.png`} />
+            <link rel="apple-touch-icon" sizes="114x114" href={`${b}/images/favicons/apple-icon-114x114.png`} />
+            <link rel="apple-touch-icon" sizes="76x76"   href={`${b}/images/favicons/apple-icon-76x76.png`} />
+            <link rel="apple-touch-icon" sizes="72x72"   href={`${b}/images/favicons/apple-icon-72x72.png`} />
+            <link rel="apple-touch-icon" sizes="60x60"   href={`${b}/images/favicons/apple-icon-60x60.png`} />
+            <link rel="apple-touch-icon" sizes="57x57"   href={`${b}/images/favicons/apple-icon-57x57.png`} />
+            <link rel="manifest" href={`${b}/manifest.json`} />
+            <meta name="msapplication-TileImage"  content={`${b}/images/favicons/ms-icon-144x144.png`} />
+            <meta name="msapplication-TileColor"  content="#000000" />
+            <meta name="msapplication-square70x70logo"   content={`${b}/images/favicons/ms-icon-70x70.png`} />
+            <meta name="msapplication-square150x150logo" content={`${b}/images/favicons/ms-icon-150x150.png`} />
+            <meta name="msapplication-square310x310logo" content={`${b}/images/favicons/ms-icon-310x310.png`} />
+          </>)
+        })()}
         {/* Google Tag Manager */}
         <script
           dangerouslySetInnerHTML={{
