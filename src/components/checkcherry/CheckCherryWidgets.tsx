@@ -44,32 +44,26 @@ export function CheckCherryContactForm({
     const el = widgetRef.current
     if (!el) return
 
-    // MutationObserver — fires as soon as CC injects anything
-    const observer = new MutationObserver(() => {
-      if (el.children.length > 0) {
-        setLoaded(true)
-        observer.disconnect()
-        clearInterval(poll)
-      }
-    })
-    observer.observe(el, { childList: true, subtree: true })
-
-    // Polling fallback — on some mobile browsers the mutation fires before
-    // the form is fully rendered; double-check every 300ms up to 15 seconds
-    const poll = setInterval(() => {
-      if (el.children.length > 0 && el.clientHeight > 50) {
-        setLoaded(true)
-        observer.disconnect()
-        clearInterval(poll)
-      }
-    }, 300)
-
-    // Hard timeout — show whatever's there after 15s regardless
-    const timeout = setTimeout(() => {
+    const markLoaded = () => {
       setLoaded(true)
       observer.disconnect()
       clearInterval(poll)
-    }, 15000)
+      clearTimeout(timeout)
+    }
+
+    // Watch for CC injecting content
+    const observer = new MutationObserver(() => {
+      if (el.children.length > 0 && el.clientHeight > 50) markLoaded()
+    })
+    observer.observe(el, { childList: true, subtree: true })
+
+    // Polling fallback every 400ms
+    const poll = setInterval(() => {
+      if (el.children.length > 0 && el.clientHeight > 50) markLoaded()
+    }, 400)
+
+    // Hard timeout after 20s
+    const timeout = setTimeout(markLoaded, 20000)
 
     return () => {
       observer.disconnect()
@@ -86,15 +80,20 @@ export function CheckCherryContactForm({
   })
 
   return (
-    <div className={className}>
+    <div className={className} style={{ position: 'relative', minHeight: loaded ? undefined : '160px' }}>
+      {/* Spinner — sits on top until CC renders content */}
       {!loaded && (
         <div style={{
+          position: 'absolute',
+          inset: 0,
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
+          justifyContent: 'center',
           padding: '3rem 1rem',
           color: '#9b9b9b',
           gap: '1rem',
+          zIndex: 1,
         }}>
           <div style={{
             width: '36px',
@@ -107,11 +106,11 @@ export function CheckCherryContactForm({
           <p style={{ margin: 0, fontSize: '0.85rem' }}>Loading contact form…</p>
         </div>
       )}
+      {/* Widget div — always in the DOM so CC script can find and initialize it */}
       <div
         ref={widgetRef}
         className="checkcherry__widget__contact-form"
         data-props={props}
-        style={{ display: loaded ? 'block' : 'none' }}
       />
     </div>
   )
