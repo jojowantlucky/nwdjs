@@ -145,7 +145,7 @@ export default function Footer() {
               { label: 'Song Ideas', href: '/song-ideas' },
               { label: 'Vendors',         href: '/vendors' },
               { label: 'FAQs',            href: '/faqs' },
-              { label: 'Awards',          href: '/awards' },
+              { label: 'In the News',     href: '/awards' },
               { label: 'Testimonials',    href: '/testimonials' },
               { label: 'Join the Team',   href: '/join-the-team' },
               { label: 'Contact',         href: '/#contact' },

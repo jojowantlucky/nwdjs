@@ -458,3 +458,30 @@
     text-align: center;
   }
 }
+
+/* ── News / awards article body ── */
+.news-body {
+  color: #6b6b6b;
+  font-size: 0.95rem;
+  line-height: 1.85;
+}
+.news-body p { margin: 0 0 1.25rem; }
+.news-body strong { color: #4a4a4a; }
+.news-body a { color: #e86c6c; text-underline-offset: 3px; }
+.news-body blockquote {
+  margin: 2rem 0;
+  padding: 1.25rem 1.5rem;
+  border-left: 3px solid #e86c6c;
+  background: rgba(232,108,108,0.04);
+  border-radius: 0 4px 4px 0;
+  font-style: italic;
+  color: #9b9b9b;
+}
+.news-body blockquote cite {
+  display: block;
+  margin-top: 0.75rem;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: #6b6b6b;
+}

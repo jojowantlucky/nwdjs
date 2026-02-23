@@ -39,7 +39,7 @@ export default function BookWithConfidence() {
           ))}
         </div>
         <Link href="/awards" className="btn btn-primary">
-          See More Awards
+          In the News
         </Link>
       </div>
     </section>
