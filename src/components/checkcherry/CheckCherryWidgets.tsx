@@ -58,8 +58,10 @@ const CC_IFRAME_PROPS = encodeURIComponent(JSON.stringify({
   wideSubmitButtons: false,
   buttonBackgroundColor: '',
   buttonForegroundColor: '',
-  maxWidth: '',
+  maxWidth: '400px',
   fontFamily: 'Montserrat',
+  labelFontWeight: '400',
+  labelFontSize: '16px',
 }))
 
 export function CheckCherryContactForm({
@@ -95,7 +97,7 @@ export function CheckCherryContactForm({
         position: 'relative',
         minHeight: loaded ? undefined : '160px',
         width: '100%',
-        maxWidth: '500px',
+        maxWidth: '400px',
         margin: '0 auto',
         overflow: 'hidden',
       }}
@@ -110,7 +112,7 @@ export function CheckCherryContactForm({
           padding: 0,
           border: 'none',
           width: '100%',
-          height: '900px',
+          height: '1100px',
           display: 'block',
           opacity: loaded ? 1 : 0,
           transition: 'opacity 0.3s ease',
