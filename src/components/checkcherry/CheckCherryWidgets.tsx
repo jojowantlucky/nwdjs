@@ -91,7 +91,14 @@ export function CheckCherryContactForm({
   return (
     <div
       className={className}
-      style={{ position: 'relative', minHeight: loaded ? undefined : '160px' }}
+      style={{
+        position: 'relative',
+        minHeight: loaded ? undefined : '160px',
+        width: '100%',
+        maxWidth: '500px',
+        margin: '0 auto',
+        overflow: 'hidden',
+      }}
     >
       {!loaded && <CCSpinner label="Loading contact form…" />}
       <iframe
@@ -103,7 +110,6 @@ export function CheckCherryContactForm({
           padding: 0,
           border: 'none',
           width: '100%',
-          maxWidth: '500px',
           height: '400px',
           display: 'block',
           opacity: loaded ? 1 : 0,

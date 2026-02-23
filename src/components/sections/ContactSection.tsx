@@ -13,7 +13,7 @@ export default function ContactSection() {
           <a href={`mailto:${SITE.email}`} className="underline">{SITE.email}</a>.
         </p>
 
-        <CheckCherryContactForm className="mb-8" />
+        <CheckCherryContactForm className="mb-8 px-2" />
 
         <div className="text-gray-500 text-sm space-y-1">
           <p>{SITE.company}</p>
