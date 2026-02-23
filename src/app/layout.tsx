@@ -11,13 +11,14 @@ export const metadata: Metadata = {
   },
   description:
     'Noteworthy DJs & Photo Booths — Award-winning, 5-star rated wedding DJ, party DJ, and photo booth service. Serving Portland, OR and surrounding areas.',
-  icons: { icon: '/favicon.png' },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <head>
+        {/* Favicon — explicit link so it works under any basePath */}
+        <link rel="icon" href={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ''}/favicon.ico`} sizes="any" />
         {/* Google Tag Manager */}
         <script
           dangerouslySetInnerHTML={{
