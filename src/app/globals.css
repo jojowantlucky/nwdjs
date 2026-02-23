@@ -400,6 +400,17 @@
   to { transform: rotate(360deg); }
 }
 
+/* Gallery grid — 2 cols on mobile, 3 on desktop */
+.gallery-item {
+  width: 33.33%;
+}
+
+@media (max-width: 600px) {
+  .gallery-item {
+    width: 50%;
+  }
+}
+
 /* ── How It Works — mobile layout ── */
 @media (max-width: 640px) {
   /* Stack rows vertically, image on top */

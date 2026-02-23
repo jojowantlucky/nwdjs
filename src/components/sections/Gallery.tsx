@@ -235,9 +235,8 @@ export default function Gallery() {
           <div
             key={group.id}
             data-id={group.id}
-            className={visible.has(group.id) ? 'gallery-item-animate' : ''}
+            className={`gallery-item ${visible.has(group.id) ? 'gallery-item-animate' : ''}`}
             style={{
-              width: '33.33%',
               padding: '0.25rem',
               boxSizing: 'border-box',
               overflow: 'hidden',
