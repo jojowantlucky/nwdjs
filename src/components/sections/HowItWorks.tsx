@@ -1,6 +1,9 @@
 'use client'
 
+import Link from 'next/link'
 import SectionHeader from '@/components/ui/SectionHeader'
+import CalendlyButton from '@/components/ui/CalendlyButton'
+import { assetPath } from '@/lib/constants'
 
 export default function HowItWorks() {
   const steps = [
@@ -8,25 +11,55 @@ export default function HowItWorks() {
       word: 'Pick',
       img: '/img/homepage/how-it-works/pick-800x800.webp',
       alt: 'Pick your DJ and/or photo booth package',
-      desc: "Everything starts with a package. We can customize your package to perfectly suit your vision using our wide variety of add-ons. Check availability or send us a note if you'd like to learn more.",
+      desc: (
+        <>
+          Everything starts with a package. We can customize your package to perfectly suit
+          your vision using our wide variety of{' '}
+          <Link href="/add-ons" style={{ color: '#e86c6c' }}>add-ons</Link>.{' '}
+          <Link href="/#contact" style={{ color: '#e86c6c' }}>Check availability</Link>{' '}
+          or{' '}
+          <Link href="/#contact" style={{ color: '#e86c6c' }}>send us a note</Link>{' '}
+          if you'd like to learn more.
+        </>
+      ),
     },
     {
       word: 'Pair',
       img: '/img/homepage/how-it-works/pair-800x800.webp',
       alt: 'Pair up with your DJ or photo booth host',
-      desc: "An accepted proposal and 25% retainer locks everything in. At this point, we'll get in touch with you to get started with planning everything. Have someone in mind? Let us know.",
+      desc: (
+        <>
+          An accepted proposal and 25% retainer locks everything in. At this point,
+          we'll get in touch with you to get started with planning everything.{' '}
+          <Link href="/team" style={{ color: '#e86c6c' }}>Have someone in mind?</Link>{' '}
+          Let us know.
+        </>
+      ),
     },
     {
       word: 'Plan',
       img: '/img/homepage/how-it-works/plan-800x800.webp',
       alt: 'Plan your event using our online tools',
-      desc: "Keep an eye on your email inbox. You'll receive an email invitation to create a planning account on our platform — the perfect tool for planning your event. Choose songs, create timelines, send messages, and much more.",
+      desc: (
+        <>
+          Keep an eye on your email inbox. You'll receive an email invitation to create
+          a planning account on our platform — the perfect tool for planning your event.{' '}
+          <Link href="/song-ideas" style={{ color: '#e86c6c' }}>Choose songs</Link>,
+          create timelines, send messages, and much more.
+        </>
+      ),
     },
     {
       word: 'Party',
       img: '/img/homepage/how-it-works/party-800x800.webp',
       alt: 'Party with your DJ',
-      desc: "You've worked so hard putting together a great event and now it's your time to let loose. We've dotted all the i's and crossed all the t's — all you need to do is dance!",
+      desc: (
+        <>
+          You've worked so hard putting together a great event and now it's your time
+          to let loose. We've dotted all the i's and crossed all the t's — all you
+          need to do is dance!
+        </>
+      ),
     },
   ]
 
@@ -37,8 +70,8 @@ export default function HowItWorks() {
       {/* Outer wrapper — position:relative for the vertical line */}
       <div style={{ maxWidth: '900px', margin: '0 auto', position: 'relative' }}>
 
-        {/* Vertical center line */}
-        <div style={{
+        {/* Vertical center line — hidden on mobile */}
+        <div className="hiw-vline" style={{
           position: 'absolute',
           left: '50%',
           top: 0,
@@ -53,6 +86,7 @@ export default function HowItWorks() {
           return (
             <div
               key={step.word}
+              className="hiw-row"
               style={{
                 display: 'flex',
                 flexDirection: flip ? 'row-reverse' : 'row',
@@ -61,8 +95,8 @@ export default function HowItWorks() {
                 position: 'relative',
               }}
             >
-              {/* NWDJ logo SVG at the junction of horizontal + vertical lines */}
-              <div style={{
+              {/* NWDJ logo SVG at the junction */}
+              <div className="hiw-logo" style={{
                 position: 'absolute',
                 left: '50%',
                 top: '50%',
@@ -83,8 +117,9 @@ export default function HowItWorks() {
                   <path fill="rgba(155,155,155,0.6)" d="M25.62,3.11l-.51-.23c0-.14.05-.27.08-.4s.08-.38.13-.57.1-.36.15-.54c.1-.4.2-.8.31-1.2a1.09,1.09,0,0,1,0-.17,19,19,0,0,1,5.94,3.85l-.41.38L29.78,5.81c-.07.07-.11.06-.17,0a15.59,15.59,0,0,0-3.87-2.66Z"/>
                 </svg>
               </div>
+
               {/* Image side */}
-              <div style={{
+              <div className="hiw-img-side" style={{
                 width: '50%',
                 display: 'flex',
                 justifyContent: flip ? 'flex-end' : 'flex-start',
@@ -92,7 +127,7 @@ export default function HowItWorks() {
                 paddingLeft: flip ? '4rem' : 0,
                 position: 'relative',
               }}>
-                {/* Horizontal line — only through the image side */}
+                {/* Horizontal line */}
                 <div style={{
                   position: 'absolute',
                   top: '50%',
@@ -119,7 +154,7 @@ export default function HowItWorks() {
                   onMouseLeave={e => (e.currentTarget.style.filter = 'contrast(60%)')}
                 >
                   <img
-                    src={step.img}
+                    src={assetPath(step.img)}
                     alt={step.alt}
                     loading="lazy"
                     style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
@@ -144,7 +179,7 @@ export default function HowItWorks() {
               </div>
 
               {/* Text side */}
-              <div style={{
+              <div className="hiw-text-side" style={{
                 width: '50%',
                 paddingLeft: flip ? 0 : '4rem',
                 paddingRight: flip ? '4rem' : 0,

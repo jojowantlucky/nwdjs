@@ -399,3 +399,51 @@
 @keyframes spin {
   to { transform: rotate(360deg); }
 }
+
+/* ── How It Works — mobile layout ── */
+@media (max-width: 640px) {
+  /* Stack rows vertically, image on top */
+  .hiw-row {
+    flex-direction: column !important;
+    align-items: center !important;
+    margin-bottom: 2.5rem !important;
+  }
+  /* Hide the vertical center line on mobile */
+  .hiw-vline {
+    display: none !important;
+  }
+  /* Hide the logo SVG junction on mobile */
+  .hiw-logo {
+    display: none !important;
+  }
+  /* Image side: full width, centered */
+  .hiw-img-side {
+    width: 100% !important;
+    padding: 0 !important;
+    justify-content: center !important;
+    margin-bottom: 1.25rem;
+  }
+  /* Hide horizontal line on mobile */
+  .hiw-img-side > div:first-child {
+    display: none !important;
+  }
+  /* Word label: above the circle, centered */
+  .hiw-img-side span {
+    position: static !important;
+    transform: none !important;
+    display: block;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  /* Stack label above circle */
+  .hiw-img-side {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  /* Text side: full width, centered */
+  .hiw-text-side {
+    width: 100% !important;
+    padding: 0 !important;
+    text-align: center;
+  }
+}

@@ -20,10 +20,15 @@ export default function JoinTheTeamPage() {
           you work! Weekends are king in the DJ and photo booth world, so these
           positions make for great part-time work!
         </p>
+        <p className="mb-4">
+          We manage availability through <strong>Google Calendar</strong> — just block
+          off the dates you can&apos;t work and we&apos;ll book around your schedule.
+          It&apos;s that easy.
+        </p>
         <p className="mb-12">
-          If you&apos;d like to apply, please send an email to{' '}
-          <a href="mailto:info@noteworthydjs.com" className="underline hover:opacity-80">
-            info@noteworthydjs.com
+          Interested? Email{' '}
+          <a href="mailto:joe@noteworthydjs.com" className="underline hover:opacity-80">
+            Joe directly at joe@noteworthydjs.com
           </a>{' '}
           with your resume, links to anything relevant online, and a brief introduction
           about yourself including any related experience.
@@ -138,7 +143,7 @@ export default function JoinTheTeamPage() {
             <li>Picking up equipment early to practice/test setup if possible or needed</li>
             <li>Prior to the day of the event, set up the session in the software</li>
             <li>Keeping informed of event details via online tools</li>
-            <li>Updating your calendar with dates you cannot work</li>
+            <li>Updating your Google Calendar with dates you cannot work</li>
             <li>Return equipment immediately after the event, unless approved otherwise</li>
             <li>
               Gaff taping (or otherwise covering) any cables that pose the slightest

@@ -1,5 +1,6 @@
 'use client'
 import { assetPath } from '@/lib/constants'
+import Link from 'next/link'
 
 import BookWithConfidence from '@/components/sections/BookWithConfidence'
 import ContactSection from '@/components/sections/ContactSection'
@@ -10,6 +11,7 @@ import Gallery from '@/components/sections/Gallery'
 import WeAreHiring from '@/components/sections/WeAreHiring'
 import PreferredVendors from '@/components/sections/PreferredVendors'
 import SectionHeader from '@/components/ui/SectionHeader'
+import CalendlyButton from '@/components/ui/CalendlyButton'
 
 export default function HomePage() {
   return (
@@ -122,6 +124,9 @@ export default function HomePage() {
             >
               Get an Instant Quote
             </a>
+            <CalendlyButton className="btn btn-white-outline">
+              Schedule a Call
+            </CalendlyButton>
             <a href="tel:503-770-0382" className="btn btn-white-outline">
               Call Us
             </a>
@@ -184,7 +189,7 @@ export default function HomePage() {
 
           {/* DJ/MC */}
           <div className="flex-1 text-center">
-            <a href="/services/dj-mc" className="block mb-4 relative overflow-hidden">
+            <Link href="/services/dj-mc" className="block mb-4 relative overflow-hidden">
               <img
                 src={assetPath("/img/homepage/services/dj-mc-800x800.webp")}
                 alt="DJ and MC services for weddings, parties, and company events"
@@ -195,20 +200,24 @@ export default function HomePage() {
                 loading="lazy"
               />
               <span className="absolute inset-0 pointer-events-none" style={{ boxShadow: 'inset 0 0 0 12px rgba(255,255,255,0.35)' }} />
-            </a>
+            </Link>
             <h3 className="font-script text-3xl mt-0 mb-1" style={{ color: '#e86c6c', fontWeight: 400 }}>DJ/MC</h3>
             <h4 className="label-upper mb-3">Custom Packages - Any Event</h4>
-            <p style={{ color: '#9b9b9b', fontSize: '0.9em' }}>
-              Using <a href="/services/dj-mc">add-ons</a>, we can customize any{' '}
-              <a href="/services/dj-mc">DJ package</a> to perfectly suit your vision. We love
+            <p style={{ color: '#9b9b9b', fontSize: '0.9em', marginBottom: '1.25rem' }}>
+              Using <Link href="/add-ons?filter=dj">add-ons</Link>, we can customize any{' '}
+              <Link href="/services/dj-mc">DJ package</Link> to perfectly suit your vision. We love
               bringing the party, and we'll play the music you want to hear when you want to
               hear it.
             </p>
+            <div style={{ display: 'flex', gap: '0.75rem', justifyContent: 'center', flexWrap: 'wrap' }}>
+              <a href="https://noteworthy-djs.checkcherry.com/reservation" target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{ fontSize: '0.8rem', padding: '0.5rem 1rem' }}>Book Now</a>
+              <CalendlyButton className="btn btn-white-outline" style={{ fontSize: '0.8rem', padding: '0.5rem 1rem', color: '#9b9b9b' }}>Schedule a Call</CalendlyButton>
+            </div>
           </div>
 
           {/* Photo Booth */}
           <div className="flex-1 text-center">
-            <a href="/photo-booth" className="block mb-4 relative overflow-hidden">
+            <Link href="/photo-booth" className="block mb-4 relative overflow-hidden">
               <img
                 src={assetPath("/img/homepage/services/photo-booth-800x800.webp")}
                 alt="Photo booth at a wedding"
@@ -219,20 +228,24 @@ export default function HomePage() {
                 loading="lazy"
               />
               <span className="absolute inset-0 pointer-events-none" style={{ boxShadow: 'inset 0 0 0 12px rgba(255,255,255,0.35)' }} />
-            </a>
+            </Link>
             <h3 className="font-script text-3xl mt-0 mb-1" style={{ color: '#e86c6c', fontWeight: 400 }}>Photo Booths</h3>
             <h4 className="label-upper mb-3">Tons of Features</h4>
-            <p style={{ color: '#9b9b9b', fontSize: '0.9em' }}>
+            <p style={{ color: '#9b9b9b', fontSize: '0.9em', marginBottom: '1.25rem' }}>
               Photo booth packages include 3 photography hours, two 2&quot; x 6&quot; prints,
               unlimited sessions, and much more. Like our DJ services, we can use{' '}
-              <a href="/photo-booth">add-ons</a> to customize your package to perfectly suit
+              <Link href="/add-ons?filter=photo-booth">add-ons</Link> to customize your package to perfectly suit
               your needs.
             </p>
+            <div style={{ display: 'flex', gap: '0.75rem', justifyContent: 'center', flexWrap: 'wrap' }}>
+              <a href="https://noteworthy-djs.checkcherry.com/reservation" target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{ fontSize: '0.8rem', padding: '0.5rem 1rem' }}>Book Now</a>
+              <CalendlyButton className="btn btn-white-outline" style={{ fontSize: '0.8rem', padding: '0.5rem 1rem', color: '#9b9b9b' }}>Schedule a Call</CalendlyButton>
+            </div>
           </div>
 
           {/* Lighting */}
           <div className="flex-1 text-center">
-            <a href="/services/lighting" className="block mb-4 relative overflow-hidden">
+            <Link href="/services/lighting" className="block mb-4 relative overflow-hidden">
               <img
                 src={assetPath("/img/homepage/services/lighting-800x800.webp")}
                 alt="Dance lighting at a wedding"
@@ -243,14 +256,18 @@ export default function HomePage() {
                 loading="lazy"
               />
               <span className="absolute inset-0 pointer-events-none" style={{ boxShadow: 'inset 0 0 0 12px rgba(255,255,255,0.35)' }} />
-            </a>
+            </Link>
             <h3 className="font-script text-3xl mt-0 mb-1" style={{ color: '#e86c6c', fontWeight: 400 }}>Lighting</h3>
             <h4 className="label-upper mb-3">Dance, Decor, &amp; Effects</h4>
-            <p style={{ color: '#9b9b9b', fontSize: '0.9em' }}>
+            <p style={{ color: '#9b9b9b', fontSize: '0.9em', marginBottom: '1.25rem' }}>
               Lighting has such a huge impact on the vibe and feel of your room. You can
               totally transform a room with up-lights, create a dance party with dance
               lighting, add a finishing touch with pin spot or monograms, and more.
             </p>
+            <div style={{ display: 'flex', gap: '0.75rem', justifyContent: 'center', flexWrap: 'wrap' }}>
+              <a href="https://noteworthy-djs.checkcherry.com/reservation" target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{ fontSize: '0.8rem', padding: '0.5rem 1rem' }}>Book Now</a>
+              <CalendlyButton className="btn btn-white-outline" style={{ fontSize: '0.8rem', padding: '0.5rem 1rem', color: '#9b9b9b' }}>Schedule a Call</CalendlyButton>
+            </div>
           </div>
 
         </div>

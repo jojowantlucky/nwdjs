@@ -91,15 +91,17 @@ export const BADGES = [
   },
   {
     id: 'rvna',
-    href: '#',
+    href: 'https://www.rvnuccio.com/',
     src: '/img/homepage/book-with-confidence/rvna-150x150.webp',
     alt: 'RVNA',
+    external: true,
   },
   {
     id: 'adja',
-    href: '#',
+    href: 'https://adja.org/profile/?user=noteworthydjs',
     src: '/img/homepage/book-with-confidence/adja-150x150.webp',
     alt: 'ADJA',
+    external: true,
   },
   {
     id: 'lux',

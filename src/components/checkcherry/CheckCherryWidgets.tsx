@@ -17,14 +17,10 @@ interface CheckCherryGalleryProps {
   className?: string
 }
 
-// Shared script loader — always re-adds CC script on mount so it re-scans
-// the DOM. This handles client-side navigation back to pages with CC widgets.
-function useCheckCherryScript(_widgetClass: string) {
+function useCheckCherryScript() {
   useEffect(() => {
-    // Remove any existing CC script so it reloads fresh and re-scans the DOM
     const existing = document.querySelector(`script[src="${CC_CONFIG.scriptSrc}"]`)
     if (existing) existing.remove()
-
     const script = document.createElement('script')
     script.src = CC_CONFIG.scriptSrc
     script.type = 'text/javascript'
@@ -39,25 +35,47 @@ export function CheckCherryContactForm({
   contactFormId = CC_CONFIG.contactFormId,
   className,
 }: CheckCherryContactFormProps) {
-  useCheckCherryScript('checkcherry__widget__contact-form')
+  useCheckCherryScript()
 
   const [loaded, setLoaded] = useState(false)
   const widgetRef = useRef<HTMLDivElement>(null)
 
-  // Watch for CC to inject content into the widget div
   useEffect(() => {
     const el = widgetRef.current
     if (!el) return
 
+    // MutationObserver — fires as soon as CC injects anything
     const observer = new MutationObserver(() => {
       if (el.children.length > 0) {
         setLoaded(true)
         observer.disconnect()
+        clearInterval(poll)
       }
     })
-
     observer.observe(el, { childList: true, subtree: true })
-    return () => observer.disconnect()
+
+    // Polling fallback — on some mobile browsers the mutation fires before
+    // the form is fully rendered; double-check every 300ms up to 15 seconds
+    const poll = setInterval(() => {
+      if (el.children.length > 0 && el.clientHeight > 50) {
+        setLoaded(true)
+        observer.disconnect()
+        clearInterval(poll)
+      }
+    }, 300)
+
+    // Hard timeout — show whatever's there after 15s regardless
+    const timeout = setTimeout(() => {
+      setLoaded(true)
+      observer.disconnect()
+      clearInterval(poll)
+    }, 15000)
+
+    return () => {
+      observer.disconnect()
+      clearInterval(poll)
+      clearTimeout(timeout)
+    }
   }, [])
 
   const props = JSON.stringify({
@@ -107,8 +125,9 @@ export function CheckCherryGallery({
   showTagViewer = false,
   className,
 }: CheckCherryGalleryProps) {
+  useCheckCherryScript()
+
   const widgetClassStr = `checkcherry__widget__${widgetType}`
-  useCheckCherryScript(widgetClassStr)
 
   const props = JSON.stringify({
     apiKey: CC_CONFIG.apiKey,

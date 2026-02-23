@@ -5,7 +5,6 @@ import SectionHeader from '@/components/ui/SectionHeader'
 
 const vendors = [
   { src: '/img/homepage/preferred-vendor/abernethy-center-360x120.webp', alt: 'Abernethy Center', href: 'https://abernethycenter.com/' },
-  { src: '/img/homepage/preferred-vendor/arthur-murray-360x120.webp', alt: 'Arthur Murray Dance Studios', href: 'https://arthurmurrayaz.com/preferred-vendors' },
   { src: '/img/homepage/preferred-vendor/cape-horn-estate-360x120.webp', alt: 'Cape Horn Estate', href: 'http://capehornestate.com/' },
   { src: '/img/homepage/preferred-vendor/castaway-portland-360x120.webp', alt: 'Castaway Portland', href: 'http://www.castawayportland.com/' },
   { src: '/img/homepage/preferred-vendor/cerimon-house-360x120.webp', alt: 'Cerimon House', href: 'http://www.cerimonhouse.org/' },
