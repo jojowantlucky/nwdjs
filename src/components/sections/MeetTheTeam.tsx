@@ -9,9 +9,10 @@ import { SITE, assetPath } from '@/lib/constants'
 
 const imageFolderMap: Record<string, string> = {}
 
-function getGridImagePath(slug: string): string {
-  const folder = imageFolderMap[slug] ?? slug
-  return assetPath(`/img/team/${folder}/${slug}-800x800.webp`)
+function getGridImagePath(member: TeamMember): string {
+  if (member.image) return assetPath(member.image)
+  const folder = imageFolderMap[member.slug] ?? member.slug
+  return assetPath(`/img/team/${folder}/${member.slug}-800x800.webp`)
 }
 
 const activeMembers = teamMembers.filter(m => m.active)
@@ -27,7 +28,7 @@ interface ModalImagePanelProps {
 }
 
 function ModalImagePanel({ member, selectedIndex, total, onPrev, onNext, onClose, isMobile }: ModalImagePanelProps) {
-  const images = [getGridImagePath(member.slug), ...(member.additionalImages ?? []).map(assetPath)]
+  const images = [getGridImagePath(member), ...(member.additionalImages ?? []).map(assetPath)]
   const [idx, setIdx] = useState(0)
 
   React.useEffect(() => { setIdx(0) }, [member.slug])
@@ -173,7 +174,7 @@ export default function MeetTheTeam() {
               style={{ background: 'none', border: 'none', padding: 0, cursor: 'pointer', width: '100%' }}
             >
               <img
-                src={getGridImagePath(member.slug)}
+                src={getGridImagePath(member)}
                 alt={member.name}
                 loading="lazy"
                 style={{ width: '100%', height: 'auto', display: 'block', filter: 'contrast(60%)', transition: 'filter 0.3s ease, transform 0.3s ease' }}
