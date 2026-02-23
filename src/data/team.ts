@@ -288,7 +288,7 @@ export const teamMembers: TeamMember[] = [
       '/img/team/dani-renner/dani-renner5-900x600.webm',
     ],
     bio: `0nania is an experienced, all-around DJ based in Portland, OR. She loves mixing together broadly varying genres and curating a dance floor where people can connect. 0nania especially likes house, hip hop, and hyperpop music. She loves to play in local clubs and travels as well.\n\n0nania makes sure to play old favorites, but also introduces music you may not have heard before. This DJ wants to make you move!`,
-    image: '/img/team/dani-renner/dani-renner2-800x800.webp',
+    image: '/img/team/dani-renner/dani-renner-800x800.webp',
     active: true,
     hometown: 'Minneapolis, MN',
     currentLocation: 'Portland, OR',

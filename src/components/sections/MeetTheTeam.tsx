@@ -9,10 +9,16 @@ import { SITE, assetPath } from '@/lib/constants'
 
 const imageFolderMap: Record<string, string> = {}
 
-function getGridImagePath(member: TeamMember): string {
-  if (member.image) return assetPath(member.image)
-  const folder = imageFolderMap[member.slug] ?? member.slug
-  return assetPath(`/img/team/${folder}/${member.slug}-800x800.webp`)
+// Override just the filename (not the whole path) for members whose image
+// file doesn't match the default `${slug}-800x800.webp` convention.
+const imageFilenameOverrides: Record<string, string> = {
+  'dani-renner': 'dani-renner2-800x800.webp',
+}
+
+function getGridImagePath(slug: string): string {
+  const folder = imageFolderMap[slug] ?? slug
+  const filename = imageFilenameOverrides[slug] ?? `${slug}-800x800.webp`
+  return assetPath(`/img/team/${folder}/${filename}`)
 }
 
 const activeMembers = teamMembers.filter(m => m.active)
@@ -28,7 +34,7 @@ interface ModalImagePanelProps {
 }
 
 function ModalImagePanel({ member, selectedIndex, total, onPrev, onNext, onClose, isMobile }: ModalImagePanelProps) {
-  const images = [getGridImagePath(member), ...(member.additionalImages ?? []).map(assetPath)]
+  const images = [getGridImagePath(member.slug), ...(member.additionalImages ?? []).map(assetPath)]
   const [idx, setIdx] = useState(0)
 
   React.useEffect(() => { setIdx(0) }, [member.slug])
@@ -174,7 +180,7 @@ export default function MeetTheTeam() {
               style={{ background: 'none', border: 'none', padding: 0, cursor: 'pointer', width: '100%' }}
             >
               <img
-                src={getGridImagePath(member)}
+                src={getGridImagePath(member.slug)}
                 alt={member.name}
                 loading="lazy"
                 style={{ width: '100%', height: 'auto', display: 'block', filter: 'contrast(60%)', transition: 'filter 0.3s ease, transform 0.3s ease' }}
