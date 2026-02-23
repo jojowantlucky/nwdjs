@@ -112,7 +112,7 @@ export function CheckCherryContactForm({
           padding: 0,
           border: 'none',
           width: '100%',
-          height: '1300px',
+          height: '1450px',
           display: 'block',
           opacity: loaded ? 1 : 0,
           transition: 'opacity 0.3s ease',
