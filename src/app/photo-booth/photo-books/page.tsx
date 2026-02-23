@@ -7,7 +7,32 @@ export const metadata: Metadata = {
     'Browse our custom and standard photo book designs. Premium metal and bamboo albums made in the USA — the perfect keepsake for your event.',
 }
 
-export default function PhotoBooksPage() {
+interface PhotoBook {
+  id: string
+  name: string
+  description?: string
+  image?: string
+  price?: string
+  alt?: string
+}
+
+async function getPhotoBooks(): Promise<PhotoBook[] | null> {
+  try {
+    const res = await fetch('https://noteworthyphotobooths.com/api/photo-books', {
+      next: { revalidate: 3600 },
+    })
+    if (!res.ok) throw new Error('Non-OK response')
+    const data = await res.json()
+    if (!Array.isArray(data) || data.length === 0) return null
+    return data
+  } catch {
+    return null // Fall back to CC widget
+  }
+}
+
+export default async function PhotoBooksPage() {
+  const photoBooks = await getPhotoBooks()
+
   return (
     <>
       <section className="photo-book-design py-16 px-4 max-w-5xl mx-auto">
@@ -42,21 +67,58 @@ export default function PhotoBooksPage() {
           </li>
         </ul>
 
-        <h3 className="text-2xl font-semibold mb-6 text-center">Custom Photo Books</h3>
-        <CheckCherryGallery
-          widgetType="design-template-gallery"
-          categoryId={1435}
-          showTagViewer={true}
-        />
+        {photoBooks ? (
+          /* ── NWPB API data ── */
+          <div style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))',
+            gap: '1.5rem',
+          }}>
+            {photoBooks.map(book => (
+              <div key={book.id} style={{
+                border: '1px solid rgba(155,155,155,0.2)',
+                borderRadius: '4px',
+                overflow: 'hidden',
+              }}>
+                {book.image && (
+                  <img
+                    src={book.image}
+                    alt={book.alt ?? book.name}
+                    style={{ width: '100%', height: '200px', objectFit: 'cover', display: 'block' }}
+                  />
+                )}
+                <div style={{ padding: '1.25rem' }}>
+                  <h3 style={{ margin: '0 0 0.4rem', fontSize: '1.05rem', fontWeight: 700 }}>{book.name}</h3>
+                  {book.price && (
+                    <p style={{ margin: '0 0 0.5rem', fontSize: '0.85rem', color: '#9b9b9b', fontWeight: 700 }}>{book.price}</p>
+                  )}
+                  {book.description && (
+                    <p style={{ margin: 0, fontSize: '0.88rem', color: '#9b9b9b', lineHeight: 1.7 }}>{book.description}</p>
+                  )}
+                </div>
+              </div>
+            ))}
+          </div>
+        ) : (
+          /* ── CC widget fallback ── */
+          <>
+            <h3 className="text-2xl font-semibold mb-6 text-center">Custom Photo Books</h3>
+            <CheckCherryGallery
+              widgetType="design-template-gallery"
+              categoryId={1435}
+              showTagViewer={true}
+            />
 
-        <h3 className="text-2xl font-semibold mt-12 mb-6 text-center">
-          Standard Photo Books
-        </h3>
-        <CheckCherryGallery
-          widgetType="design-template-gallery"
-          categoryId={1432}
-          showTagViewer={true}
-        />
+            <h3 className="text-2xl font-semibold mt-12 mb-6 text-center">
+              Standard Photo Books
+            </h3>
+            <CheckCherryGallery
+              widgetType="design-template-gallery"
+              categoryId={1432}
+              showTagViewer={true}
+            />
+          </>
+        )}
       </section>
 
       <section className="handling-time bg-gray-50 py-8 px-4 text-center">

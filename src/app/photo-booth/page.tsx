@@ -140,7 +140,7 @@ const supplemental = [
     tagline1: 'Fully Customizable',
     tagline2: 'Browse all add-ons',
     description: 'Customize just about everything: print design, backdrop selection, photo book, and more.',
-    href: '/photo-booth/add-ons',
+    href: '/add-ons?filter=photo-booth',
   },
   {
     id: 'photo-books',
@@ -191,7 +191,7 @@ export default async function PhotoBoothPage() {
               Photo booths always bring the fun. Our modern booths blend in perfectly in any
               environment and their small footprint means they can go pretty much anywhere.
               Customize your photo booth with our{' '}
-              <Link href="/photo-booth/add-ons">add-ons</Link> and{' '}
+              <Link href="/add-ons?filter=photo-booth">add-ons</Link> and{' '}
               <Link href="/photo-booth/photo-books">photo books</Link>. Also check out our
               full booth lineup at{' '}
               <a href="https://noteworthyphotobooths.com" target="_blank" rel="noopener noreferrer">
