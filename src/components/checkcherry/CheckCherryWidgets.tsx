@@ -44,31 +44,52 @@ export function CheckCherryContactForm({
     const el = widgetRef.current
     if (!el) return
 
+    // CC has truly rendered when there's an actual input/form field inside the widget
+    const hasRealContent = () => !!el.querySelector('input, select, textarea, form')
+
+    let markedLoaded = false
     const markLoaded = () => {
+      if (markedLoaded) return
+      markedLoaded = true
       setLoaded(true)
       observer.disconnect()
       clearInterval(poll)
-      clearTimeout(timeout)
+      clearTimeout(retryTimeout)
+      clearTimeout(hardTimeout)
     }
 
-    // Watch for CC injecting content
     const observer = new MutationObserver(() => {
-      if (el.children.length > 0 && el.clientHeight > 50) markLoaded()
+      if (hasRealContent()) markLoaded()
     })
     observer.observe(el, { childList: true, subtree: true })
 
-    // Polling fallback every 400ms
+    // Poll every 300ms — catches cases where mutation fires before inputs render
     const poll = setInterval(() => {
-      if (el.children.length > 0 && el.clientHeight > 50) markLoaded()
-    }, 400)
+      if (hasRealContent()) markLoaded()
+    }, 300)
 
-    // Hard timeout after 20s
-    const timeout = setTimeout(markLoaded, 20000)
+    // If nothing has loaded after 5s, reload the CC script and try again
+    // (handles slow mobile connections where the first script load stalls)
+    const retryTimeout = setTimeout(() => {
+      if (markedLoaded) return
+      const existing = document.querySelector(`script[src="${CC_CONFIG.scriptSrc}"]`)
+      if (existing) existing.remove()
+      const script = document.createElement('script')
+      script.src = CC_CONFIG.scriptSrc
+      script.type = 'text/javascript'
+      script.charset = 'utf-8'
+      script.async = true
+      document.body.appendChild(script)
+    }, 5000)
+
+    // Hard timeout at 25s — show whatever's there so the spinner doesn't spin forever
+    const hardTimeout = setTimeout(markLoaded, 25000)
 
     return () => {
       observer.disconnect()
       clearInterval(poll)
-      clearTimeout(timeout)
+      clearTimeout(retryTimeout)
+      clearTimeout(hardTimeout)
     }
   }, [])
 
@@ -81,7 +102,7 @@ export function CheckCherryContactForm({
 
   return (
     <div className={className} style={{ position: 'relative', minHeight: loaded ? undefined : '160px' }}>
-      {/* Spinner — sits on top until CC renders content */}
+      {/* Spinner — sits on top until CC renders real form fields */}
       {!loaded && (
         <div style={{
           position: 'absolute',
