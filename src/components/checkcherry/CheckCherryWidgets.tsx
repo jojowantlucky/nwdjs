@@ -70,18 +70,6 @@ export function CheckCherryContactForm({
 }: CheckCherryContactFormProps) {
   const [loaded, setLoaded] = useState(false)
 
-  // Load the CC auto-resize script (lightweight — just handles iframe height)
-  useEffect(() => {
-    const scriptSrc = `${CC_CONFIG.host}/api/checkcherry_widgets/iframe`
-    if (document.querySelector(`script[src="${scriptSrc}"]`)) return
-    const script = document.createElement('script')
-    script.src = scriptSrc
-    script.type = 'text/javascript'
-    script.charset = 'utf-8'
-    script.async = true
-    document.body.appendChild(script)
-  }, [])
-
   // Hard-timeout fallback: if onLoad never fires (cross-origin suppression)
   useEffect(() => {
     const t = setTimeout(() => setLoaded(true), 12000)
