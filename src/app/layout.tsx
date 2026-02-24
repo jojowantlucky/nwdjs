@@ -54,15 +54,35 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','${SITE.gtmId}');`,
           }}
         />
-        {/* Google Fonts */}
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        {/* Google Fonts — non-render-blocking */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
+          rel="preload"
+          as="style"
           href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Dancing+Script:wght@400;700&family=Shadows+Into+Light&display=swap"
-          rel="stylesheet"
         />
-        {/* Calendly popup widget */}
-        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
-        <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Dancing+Script:wght@400;700&family=Shadows+Into+Light&display=swap"
+          media="print"
+          // @ts-expect-error onload swap trick
+          onLoad="this.media='all'"
+        />
+        <noscript>
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Dancing+Script:wght@400;700&family=Shadows+Into+Light&display=swap"
+          />
+        </noscript>
+        {/* Calendly — load CSS async, JS deferred until first interaction */}
+        <link
+          rel="stylesheet"
+          href="https://assets.calendly.com/assets/external/widget.css"
+          media="print"
+          // @ts-expect-error onload swap trick
+          onLoad="this.media='all'"
+        />
       </head>
       <body className="font-sans antialiased" style={{ color: '#4a4a4a' }}>
         {/* GTM noscript */}

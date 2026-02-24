@@ -43,6 +43,7 @@ export default function HomePage() {
             alt=""
             className="w-full h-full object-cover opacity-60"
             aria-hidden="true"
+            fetchPriority="high"
           />
         </picture>
 
