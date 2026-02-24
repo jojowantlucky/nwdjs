@@ -3,14 +3,15 @@ import React from 'react'
 
 interface Props {
   children: React.ReactNode
+  as?: 'h1' | 'h2'
 }
 
-export default function SectionHeader({ children }: Props) {
+export default function SectionHeader({ children, as: Tag = 'h2' }: Props) {
   return (
     <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
-      <h2 className="text-3xl font-light" style={{ marginBottom: '0.75rem' }}>
+      <Tag className="text-3xl font-light" style={{ marginBottom: '0.75rem' }}>
         {children}
-      </h2>
+      </Tag>
       <div style={{
         backgroundImage: `url('${assetPath("/img/logo/nwdj-horizontal-line.webp")}')`,
         backgroundPosition: 'center',
