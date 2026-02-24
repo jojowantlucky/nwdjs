@@ -66,6 +66,8 @@ export default function PreferredVendors() {
               <img
                 src={v.src}
                 alt={v.alt}
+                width={360}
+                height={120}
                 loading="lazy"
                 style={{ maxHeight: '100%', maxWidth: '100%', objectFit: 'contain', filter: 'contrast(60%)', transition: 'filter 0.2s' }}
                 onMouseEnter={e => (e.currentTarget.style.filter = 'contrast(100%)')}

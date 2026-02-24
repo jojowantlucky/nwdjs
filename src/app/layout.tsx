@@ -21,6 +21,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {(() => {
           const b = process.env.NEXT_PUBLIC_BASE_PATH ?? ''
           return (<>
+            {/* Preload desktop hero video so it starts playing immediately */}
+            <link rel="preload" as="video" href={`${b}/videos/nwdj-homepage-video-1.webm`} type="video/webm" media="(min-width: 768px)" />
             <link rel="icon" type="image/x-icon" href={`${b}/favicon.ico`} />
             <link rel="icon" type="image/png" sizes="96x96" href={`${b}/images/favicons/favicon-96x96.png`} />
             <link rel="icon" type="image/png" sizes="32x32" href={`${b}/images/favicons/favicon-32x32.png`} />
