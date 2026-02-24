@@ -56,17 +56,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','${SITE.gtmId}');`,
           }}
         />
-        {/* Google Fonts — non-render-blocking */}
+        {/* Google Fonts — Shadows Into Light loads synchronously (used above fold in hero) */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap"
+        />
+        {/* Montserrat + Dancing Script load async (below fold / body text) */}
+        <link
           rel="preload"
           as="style"
-          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Dancing+Script:wght@400;700&family=Shadows+Into+Light&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Dancing+Script:wght@400;700&display=swap"
         />
         <link
           rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Dancing+Script:wght@400;700&family=Shadows+Into+Light&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Dancing+Script:wght@400;700&display=swap"
           media="print"
           // @ts-expect-error onload swap trick
           onLoad="this.media='all'"
@@ -74,7 +79,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <noscript>
           <link
             rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Dancing+Script:wght@400;700&family=Shadows+Into+Light&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Dancing+Script:wght@400;700&display=swap"
           />
         </noscript>
         {/* Calendly — load CSS async, JS deferred until first interaction */}
