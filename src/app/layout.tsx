@@ -56,14 +56,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','${SITE.gtmId}');`,
           }}
         />
-        {/* Google Fonts — Shadows Into Light loads synchronously (used above fold in hero) */}
+        {/* Google Fonts — Shadows Into Light synchronous (above-fold hero text) */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap"
         />
-        {/* Montserrat + Dancing Script load async (below fold / body text) */}
+        {/* Montserrat + Dancing Script async (large files, body/below-fold text) */}
         <link
           rel="preload"
           as="style"
