@@ -149,6 +149,10 @@ export default function Footer() {
               { label: 'Testimonials',    href: '/testimonials' },
               { label: 'Join the Team',   href: '/join-the-team' },
               { label: 'Contact',         href: '/#contact' },
+              { label: 'Portland, OR',    href: '/locations/portland-or' },
+              { label: 'Phoenix, AZ',     href: '/locations/phoenix-az' },
+              { label: 'Seattle, WA',     href: '/locations/seattle-wa' },
+              { label: 'Vancouver, WA',   href: '/locations/vancouver-wa' },
             ].map((link) => (
               <li key={link.href}>
                 <Link
