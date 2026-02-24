@@ -62,6 +62,7 @@ const CC_IFRAME_PROPS = encodeURIComponent(JSON.stringify({
   fontFamily: 'Montserrat',
   labelFontWeight: '400',
   labelFontSize: '16px',
+  googleFontsUrl: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap',
 }))
 
 export function CheckCherryContactForm({
