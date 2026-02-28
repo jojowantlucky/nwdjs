@@ -169,10 +169,15 @@ async function getBoothPackages(): Promise<BoothPackage[]> {
     if (!res.ok) throw new Error(`Non-OK: ${res.status}`)
     const data = await res.json()
     console.log(`[photo-booth] Got ${data.length} packages`)
+    const imgBase = process.env.NWPB_API_URL ?? 'https://noteworthyphotobooths.com/nwpb_updates'
+    // imgBase may end with /api path — strip it to get the site root
+    const siteBase = imgBase.replace(/\/api$/, '')
     return data.map((p: any) => ({
       id: p.id,
       name: p.name,
-      image: p.image ?? `/img/photo-booth/${p.id}-800x800.webp`,
+      image: p.image
+        ? `${siteBase}${p.image}`
+        : `/img/photo-booth/${p.id}-800x800.webp`,
       alt: p.alt ?? p.name,
       description: p.description,
       features: p.features,
