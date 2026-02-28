@@ -6,8 +6,12 @@ import BookWithConfidence from '@/components/sections/BookWithConfidence'
 import ContactSection from '@/components/sections/ContactSection'
 
 export const metadata: Metadata = {
-  title: 'Photo Booths | Noteworthy DJs & Photo Booths',
-  description: 'Modern photo booths for weddings, corporate events, and parties in Portland, OR & Phoenix, AZ. Fully customizable with add-ons, backdrops, and photo books.',
+  title: 'Photo Booth Rental Portland OR & Phoenix AZ | Noteworthy DJs',
+  description: 'Modern photo booth rental for weddings, corporate events & parties in Portland OR, Phoenix AZ & Seattle WA. Open-air, 360, enclosed booths. Fully customizable packages.',
+  openGraph: {
+    title: 'Photo Booth Rental Portland OR | Noteworthy DJs',
+    description: 'Modern photo booth rental for weddings & events. Open-air, 360 & enclosed booths. Serving Portland OR, Phoenix AZ & Seattle WA.',
+  },
 }
 
 interface BoothPackage {
@@ -155,8 +159,9 @@ const supplemental = [
 ]
 
 async function getBoothPackages(): Promise<BoothPackage[]> {
+  const base = process.env.NWPB_API_URL ?? 'https://noteworthyphotobooths.com/api'
   try {
-    const res = await fetch('https://noteworthyphotobooths.com/api/packages', {
+    const res = await fetch(`${base}/packages`, {
       next: { revalidate: 3600 },
     })
     if (!res.ok) throw new Error('Non-OK response')
@@ -182,9 +187,22 @@ export default async function PhotoBoothPage() {
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'Service',
+          name: 'Photo Booth Rental',
+          provider: { '@id': 'https://www.noteworthydjs.com/#business' },
+          serviceType: 'Photo Booth Rental',
+          areaServed: ['Portland OR', 'Phoenix AZ', 'Seattle WA', 'Vancouver WA'],
+          description: 'Modern photo booth rental for weddings, corporate events and parties. Open-air, 360, and enclosed booths with fully customizable packages.',
+          url: 'https://www.noteworthydjs.com/photo-booth/',
+        })}}
+      />
       <div style={{ paddingTop: "3.5rem" }}>
         <section id="photo-booth" style={{ padding: '0 2rem 4rem' }}>
-          <SectionHeader>Photo Booths</SectionHeader>
+          <SectionHeader as="h1">Photo Booths</SectionHeader>
 
           <div style={{ maxWidth: '52em', margin: '0 auto 3rem', textAlign: 'center', color: '#9b9b9b' }}>
             <p>
