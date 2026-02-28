@@ -5,18 +5,75 @@ import Footer from '@/components/layout/Footer'
 import './globals.css'
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.noteworthydjs.com'),
   title: {
-    default: `${SITE.name} | Award-Winning Wedding DJ & Photo Booth Portland`,
-    template: `%s | ${SITE.name}`,
+    default: 'Wedding DJ & Photo Booth Portland OR | Noteworthy DJs & Photo Booths',
+    template: `%s`,
   },
   description:
-    'Noteworthy DJs & Photo Booths — Award-winning, 5-star rated wedding DJ, party DJ, and photo booth service. Serving Portland, OR and surrounding areas.',
+    'Award-winning wedding DJ, party DJ, and photo booth rental in Portland OR, Phoenix AZ & Seattle WA. 5-star rated, 10+ years experience. Get an instant quote.',
+  openGraph: {
+    siteName: 'Noteworthy DJs & Photo Booths',
+    type: 'website',
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <head>
+        {/* ── Structured data ── */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'LocalBusiness',
+            '@id': 'https://www.noteworthydjs.com/#business',
+            name: 'Noteworthy DJs & Photo Booths',
+            legalName: 'Noteworthy Productions, LLC',
+            url: 'https://www.noteworthydjs.com',
+            logo: 'https://www.noteworthydjs.com/img/logo/nwdj-logo-800x800.webp',
+            telephone: '+1-503-770-0382',
+            email: 'info@noteworthydjs.com',
+            description: 'Award-winning, 5-star rated wedding DJ, party DJ, and photo booth service. Serving Portland OR, Phoenix AZ, Seattle WA, and surrounding areas.',
+            address: {
+              '@type': 'PostalAddress',
+              streetAddress: '6635 N. Baltimore Ave., Suite 8A',
+              addressLocality: 'Portland',
+              addressRegion: 'OR',
+              postalCode: '97203',
+              addressCountry: 'US',
+            },
+            geo: {
+              '@type': 'GeoCoordinates',
+              latitude: 45.5726,
+              longitude: -122.7274,
+            },
+            areaServed: [
+              { '@type': 'City', name: 'Portland', containedInPlace: { '@type': 'State', name: 'Oregon' } },
+              { '@type': 'City', name: 'Phoenix', containedInPlace: { '@type': 'State', name: 'Arizona' } },
+              { '@type': 'City', name: 'Seattle', containedInPlace: { '@type': 'State', name: 'Washington' } },
+              { '@type': 'City', name: 'Vancouver', containedInPlace: { '@type': 'State', name: 'Washington' } },
+            ],
+            priceRange: '$$',
+            openingHours: 'Mo-Su 09:00-21:00',
+            sameAs: [
+              'https://www.facebook.com/NoteworthyDJs/',
+              'https://www.instagram.com/noteworthydjs/',
+              'https://twitter.com/noteworthydjs',
+              'https://www.youtube.com/c/Noteworthydjs/',
+            ],
+            hasOfferCatalog: {
+              '@type': 'OfferCatalog',
+              name: 'DJ & Photo Booth Services',
+              itemListElement: [
+                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Wedding DJ & MC Services' } },
+                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Photo Booth Rental' } },
+                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Event Lighting' } },
+              ],
+            },
+          })}}
+        />
         {/* ── Favicons & touch icons ── */}
         {(() => {
           const b = process.env.NEXT_PUBLIC_BASE_PATH ?? ''
