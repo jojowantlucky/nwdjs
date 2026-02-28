@@ -159,13 +159,16 @@ const supplemental = [
 ]
 
 async function getBoothPackages(): Promise<BoothPackage[]> {
-  const base = process.env.NWPB_API_URL ?? 'https://noteworthyphotobooths.com/api'
+  const base = process.env.NWPB_API_URL ?? 'https://noteworthyphotobooths.com/nwpb_updates'
+  const url = `${base}/booth-packages.json`
+  console.log(`[photo-booth] Fetching: ${url}`)
+  console.log(`[photo-booth] NWPB_API_URL env: ${process.env.NWPB_API_URL ?? 'NOT SET'}`)
   try {
-    const res = await fetch(`${base}/packages`, {
-      next: { revalidate: 3600 },
-    })
-    if (!res.ok) throw new Error('Non-OK response')
+    const res = await fetch('https://noteworthyphotobooths.com/nwpb_updates/booth-packages.json', { cache: 'no-store' })
+    console.log(`[photo-booth] Status: ${res.status}`)
+    if (!res.ok) throw new Error(`Non-OK: ${res.status}`)
     const data = await res.json()
+    console.log(`[photo-booth] Got ${data.length} packages`)
     return data.map((p: any) => ({
       id: p.id,
       name: p.name,
@@ -177,7 +180,8 @@ async function getBoothPackages(): Promise<BoothPackage[]> {
       bookOrWa: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=11258',
       bookAz: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=12395',
     }))
-  } catch {
+  } catch (e) {
+    console.error(`[photo-booth] Fetch failed, using fallback:`, e)
     return fallbackPackages
   }
 }
