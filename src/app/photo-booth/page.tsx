@@ -43,8 +43,8 @@ const fallbackPackages: BoothPackage[] = [
       'Custom print design',
       'Free setup & breakdown',
     ],
-    bookOrWa: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=105359',
-    bookAz: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=166548',
+    bookOrWa: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=11258',
+    bookAz: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=12395',
   },
   {
     id: '360',
@@ -62,7 +62,8 @@ const fallbackPackages: BoothPackage[] = [
       'Free setup & breakdown',
     ],
     printNote: 'Digital delivery only — no instant prints',
-    bookOrWa: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=105361',
+    bookOrWa: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=11258',
+    bookAz: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=12395',
   },
   {
     id: 'enclosed',
@@ -80,7 +81,8 @@ const fallbackPackages: BoothPackage[] = [
       'Custom print design',
       'Free setup & breakdown',
     ],
-    bookOrWa: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=105359',
+    bookOrWa: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=11258',
+    bookAz: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=12395',
   },
   {
     id: 'selfie-station',
@@ -98,7 +100,8 @@ const fallbackPackages: BoothPackage[] = [
       'Free setup & breakdown',
     ],
     printNote: 'Digital delivery only — no instant prints',
-    bookOrWa: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=105358',
+    bookOrWa: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=11258',
+    bookAz: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=12395',
   },
   {
     id: 'mirror',
@@ -117,7 +120,8 @@ const fallbackPackages: BoothPackage[] = [
       'Custom print design',
       'Free setup & breakdown',
     ],
-    bookOrWa: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=105362',
+    bookOrWa: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=11258',
+    bookAz: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=12395',
   },
 ]
 
@@ -168,12 +172,6 @@ async function getBoothPackages(): Promise<BoothPackage[]> {
     const imgBase = process.env.NWPB_API_URL ?? 'https://noteworthyphotobooths.com/nwpb_updates'
     // imgBase may end with /api path — strip it to get the site root
     const siteBase = imgBase.replace(/\/api$/, '')
-    const bookingUrls: Record<string, { orWa: string; az?: string }> = {
-      'open-air':       { orWa: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=105359', az: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=166548' },
-      'selfie-station': { orWa: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=105358' },
-      '360':            { orWa: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=105361' },
-      'mirror':         { orWa: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=105362' },
-    }
     return data.map((p: any) => ({
       id: p.id,
       name: p.name,
@@ -184,8 +182,8 @@ async function getBoothPackages(): Promise<BoothPackage[]> {
       description: p.description,
       features: p.features,
       printNote: p.printNote,
-      bookOrWa: bookingUrls[p.id]?.orWa,
-      bookAz: bookingUrls[p.id]?.az,
+      bookOrWa: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=11258',
+      bookAz: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=12395',
     }))
   } catch (e) {
     console.error(`[photo-booth] Fetch failed, using fallback:`, e)
@@ -279,9 +277,6 @@ export default async function PhotoBoothPage() {
                     </ul>
                   )}
                   <p style={{ color: '#9b9b9b', fontSize: '0.9em', margin: '0 0 0.75em' }}>{pkg.description}</p>
-                  {pkg.printNote && (
-                    <p style={{ color: '#e86c6c', fontSize: '0.8em', fontWeight: 600, margin: '0 0 1.25em' }}>{pkg.printNote}</p>
-                  )}
                   {(pkg.bookOrWa || pkg.bookAz) && (
                     <div style={{ display: 'flex', gap: '1em', flexWrap: 'wrap' }}>
                       {pkg.bookOrWa && (
