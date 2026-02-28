@@ -43,8 +43,8 @@ const fallbackPackages: BoothPackage[] = [
       'Custom print design',
       'Free setup & breakdown',
     ],
-    bookOrWa: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=11258',
-    bookAz: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=12395',
+    bookOrWa: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=105359',
+    bookAz: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=166548',
   },
   {
     id: '360',
@@ -62,8 +62,7 @@ const fallbackPackages: BoothPackage[] = [
       'Free setup & breakdown',
     ],
     printNote: 'Digital delivery only — no instant prints',
-    bookOrWa: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=11258',
-    bookAz: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=12395',
+    bookOrWa: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=105361',
   },
   {
     id: 'enclosed',
@@ -81,8 +80,7 @@ const fallbackPackages: BoothPackage[] = [
       'Custom print design',
       'Free setup & breakdown',
     ],
-    bookOrWa: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=11258',
-    bookAz: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=12395',
+    bookOrWa: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=105359',
   },
   {
     id: 'selfie-station',
@@ -100,8 +98,7 @@ const fallbackPackages: BoothPackage[] = [
       'Free setup & breakdown',
     ],
     printNote: 'Digital delivery only — no instant prints',
-    bookOrWa: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=11258',
-    bookAz: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=12395',
+    bookOrWa: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=105358',
   },
   {
     id: 'mirror',
@@ -120,8 +117,7 @@ const fallbackPackages: BoothPackage[] = [
       'Custom print design',
       'Free setup & breakdown',
     ],
-    bookOrWa: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=11258',
-    bookAz: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=12395',
+    bookOrWa: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=105362',
   },
 ]
 
@@ -172,6 +168,12 @@ async function getBoothPackages(): Promise<BoothPackage[]> {
     const imgBase = process.env.NWPB_API_URL ?? 'https://noteworthyphotobooths.com/nwpb_updates'
     // imgBase may end with /api path — strip it to get the site root
     const siteBase = imgBase.replace(/\/api$/, '')
+    const bookingUrls: Record<string, { orWa: string; az?: string }> = {
+      'open-air':       { orWa: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=105359', az: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=166548' },
+      'selfie-station': { orWa: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=105358' },
+      '360':            { orWa: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=105361' },
+      'mirror':         { orWa: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=105362' },
+    }
     return data.map((p: any) => ({
       id: p.id,
       name: p.name,
@@ -182,8 +184,8 @@ async function getBoothPackages(): Promise<BoothPackage[]> {
       description: p.description,
       features: p.features,
       printNote: p.printNote,
-      bookOrWa: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=11258',
-      bookAz: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=12395',
+      bookOrWa: bookingUrls[p.id]?.orWa,
+      bookAz: bookingUrls[p.id]?.az,
     }))
   } catch (e) {
     console.error(`[photo-booth] Fetch failed, using fallback:`, e)
