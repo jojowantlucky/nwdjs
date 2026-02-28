@@ -21,6 +21,7 @@ interface BoothPackage {
   alt: string
   description: string
   features?: string[]
+  price?: string
   printNote?: string
   bookOrWa?: string
   bookAz?: string
@@ -169,21 +170,30 @@ async function getBoothPackages(): Promise<BoothPackage[]> {
     if (!res.ok) throw new Error(`Non-OK: ${res.status}`)
     const data = await res.json()
     console.log(`[photo-booth] Got ${data.length} packages`)
-    const imgBase = process.env.NWPB_API_URL ?? 'https://noteworthyphotobooths.com/nwpb_updates'
-    // imgBase may end with /api path — strip it to get the site root
-    const siteBase = imgBase.replace(/\/api$/, '')
+    const siteBase = base.replace(/\/api$/, '')
+    const bookingUrls: Record<string, { orWa: string; az?: string }> = {
+      'open-air':       { orWa: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=105359', az: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=166548' },
+      'selfie-station': { orWa: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=105358' },
+      '360':            { orWa: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=105361' },
+      'mirror':         { orWa: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=105362' },
+    }
+    const prices: Record<string, string> = {
+      'open-air':       'Starting at $899',
+      'selfie-station': 'Starting at $599',
+      '360':            'Starting at $699',
+      'mirror':         'Starting at $999',
+    }
     return data.map((p: any) => ({
       id: p.id,
       name: p.name,
-      image: p.image
-        ? `${siteBase}${p.image}`
-        : `/img/photo-booth/${p.id}-800x800.webp`,
+      image: p.image ? `${siteBase}${p.image}` : `/img/photo-booth/${p.id}-800x800.webp`,
       alt: p.alt ?? p.name,
       description: p.description,
       features: p.features,
+      price: p.price ?? prices[p.id],
       printNote: p.printNote,
-      bookOrWa: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=11258',
-      bookAz: 'https://noteworthy-djs.checkcherry.com/reservation/set_event?event_type_id=12395',
+      bookOrWa: bookingUrls[p.id]?.orWa,
+      bookAz: bookingUrls[p.id]?.az,
     }))
   } catch (e) {
     console.error(`[photo-booth] Fetch failed, using fallback:`, e)
@@ -277,6 +287,9 @@ export default async function PhotoBoothPage() {
                     </ul>
                   )}
                   <p style={{ color: '#9b9b9b', fontSize: '0.9em', margin: '0 0 0.75em' }}>{pkg.description}</p>
+                  {pkg.price && (
+                    <p style={{ color: '#e86c6c', fontSize: '0.9em', fontWeight: 700, margin: '0 0 1.25em' }}>{pkg.price}</p>
+                  )}
                   {(pkg.bookOrWa || pkg.bookAz) && (
                     <div style={{ display: 'flex', gap: '1em', flexWrap: 'wrap' }}>
                       {pkg.bookOrWa && (
