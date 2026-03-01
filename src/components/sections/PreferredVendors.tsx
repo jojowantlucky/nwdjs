@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import { assetPath } from '@/lib/constants'
 import SectionHeader from '@/components/ui/SectionHeader'
 
 const vendors = [
@@ -22,7 +23,7 @@ const vendors = [
   { src: '/img/homepage/preferred-vendor/tin-roof-barn-360x120.webp', alt: 'Tin Roof Barn', href: 'https://atinroofbarn.com/' },
   { src: '/img/homepage/preferred-vendor/toc-360x120.webp', alt: 'The Old Church', href: 'https://www.theoldchurch.org/' },
   { src: '/img/homepage/preferred-vendor/the-reserve-golf-club-360x120.webp', alt: 'The Reserve Golf Club', href: 'https://www.reservegolf.com/' },
-]
+].map(v => ({ ...v, src: assetPath(v.src) }))
 
 export default function PreferredVendors() {
   return (

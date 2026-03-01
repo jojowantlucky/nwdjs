@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import { assetPath } from '@/lib/constants'
 import { CheckCherryGallery } from '@/components/checkcherry/CheckCherryWidgets'
 
 export const metadata: Metadata = {
@@ -46,7 +47,7 @@ export default async function PhotoBooksPage() {
 
         <ul className="list-disc list-inside space-y-2 max-w-2xl mx-auto mb-12 text-gray-700">
           <li>
-            Each 8.5x11 album is made from high quality metal or bamboo, making it the
+            Each 8.5x11 album is made from high quality metal, acrylic, or bamboo, making it the
             ultimate album for Photo Booth Guest Books and other events.
           </li>
           <li>
@@ -82,7 +83,7 @@ export default async function PhotoBooksPage() {
               }}>
                 {book.image && (
                   <img
-                    src={book.image}
+                    src={assetPath(book.image)}
                     alt={book.alt ?? book.name}
                     style={{ width: '100%', height: '200px', objectFit: 'cover', display: 'block' }}
                   />

@@ -1,15 +1,16 @@
 'use client'
 
 import { useEffect, useRef, useState } from 'react'
+import { assetPath } from '@/lib/constants'
 
 const images = [
-  { src: '/img/homepage/carousel/reception-800x800.webp',       alt: 'Wedding reception DJ' },
-  { src: '/img/homepage/carousel/big-ceremony-800x800.webp',    alt: 'Big wedding ceremony DJ' },
-  { src: '/img/homepage/carousel/nye-party-800x800.webp',       alt: 'New Years Eve party DJ' },
-  { src: '/img/homepage/carousel/sing-along-800x800.webp',      alt: 'Wedding reception groom sings along' },
-  { src: '/img/homepage/carousel/b-g-fisrt-dance-800x800.webp', alt: "Bride and groom's first dance" },
-  { src: '/img/homepage/carousel/private-party-800x800.webp',   alt: 'Private party DJ' },
-]
+  { src: '/img/homepage/carousel/reception-800x800.webp',       alt: 'Wedding reception DJ Portland OR — Noteworthy DJs' },
+  { src: '/img/homepage/carousel/big-ceremony-800x800.webp',    alt: 'Wedding ceremony DJ and MC services' },
+  { src: '/img/homepage/carousel/nye-party-800x800.webp',       alt: 'New Years Eve party DJ Portland Oregon' },
+  { src: '/img/homepage/carousel/sing-along-800x800.webp',      alt: 'Wedding DJ keeping guests engaged during reception' },
+  { src: '/img/homepage/carousel/b-g-fisrt-dance-800x800.webp', alt: "Bride and groom first dance — wedding DJ services" },
+  { src: '/img/homepage/carousel/private-party-800x800.webp',   alt: 'Private party and corporate event DJ' },
+].map(img => ({ ...img, src: assetPath(img.src) }))
 
 const track = [...images, ...images]
 

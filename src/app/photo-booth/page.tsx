@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
+import { assetPath } from '@/lib/constants'
 import SectionHeader from '@/components/ui/SectionHeader'
 import ParallaxSeparator from '@/components/sections/ParallaxSeparator'
 import BookWithConfidence from '@/components/sections/BookWithConfidence'
@@ -154,7 +155,7 @@ const supplemental = [
     alt: 'Custom photo book keepsake',
     tagline1: 'Starting at $75',
     tagline2: 'Choose your size & design',
-    description: 'The perfect keepsake for your event. High-quality metal or bamboo albums made 100% in the United States.',
+    description: 'The perfect keepsake for your event. High-quality metal, acrylic, or bamboo albums made 100% in the United States.',
     href: '/photo-booth/photo-books',
   },
 ]
@@ -251,7 +252,7 @@ export default async function PhotoBoothPage() {
               >
                 <div className="service-pkg-image" style={{ width: '13em', flexShrink: 0, marginRight: '3em' }}>
                   <img
-                    src={pkg.image}
+                    src={assetPath(pkg.image)}
                     alt={pkg.alt}
                     style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block', filter: 'contrast(70%)' }}
                   />
@@ -320,7 +321,7 @@ export default async function PhotoBoothPage() {
               >
                 <div className="service-pkg-image" style={{ width: '13em', flexShrink: 0, marginRight: '3em' }}>
                   <img
-                    src={item.image}
+                    src={assetPath(item.image)}
                     alt={item.alt}
                     style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block', filter: 'contrast(70%)' }}
                   />

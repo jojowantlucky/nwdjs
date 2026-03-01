@@ -1,8 +1,19 @@
+import { Metadata } from 'next'
+import { assetPath } from '@/lib/constants'
 import SectionHeader from '@/components/ui/SectionHeader'
 import CalendlyButton from '@/components/ui/CalendlyButton'
 import ParallaxSeparator from '@/components/sections/ParallaxSeparator'
 import BookWithConfidence from '@/components/sections/BookWithConfidence'
 import ContactSection from '@/components/sections/ContactSection'
+
+export const metadata: Metadata = {
+  title: 'Wedding DJ & MC Services Portland OR | Noteworthy DJs',
+  description: 'Professional wedding DJ and MC services in Portland OR, Phoenix AZ & Seattle WA. Custom packages for weddings, corporate events & parties. 5-star rated, 10+ years experience.',
+  openGraph: {
+    title: 'Wedding DJ & MC Services | Noteworthy DJs Portland OR',
+    description: 'Professional wedding DJ and MC services. Custom packages for any event. Serving Portland OR, Phoenix AZ & Seattle WA.',
+  },
+}
 
 const packages = [
   {
@@ -60,9 +71,22 @@ const packages = [
 export default function DjMcPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'Service',
+          name: 'Wedding DJ & MC Services',
+          provider: { '@id': 'https://www.noteworthydjs.com/#business' },
+          serviceType: 'DJ & MC Entertainment',
+          areaServed: ['Portland OR', 'Phoenix AZ', 'Seattle WA', 'Vancouver WA'],
+          description: 'Professional wedding DJ and MC services for weddings, corporate events, and parties. Custom packages with lighting, sound, and entertainment add-ons.',
+          url: 'https://www.noteworthydjs.com/services/dj-mc/',
+        })}}
+      />
       <div style={{ paddingTop: "3.5rem" }}>
         <section id="dj-mc-services" style={{ padding: '0 2rem 4rem' }}>
-          <SectionHeader>DJ &amp; MC Services</SectionHeader>
+          <SectionHeader as="h1">DJ &amp; MC Services</SectionHeader>
 
           {/* Intro */}
           <div style={{ maxWidth: '52em', margin: '0 auto 3rem', textAlign: 'center', color: '#9b9b9b' }}>
@@ -94,7 +118,7 @@ export default function DjMcPage() {
                 {/* Image */}
                 <div className="service-pkg-image" style={{ width: '13em', flexShrink: 0, marginRight: '3em' }}>
                   <img
-                    src={pkg.image}
+                    src={assetPath(pkg.image)}
                     alt={pkg.alt}
                     style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block', filter: 'contrast(70%)' }}
                   />

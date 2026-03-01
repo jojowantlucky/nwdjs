@@ -1,13 +1,17 @@
 import { Metadata } from 'next'
+import { assetPath } from '@/lib/constants'
 import SectionHeader from '@/components/ui/SectionHeader'
 import ParallaxSeparator from '@/components/sections/ParallaxSeparator'
 import BookWithConfidence from '@/components/sections/BookWithConfidence'
 import ContactSection from '@/components/sections/ContactSection'
 
 export const metadata: Metadata = {
-  title: 'Lighting | Noteworthy DJs & Photo Booths',
-  description:
-    'Transform your event with professional lighting. Dance floor lighting, up-lighting, pin spots, monograms, haze & fog. Serving Portland, OR and Phoenix, AZ.',
+  title: 'Wedding & Event Lighting Portland OR | Noteworthy DJs',
+  description: 'Professional event lighting in Portland OR, Phoenix AZ & Seattle WA. Dance floor lighting, up-lighting, pin spots, monograms, haze & fog effects. Custom packages available.',
+  openGraph: {
+    title: 'Wedding & Event Lighting Portland OR | Noteworthy DJs',
+    description: 'Professional event lighting. Dance floor lighting, up-lighting, monograms & more. Serving Portland OR, Phoenix AZ & Seattle WA.',
+  },
 }
 
 interface LightingType {
@@ -148,7 +152,7 @@ export default function LightingPage() {
   return (
     <div style={{ paddingTop: '3.5rem' }}>
       <section id="lighting" style={{ padding: '0 2rem 4rem' }}>
-        <SectionHeader>Lighting</SectionHeader>
+        <SectionHeader as="h1">Lighting</SectionHeader>
 
         {/* Intro */}
         <div style={{ maxWidth: '52em', margin: '0 auto 3rem', textAlign: 'center', color: '#9b9b9b' }}>
@@ -184,11 +188,11 @@ export default function LightingPage() {
                     playsInline
                     style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block', filter: 'contrast(70%)' }}
                   >
-                    <source src={type.image} type="video/webm" />
+                    <source src={assetPath(type.image)} type="video/webm" />
                   </video>
                 ) : (
                   <img
-                    src={type.image}
+                    src={assetPath(type.image)}
                     alt={type.alt}
                     loading="lazy"
                     style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block', filter: 'contrast(70%)' }}
