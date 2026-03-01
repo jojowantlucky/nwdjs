@@ -252,7 +252,7 @@ export default async function PhotoBoothPage() {
               >
                 <div className="service-pkg-image" style={{ width: '13em', flexShrink: 0, marginRight: '3em' }}>
                   <img
-                    src={assetPath(pkg.image)}
+                    src={pkg.image}
                     alt={pkg.alt}
                     style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block', filter: 'contrast(70%)' }}
                   />
