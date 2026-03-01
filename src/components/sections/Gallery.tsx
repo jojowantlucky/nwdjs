@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect, useCallback, useRef } from 'react'
+import { assetPath } from '@/lib/constants'
 import SectionHeader from '@/components/ui/SectionHeader'
 
 type GalleryGroup = {
@@ -248,7 +249,7 @@ export default function Gallery() {
               style={{ background: 'none', border: 'none', padding: 0, cursor: 'pointer', width: '100%', display: 'block' }}
             >
               <img
-                src={group.cover}
+                src={assetPath(group.cover)}
                 alt={group.alt}
                 loading="lazy"
                 style={{
@@ -296,7 +297,7 @@ export default function Gallery() {
           <div onClick={e => e.stopPropagation()} style={{ maxWidth: '90vw', maxHeight: '90vh', position: 'relative' }}>
             <img
               key={lightbox.group.images[lightbox.idx]}
-              src={lightbox.group.images[lightbox.idx]}
+              src={assetPath(lightbox.group.images[lightbox.idx])}
               alt={lightbox.group.alt}
               style={{ maxWidth: '90vw', maxHeight: '85vh', display: 'block', boxShadow: '0 4px 32px rgba(0,0,0,0.5)' }}
             />
