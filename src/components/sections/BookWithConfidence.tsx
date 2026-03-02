@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { BADGES, assetPath } from '@/lib/constants'
 import SectionHeader from '@/components/ui/SectionHeader'
+import WeddingWireRatedBadge from '@/components/ui/WeddingWireRatedBadge'
 
 export default function BookWithConfidence() {
   return (
@@ -26,6 +27,8 @@ export default function BookWithConfidence() {
                   frameBorder="0"
                   scrolling="no"
                 />
+              ) : badge.wwWidget ? (
+                <WeddingWireRatedBadge />
               ) : badge.rawHtml ? (
                 <div dangerouslySetInnerHTML={{ __html: badge.rawHtml }} />
               ) : (

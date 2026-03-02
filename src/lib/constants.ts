@@ -69,6 +69,7 @@ export const BADGES = [
     src: '/img/homepage/book-with-confidence/ww-couples-choice-2020-150x150.webp',
     alt: 'WeddingWire Couples Choice',
     external: true,
+    wwWidget: true,
   },
   {
     id: 'bbb',

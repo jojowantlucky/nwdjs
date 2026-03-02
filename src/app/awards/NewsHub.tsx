@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import SectionHeader from '@/components/ui/SectionHeader'
+import WeddingWireReviewsWidget from '@/components/ui/WeddingWireReviewsWidget'
 import { newsPosts, CATEGORY_LABELS, CATEGORY_COLORS, type NewsCategory } from '@/data/news'
 
 const FILTERS: { label: string; value: 'all' | NewsCategory }[] = [
@@ -84,6 +85,9 @@ export default function NewsHub() {
             ))}
           </div>
         )}
+
+        {/* WeddingWire Reviews Widget */}
+        <WeddingWireReviewsWidget />
 
         {/* Post grid */}
         {visible.length === 0 ? (
