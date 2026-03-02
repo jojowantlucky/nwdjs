@@ -26,6 +26,8 @@ export default function BookWithConfidence() {
                   frameBorder="0"
                   scrolling="no"
                 />
+              ) : badge.rawHtml ? (
+                <div dangerouslySetInnerHTML={{ __html: badge.rawHtml }} />
               ) : (
                 <Image
                   src={assetPath(badge.src)}

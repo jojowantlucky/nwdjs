@@ -18,6 +18,7 @@ export const CC_CATEGORY_IDS = {
 export const SITE = {
   name: 'Noteworthy DJs & Photo Booths',
   company: 'Noteworthy Productions, LLC',
+  url: 'https://www.noteworthydjs.com',
   phone: '503-770-0382',
   email: 'info@noteworthydjs.com',
   address: {
@@ -26,6 +27,7 @@ export const SITE = {
     state: 'OR',
     zip: '97203',
   },
+  serviceAreas: ['Portland, OR', 'Phoenix, AZ', 'Seattle, WA', 'Vancouver, WA'],
   social: {
     facebook: 'https://www.facebook.com/NoteworthyDJs/',
     instagram: 'https://www.instagram.com/noteworthydjs/',
@@ -55,10 +57,11 @@ export const NAV_ITEMS = [
 export const BADGES = [
   {
     id: 'theknot',
-    href: 'https://www.theknot.com/marketplace/noteworthy-djs-and-photo-booths-portland-or-558056',
-    src: '/img/homepage/book-with-confidence/the-knot-bow-2021-150x150.webp',
-    alt: 'The Knot Best of Weddings',
+    href: 'https://www.theknot.com/marketplace/redirect-558056',
+    src: '',
+    alt: 'The Knot Best of Weddings 2026',
     external: true,
+    rawHtml: '<img src="//d13ns7kbjmbjip.cloudfront.net/bow_2026/section_4_3.png" width="70" height="70" alt="The Knot Best of Weddings - 2026 Pick" border="0" style="margin:0 auto; display:block;"><span style="display:block;font-size:10px;text-align:center;">Noteworthy DJs &amp; Photo Booths</span>',
   },
   {
     id: 'weddingwire',
