@@ -1,0 +1,12 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /contact/thank-you
+Disallow: /privacy-policy
+Disallow: /terms-and-conditions
+
+# Host
+Host: https://noteworthydjs.com
+
+# Sitemaps
+Sitemap: https://noteworthydjs.com/sitemap.xml
