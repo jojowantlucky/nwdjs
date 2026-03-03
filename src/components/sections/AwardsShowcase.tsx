@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect } from 'react'
+import { assetPath } from '@/lib/constants'
 
 const WW_HREF = 'https://www.weddingwire.com/biz/noteworthy-djs-portland/9661cffdf7751c14.html'
 const TK_HREF = 'https://www.theknot.com/marketplace/redirect-558056'
@@ -23,8 +24,17 @@ const WW_BADGES = [
 ]
 
 const TK_BADGES = [
-  { year: 2026, src: '//d13ns7kbjmbjip.cloudfront.net/bow_2026/section_4_3.png', alt: 'The Knot Best of Weddings - 2026 Pick' },
-  { year: 2025, src: '//d13ns7kbjmbjip.cloudfront.net/bow_2025/section_4_3.png', alt: 'The Knot Best of Weddings - 2025 Pick' },
+  { year: 2026, src: '//d13ns7kbjmbjip.cloudfront.net/bow_2026/section_4_3.png', local: false },
+  { year: 2025, src: '//d13ns7kbjmbjip.cloudfront.net/bow_2025/section_4_3.png', local: false },
+  { year: 2024, src: '/img/awards/the-know-bow-2024.webp', local: true },
+  { year: 2023, src: '/img/awards/the-know-bow-2023.webp', local: true },
+  { year: 2022, src: '/img/awards/the-know-bow-2022.webp', local: true },
+  { year: 2021, src: '/img/awards/the-know-bow-2021.webp', local: true },
+  { year: 2020, src: '/img/awards/the-know-bow-2020.webp', local: true },
+  { year: 2019, src: '/img/awards/the-know-bow-2019.webp', local: true },
+  { year: 2018, src: '/img/awards/the-know-bow-2018.webp', local: true },
+  { year: 2017, src: '/img/awards/the-know-bow-2017.webp', local: true },
+  { year: 2015, src: '/img/awards/the-know-bow-2015.webp', local: true },
 ]
 
 const ZOLA_BADGES = [
@@ -98,7 +108,13 @@ export default function AwardsShowcase() {
           <a key={b.year} target="_blank" href={TK_HREF} rel="noopener noreferrer">
             <div style={{ display: 'inline-block', fontSize: '10px', textAlign: 'center' }}>
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={b.src} width={100} height={100} alt={b.alt} style={{ margin: '0 auto', display: 'block' }} />
+              <img
+                src={b.local ? assetPath(b.src) : b.src}
+                width={b.local ? 110 : 100}
+                height={b.local ? 110 : 100}
+                alt={`The Knot Best of Weddings ${b.year}`}
+                style={{ margin: '0 auto', display: 'block' }}
+              />
               <span>Noteworthy DJs &amp; Photo Booths</span>
             </div>
           </a>

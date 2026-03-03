@@ -111,7 +111,22 @@ export const BADGES = [
     id: 'lux',
     href: '#',
     src: '/img/homepage/book-with-confidence/lux-150x150.webp',
-    alt: 'Lux Award',
+    alt: 'Lux Global Excellence Award',
+    external: false,
+  },
+  {
+    id: 'pnw-weddings',
+    href: '#',
+    src: '/img/homepage/book-with-confidence/as-seen-in-pnw-weddings-150x150.webp',
+    alt: 'As Seen in PNW Weddings',
+    external: false,
+  },
+  {
+    id: 'rip-city-review',
+    href: 'https://www.theripcityreview.com/best-djs-portland/',
+    src: '/img/homepage/book-with-confidence/rcr-150x150.webp',
+    alt: 'Rip City Review — Best DJs Portland',
+    external: true,
   },
 ]
 
