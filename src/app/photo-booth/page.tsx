@@ -166,7 +166,7 @@ async function getBoothPackages(): Promise<BoothPackage[]> {
   console.log(`[photo-booth] Fetching: ${url}`)
   console.log(`[photo-booth] NWPB_API_URL env: ${process.env.NWPB_API_URL ?? 'NOT SET'}`)
   try {
-    const res = await fetch('https://noteworthyphotobooths.com/nwpb_updates/booth-packages.json', { cache: 'force-cache' })
+    const res = await fetch('https://noteworthyphotobooths.com/nwpb_updates/booth-packages.json', { cache: 'no-store' })
     console.log(`[photo-booth] Status: ${res.status}`)
     if (!res.ok) throw new Error(`Non-OK: ${res.status}`)
     const data = await res.json()
