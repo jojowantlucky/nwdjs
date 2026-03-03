@@ -4,6 +4,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 import SectionHeader from '@/components/ui/SectionHeader'
 import WeddingWireReviewsWidget from '@/components/ui/WeddingWireReviewsWidget'
+import AwardsShowcase from '@/components/sections/AwardsShowcase'
 import { newsPosts, CATEGORY_LABELS, CATEGORY_COLORS, type NewsCategory } from '@/data/news'
 
 const FILTERS: { label: string; value: 'all' | NewsCategory }[] = [
@@ -85,6 +86,9 @@ export default function NewsHub() {
             ))}
           </div>
         )}
+
+        {/* Awards Showcase — Three Best Rated, Zola, Thumbtack */}
+        <AwardsShowcase />
 
         {/* WeddingWire Reviews Widget */}
         <WeddingWireReviewsWidget />
