@@ -69,7 +69,7 @@ export const teamMembers: TeamMember[] = [
     email: 'clarissa@noteworthydjs.com',
     phone: '858-336-5703',
     title: 'DJ and MC',
-    tagline: 'Bringing a Brazilian perspective to every set.',
+    tagline: 'Bringing a Brazilian perspective to every set. ',
     additionalImages: [
       '/img/team/clarissa-pessoa/clarissa-pessoa1-900x600.webp',
       '/img/team/clarissa-pessoa/clarissa-pessoa2-900x600.webp',
