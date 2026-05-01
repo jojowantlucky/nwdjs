@@ -1,3 +1,8 @@
+npm run build
+
+git add out/ .env.production public/manifest.json
+git commit -m "Production build: clear basePath for root deployment"
+git push origin main
 {
   "label": "Do Not Play",
   "charts": [

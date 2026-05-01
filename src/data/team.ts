@@ -79,7 +79,7 @@ export const teamMembers: TeamMember[] = [
     bio: `Hailing from Brazil, Clarissa draws on her experience from events such as clubs, festivals, weddings, corporate events, and more to keep the dance floor packed. As a Portland transplant, she brings her unmistakable Brazilian perspective to her sets.`,
     image: '/img/team/clarissa-pessoa/clarissa-pessoa-800x800.webp',
     yearsDJing: '16 years',
-    active: true,
+    active: false,
     hometown: 'Brazil',
     currentLocation: 'Portland, OR',
     languages: 'English, Portuguese',
