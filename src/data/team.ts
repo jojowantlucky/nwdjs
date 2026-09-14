@@ -55,7 +55,7 @@ export const teamMembers: TeamMember[] = [
     tagline: 'Coming soon!',
     bio: `Keep an eye out here. We should have Casey's bio updated soon!`,
     image: '/img/team/casey-vann.webp',
-    active: false,
+    active: true,
     languages: 'English',
     hometown: 'Orlando, FL',
     currentLocation: 'Portland, OR',
