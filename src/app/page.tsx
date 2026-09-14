@@ -25,12 +25,7 @@ export default function HomePage() {
 
         <div className="section-intro mx-auto mb-12" style={{ maxWidth: '38rem' }}>
           <p className="mb-4">
-            For more than 10 years, Noteworthy DJs &amp; Photo Booths has constantly sought out
-            the friendliest, most engaging, fun, and professional people who love music to
-            join our team. In fact, most of our DJs are musicians who perform regularly in
-            the Phoenix, Portland, and Seattle areas. We combine top-tier people, DJ/MC
-            training, wedding/event experience, and state-of-the art audio/lighting
-            equipment to provide 5-star service.
+            For over 15 years, we've been intentional about who joins our team — seeking out friendly, engaging, and music-obsessed professionals who bring real passion to every event. Many of our DJs are active musicians performing across Portland, Phoenix, and Seattle, which means they understand music on a deeper level than most. That musical instinct, combined with expert DJ/MC training, hundreds of weddings and events under our belts, and top-of-the-line audio and lighting equipment, is what makes Noteworthy events truly unforgettable. We don't just play music — we read the room, work the crowd, and keep the energy exactly where it needs to be all night long.
           </p>
           <p style={{ color: '#9b9b9b' }}>Click on an image below to learn more.</p>
         </div>
