@@ -200,7 +200,7 @@ export const teamMembers: TeamMember[] = [
     tagline: 'One of our most esteemed Wedding DJs.',
     bio: `As a longtime musical collaborator with Noteworthy DJs founder Joe Ebner, Paul was keen to join the team and bring his passion for performance to Noteworthy. Having officially joined in 2013, he has amassed accolades from his clients and become a mainstay of the perfect party mix. Always client focused, DJ Paul Anderson is professional, communicative and adaptable to the needs of your event. Like all DJs on the Noteworthy DJs team, Paul is professional, approachable, easy to work with, and very flexible. He works with his clients to ensure they have the best possible experience. Recently wed himself, Paul brings a unique perspective to every wedding he DJs.\n\nPaul is no stranger to performing in many different capacities at many types of events. He has been integral in the success of Noteworthy DJs and one of our most esteemed Wedding DJs.`,
     image: '/img/team/paul-anderson.webp',
-    active: true,
+    active: false,
     languages: 'English',
     hometown: 'Hahn, Hessen, Germany',
     currentLocation: 'Portland, OR',
